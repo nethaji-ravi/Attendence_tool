@@ -1,0 +1,13 @@
+#test/test/MAHII/::1/2023-04-21/10:00:36/
+21/04/2023 10:00:36.426914|::1| [trace] [d01ffd02da38b59a16ef0d3fa9464608] database.class.inc (33) Database->connect() : Connecting to database. task
+21/04/2023 10:00:36.457138|::1| [trace] [d01ffd02da38b59a16ef0d3fa9464608] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+21/04/2023 10:00:36.468543|::1| [trace] [d01ffd02da38b59a16ef0d3fa9464608] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+21/04/2023 15:43:05.880044|::1| [trace] [8ef40608e39ce3662f21013168e191e3] database.class.inc (33) Database->connect() : Connecting to database. task
+21/04/2023 15:43:06.166826|::1| [trace] [8ef40608e39ce3662f21013168e191e3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+21/04/2023 15:43:06.312737|::1| [trace] [8ef40608e39ce3662f21013168e191e3] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+21/04/2023 15:49:06.613490|::1| [trace] [0f83396f84000f417324f9398861b4ee] database.class.inc (33) Database->connect() : Connecting to database. task
+21/04/2023 15:49:06.629977|::1| [trace] [0f83396f84000f417324f9398861b4ee] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+21/04/2023 15:49:06.644381|::1| [trace] [0f83396f84000f417324f9398861b4ee] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+21/04/2023 16:09:43.112232|::1| [trace] [a57992a29a0feacb0af9bea82837857d] database.class.inc (33) Database->connect() : Connecting to database. task
+21/04/2023 16:09:43.134531|::1| [trace] [a57992a29a0feacb0af9bea82837857d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+21/04/2023 16:09:43.152981|::1| [trace] [a57992a29a0feacb0af9bea82837857d] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'

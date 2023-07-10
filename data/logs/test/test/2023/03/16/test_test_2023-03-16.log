@@ -1,0 +1,489 @@
+#test/test/VISHNU/::1/2023-03-16/11:28:12/
+16/03/2023 11:28:12.430680|::1| [trace] [1e9bb20a892e9a84c67c4b93ec564c6a] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 11:28:12.433859|::1| [trace] [1e9bb20a892e9a84c67c4b93ec564c6a] database.class.inc (33) Database->connect() : Connecting to database.
+16/03/2023 11:28:12.438935|::1| [trace] [1e9bb20a892e9a84c67c4b93ec564c6a] action (115) include_once() : array ( 'application' => 'auth', 'action' => 'login', 'email' => 'user6agni@gmail.com', 'pwd' => '34', )
+16/03/2023 11:28:12.441731|::1| [trace] [1e9bb20a892e9a84c67c4b93ec564c6a] auth.class.inc (50) Database->query() : INSERT INTO users (email, pwd) VALUES ('user6agni@gmail.com','34')
+16/03/2023 11:28:57.326416|::1| [trace] [16e0f5b323a783bc264156b2acf5082a] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 11:28:57.329977|::1| [trace] [16e0f5b323a783bc264156b2acf5082a] action (115) include_once() : array ( 'application' => 'auth', 'action' => 'index', )
+16/03/2023 11:29:04.310646|::1| [trace] [b5d430f5a5aa6a0d40a0e47cd2c2365c] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 11:29:04.315586|::1| [trace] [b5d430f5a5aa6a0d40a0e47cd2c2365c] action (115) include_once() : array ( 'application' => 'auth', 'action' => 'login', 'email' => 'barath@gamil.com', 'pwd' => '2356', )
+16/03/2023 11:29:04.318542|::1| [trace] [b5d430f5a5aa6a0d40a0e47cd2c2365c] auth.class.inc (50) Database->query() : INSERT INTO users (email, pwd) VALUES ('barath@gamil.com','2356')
+16/03/2023 11:49:06.049253|::1| [trace] [1aa308270cc2a5929be5125a98df0038] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 11:49:06.061108|::1| [trace] [1aa308270cc2a5929be5125a98df0038] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 11:49:10.539576|::1| [trace] [6f06e497f9b9125f8ae85835962a8891] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 11:49:10.544652|::1| [trace] [6f06e497f9b9125f8ae85835962a8891] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 11:49:45.453766|::1| [trace] [d37108b3dcd241a215e819f7b7503f31] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 11:49:45.462007|::1| [trace] [d37108b3dcd241a215e819f7b7503f31] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 11:49:46.233794|::1| [trace] [5b593f0ec46cd3eff0f2ced505438a2f] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 11:49:46.238089|::1| [trace] [5b593f0ec46cd3eff0f2ced505438a2f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 11:49:53.202009|::1| [trace] [ae17900f9dd4993fa2d700795d3dd2c0] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 11:49:53.209332|::1| [trace] [ae17900f9dd4993fa2d700795d3dd2c0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 11:51:44.389064|::1| [trace] [9357b3f0d15b194e47e88da221d2fec0] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 11:51:44.397241|::1| [trace] [9357b3f0d15b194e47e88da221d2fec0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:04:51.012346|::1| [trace] [5c238d890921f44e40eb89df43e49fb8] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:04:51.019831|::1| [trace] [5c238d890921f44e40eb89df43e49fb8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:05:08.750117|::1| [trace] [40a60972b5354d0a9883f01cb4dd1e4a] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:05:08.757420|::1| [trace] [40a60972b5354d0a9883f01cb4dd1e4a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:05:48.383343|::1| [trace] [5210a6d076be3591a29eb03fc702cb6e] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:05:48.389779|::1| [trace] [5210a6d076be3591a29eb03fc702cb6e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:06:14.469604|::1| [trace] [7e654a4f6c46db5d9861eb32df0b2e1c] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:06:14.475334|::1| [trace] [7e654a4f6c46db5d9861eb32df0b2e1c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:06:54.898698|::1| [trace] [dcd5e882c345785d3b64fc0287d704d6] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:06:54.907315|::1| [trace] [dcd5e882c345785d3b64fc0287d704d6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:07:44.675380|::1| [trace] [a079884f6e6e6d5bf77fe4b74e996d52] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:07:44.680042|::1| [trace] [a079884f6e6e6d5bf77fe4b74e996d52] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:08:00.495507|::1| [trace] [221b69128c3bf3af2ae871cbc953da42] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:08:00.499599|::1| [trace] [221b69128c3bf3af2ae871cbc953da42] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:08:54.787477|::1| [trace] [c8a807570077c6f8e348c530f592ba22] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:08:54.792309|::1| [trace] [c8a807570077c6f8e348c530f592ba22] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:10:02.651705|::1| [trace] [f18a76909003518c8644951c16679474] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:10:02.656183|::1| [trace] [f18a76909003518c8644951c16679474] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:10:17.902379|::1| [trace] [5420f5c7e76d6b4495ae3fc16039a59b] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:10:17.907915|::1| [trace] [5420f5c7e76d6b4495ae3fc16039a59b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:10:49.840341|::1| [trace] [d8864608dafb0c94a49e5511a7625b80] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:10:49.845236|::1| [trace] [d8864608dafb0c94a49e5511a7625b80] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:10:50.704994|::1| [trace] [0e92b376156a75d06577d569ade7c9a1] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:10:50.709875|::1| [trace] [0e92b376156a75d06577d569ade7c9a1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:10:51.009850|::1| [trace] [1c817d2631dfd61d68eb54275c99fe37] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:10:51.016114|::1| [trace] [1c817d2631dfd61d68eb54275c99fe37] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:10:57.350778|::1| [trace] [f788e16df5ab1b5d88836f8578817e96] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:10:57.355051|::1| [trace] [f788e16df5ab1b5d88836f8578817e96] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:10:58.276896|::1| [trace] [22f22b7565fb6e33308c9b6171105b23] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:10:58.282733|::1| [trace] [22f22b7565fb6e33308c9b6171105b23] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:11:16.709326|::1| [trace] [439a6240b582ca06ab6e11e3f79381b6] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:11:16.713943|::1| [trace] [439a6240b582ca06ab6e11e3f79381b6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:11:42.934508|::1| [trace] [2a7f7b447737015c1a0f44c638d00022] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:11:42.939080|::1| [trace] [2a7f7b447737015c1a0f44c638d00022] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:11:51.105025|::1| [trace] [aed33e39496fcc43f0435bc7c85f8b65] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:11:51.111310|::1| [trace] [aed33e39496fcc43f0435bc7c85f8b65] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:11:58.551693|::1| [trace] [408f806e20de3bb1ad2887dddacbae20] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:11:58.557779|::1| [trace] [408f806e20de3bb1ad2887dddacbae20] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:11:59.225260|::1| [trace] [296633a062a640f4873b57f59cefc989] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:11:59.230737|::1| [trace] [296633a062a640f4873b57f59cefc989] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:12:08.269386|::1| [trace] [99116aa0948e5dbdd6501bf1dbabac56] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:12:08.276473|::1| [trace] [99116aa0948e5dbdd6501bf1dbabac56] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:12:22.032761|::1| [trace] [ca7f6a0c5f238ae1ea346fd1fe4afa35] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:12:22.040234|::1| [trace] [ca7f6a0c5f238ae1ea346fd1fe4afa35] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:13:33.843533|::1| [trace] [eb9fa9a3f9445be3d7d73ad96add3b86] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:13:33.855237|::1| [trace] [eb9fa9a3f9445be3d7d73ad96add3b86] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:14:34.058428|::1| [trace] [de6c30024ca5258d80b665903e633b98] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:14:34.064071|::1| [trace] [de6c30024ca5258d80b665903e633b98] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:16:52.546819|::1| [trace] [4768ab100fcdaf903a1f7b9a11a16c83] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:16:52.551449|::1| [trace] [4768ab100fcdaf903a1f7b9a11a16c83] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:17:19.285537|::1| [trace] [e27188a018f846dad8b5f0617ca4f9c3] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:17:19.294392|::1| [trace] [e27188a018f846dad8b5f0617ca4f9c3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:21:27.355717|::1| [trace] [3162275fe8957bf3f3892d1694c8dc67] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:21:27.374567|::1| [trace] [3162275fe8957bf3f3892d1694c8dc67] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:21:48.137288|::1| [trace] [a5ca65bffe58701cbc5abe0a1e1c0878] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:21:48.143480|::1| [trace] [a5ca65bffe58701cbc5abe0a1e1c0878] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:22:04.285825|::1| [trace] [07ebf7989f2fedce2b833c391ade52f6] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:22:04.289556|::1| [trace] [07ebf7989f2fedce2b833c391ade52f6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:23:01.833463|::1| [trace] [4fb4ac5692f6a5b920ddece960e20dd9] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:23:01.841372|::1| [trace] [4fb4ac5692f6a5b920ddece960e20dd9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:26:24.603215|::1| [trace] [4f3051d97718da8cceb70adeafba682d] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:26:24.608623|::1| [trace] [4f3051d97718da8cceb70adeafba682d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:26:52.077728|::1| [trace] [7f2cf872362888be2753ee5a03a6ed76] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:26:52.085186|::1| [trace] [7f2cf872362888be2753ee5a03a6ed76] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:27:44.965687|::1| [trace] [f9b6c2b6e73774f30670b54dac00284c] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:27:44.970220|::1| [trace] [f9b6c2b6e73774f30670b54dac00284c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:28:32.575320|::1| [trace] [be3106b06897f551bf25af3a960b478a] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:28:32.579957|::1| [trace] [be3106b06897f551bf25af3a960b478a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:32:19.856225|::1| [trace] [37a104f4309d9edf0addaea9f065a046] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:32:19.863106|::1| [trace] [37a104f4309d9edf0addaea9f065a046] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:33:36.270922|::1| [trace] [903413d6ff1d9e4f9d465094a31ec851] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:33:36.279150|::1| [trace] [903413d6ff1d9e4f9d465094a31ec851] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:35:58.176336|::1| [trace] [7983e8573207275d70941408fd05f653] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:35:58.181129|::1| [trace] [7983e8573207275d70941408fd05f653] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:36:48.624840|::1| [trace] [a2d770ad94bd3e9a70bf88e3f2418087] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:36:48.628664|::1| [trace] [a2d770ad94bd3e9a70bf88e3f2418087] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:37:32.088615|::1| [trace] [45629be73d3ea17afc6e09a7f2b63dc2] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:37:32.099319|::1| [trace] [45629be73d3ea17afc6e09a7f2b63dc2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:38:09.463725|::1| [trace] [210db0842ee85c28cbc4201c7faf1fae] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:38:09.471961|::1| [trace] [210db0842ee85c28cbc4201c7faf1fae] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:41:47.090313|::1| [trace] [b9babcb3b372423f7f91787b0aea2861] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:41:47.095554|::1| [trace] [b9babcb3b372423f7f91787b0aea2861] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:44:11.980134|::1| [trace] [8c396ac40d7a14cb62c03f33cbf66f53] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:44:11.986732|::1| [trace] [8c396ac40d7a14cb62c03f33cbf66f53] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:45:28.768635|::1| [trace] [106ad9757b80ea4073d09406bec81695] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:45:28.777976|::1| [trace] [106ad9757b80ea4073d09406bec81695] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:47:00.953063|::1| [trace] [c535492ae8e6bb06dc5d8db7cc161768] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:47:00.957891|::1| [trace] [c535492ae8e6bb06dc5d8db7cc161768] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:47:07.025505|::1| [trace] [76d2fe04af66e9f8218400f4ba69cbc4] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:47:07.029256|::1| [trace] [76d2fe04af66e9f8218400f4ba69cbc4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'female', )
+16/03/2023 12:47:19.687340|::1| [trace] [26ea8f3eec0b79d6618cf216629f3942] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:47:19.691251|::1| [trace] [26ea8f3eec0b79d6618cf216629f3942] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:47:26.753237|::1| [trace] [ecb8e9920b23b4c2a82330ef485e7b2d] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:47:26.757056|::1| [trace] [ecb8e9920b23b4c2a82330ef485e7b2d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'female', )
+16/03/2023 12:48:48.470469|::1| [trace] [e56ce9fce4f0b5d2e8522b92cb05f27d] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:48:48.474072|::1| [trace] [e56ce9fce4f0b5d2e8522b92cb05f27d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:48:54.710828|::1| [trace] [d306c3d1ba691adcaf9ffa38d2ee45b3] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:48:54.717221|::1| [trace] [d306c3d1ba691adcaf9ffa38d2ee45b3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'sathiskumar', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:48:54.719850|::1| [trace] [d306c3d1ba691adcaf9ffa38d2ee45b3] crud.class.inc (50) Database->query() : INSERT INTO users (name, email, gender) VALUES ('sathiskumar','user6agni@gmail.com','male')
+16/03/2023 12:48:54.720721|::1| [error] [d306c3d1ba691adcaf9ffa38d2ee45b3] crud.class.inc (54) Database->query() : Error in query. INSERT INTO users (name, email, gender) VALUES ('sathiskumar','user6agni@gmail.com','male') . Details
+16/03/2023 12:48:54.721036|::1| [trace] [d306c3d1ba691adcaf9ffa38d2ee45b3] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:48:54.721947|::1| [error] [d306c3d1ba691adcaf9ffa38d2ee45b3] crud.class.inc (60) Database->query() : Error in query INSERT INTO users (name, email, gender) VALUES ('sathiskumar','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:49:18.830636|::1| [trace] [0be5c014a655c5742520b70884d0780c] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:49:18.836755|::1| [trace] [0be5c014a655c5742520b70884d0780c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:49:26.093945|::1| [trace] [2af6daa63f3186c2eed5ccab2fc91d17] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:49:26.097729|::1| [trace] [2af6daa63f3186c2eed5ccab2fc91d17] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'sathiskumar', 'email' => 'ajsiva088@gmail.com', 'gender' => 'male', )
+16/03/2023 12:49:26.100509|::1| [trace] [2af6daa63f3186c2eed5ccab2fc91d17] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male')
+16/03/2023 12:49:39.499608|::1| [trace] [72abb801c99b49863eb6692496ec9548] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:49:39.503696|::1| [trace] [72abb801c99b49863eb6692496ec9548] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'sathiskumar', 'email' => 'ajsiva088@gmail.com', 'gender' => 'male', )
+16/03/2023 12:49:39.506000|::1| [trace] [72abb801c99b49863eb6692496ec9548] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male')
+16/03/2023 12:49:39.506921|::1| [error] [72abb801c99b49863eb6692496ec9548] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male') . Details
+16/03/2023 12:49:39.507261|::1| [trace] [72abb801c99b49863eb6692496ec9548] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:49:39.507765|::1| [error] [72abb801c99b49863eb6692496ec9548] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:49:42.494033|::1| [trace] [6333cb0d907898a2245c3bb3cb2ae2b0] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:49:42.498291|::1| [trace] [6333cb0d907898a2245c3bb3cb2ae2b0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'sathiskumar', 'email' => 'ajsiva088@gmail.com', 'gender' => 'male', )
+16/03/2023 12:49:42.500689|::1| [trace] [6333cb0d907898a2245c3bb3cb2ae2b0] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male')
+16/03/2023 12:49:42.501378|::1| [error] [6333cb0d907898a2245c3bb3cb2ae2b0] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male') . Details
+16/03/2023 12:49:42.501712|::1| [trace] [6333cb0d907898a2245c3bb3cb2ae2b0] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:49:42.502228|::1| [error] [6333cb0d907898a2245c3bb3cb2ae2b0] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:49:43.505922|::1| [trace] [d921db536e3fb857bf5d20796f49dce8] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:49:43.511327|::1| [trace] [d921db536e3fb857bf5d20796f49dce8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'sathiskumar', 'email' => 'ajsiva088@gmail.com', 'gender' => 'male', )
+16/03/2023 12:49:43.514334|::1| [trace] [d921db536e3fb857bf5d20796f49dce8] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male')
+16/03/2023 12:49:43.515094|::1| [error] [d921db536e3fb857bf5d20796f49dce8] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male') . Details
+16/03/2023 12:49:43.515472|::1| [trace] [d921db536e3fb857bf5d20796f49dce8] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:49:43.515996|::1| [error] [d921db536e3fb857bf5d20796f49dce8] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:49:44.073719|::1| [trace] [e1bfc0e21863b16b3544bbfc1f969b97] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:49:44.077547|::1| [trace] [e1bfc0e21863b16b3544bbfc1f969b97] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'sathiskumar', 'email' => 'ajsiva088@gmail.com', 'gender' => 'male', )
+16/03/2023 12:49:44.079500|::1| [trace] [e1bfc0e21863b16b3544bbfc1f969b97] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male')
+16/03/2023 12:49:44.080168|::1| [error] [e1bfc0e21863b16b3544bbfc1f969b97] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male') . Details
+16/03/2023 12:49:44.080771|::1| [trace] [e1bfc0e21863b16b3544bbfc1f969b97] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:49:44.081473|::1| [error] [e1bfc0e21863b16b3544bbfc1f969b97] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:49:44.302051|::1| [trace] [a524c67e2fa2a45822634c0b71fdb760] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:49:44.306118|::1| [trace] [a524c67e2fa2a45822634c0b71fdb760] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'sathiskumar', 'email' => 'ajsiva088@gmail.com', 'gender' => 'male', )
+16/03/2023 12:49:44.308985|::1| [trace] [a524c67e2fa2a45822634c0b71fdb760] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male')
+16/03/2023 12:49:44.309825|::1| [error] [a524c67e2fa2a45822634c0b71fdb760] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male') . Details
+16/03/2023 12:49:44.310295|::1| [trace] [a524c67e2fa2a45822634c0b71fdb760] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:49:44.311003|::1| [error] [a524c67e2fa2a45822634c0b71fdb760] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('sathiskumar','ajsiva088@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:49:47.918237|::1| [trace] [db4e06b1ee997515d6c67a5163b3b54c] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:49:47.922683|::1| [trace] [db4e06b1ee997515d6c67a5163b3b54c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:49:52.651839|::1| [trace] [114ac83e9b002358e87826a2a1f44383] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:49:52.655395|::1| [trace] [114ac83e9b002358e87826a2a1f44383] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'female', )
+16/03/2023 12:49:52.657696|::1| [trace] [114ac83e9b002358e87826a2a1f44383] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','female')
+16/03/2023 12:49:52.658709|::1| [error] [114ac83e9b002358e87826a2a1f44383] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','female') . Details
+16/03/2023 12:49:52.659174|::1| [trace] [114ac83e9b002358e87826a2a1f44383] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:49:52.659730|::1| [error] [114ac83e9b002358e87826a2a1f44383] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','female') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:51:04.618441|::1| [trace] [0a2ad877d28647e763265fb056fccacd] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:51:04.626727|::1| [trace] [0a2ad877d28647e763265fb056fccacd] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:51:12.973351|::1| [trace] [d775ad983548da15eee545932f1cfe22] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:51:12.977494|::1| [trace] [d775ad983548da15eee545932f1cfe22] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'balamurugan', 'email' => 'barath@gamil.com', 'gender' => 'male', )
+16/03/2023 12:51:12.980094|::1| [trace] [d775ad983548da15eee545932f1cfe22] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male')
+16/03/2023 12:51:12.980829|::1| [error] [d775ad983548da15eee545932f1cfe22] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male') . Details
+16/03/2023 12:51:12.981306|::1| [trace] [d775ad983548da15eee545932f1cfe22] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:51:12.981925|::1| [error] [d775ad983548da15eee545932f1cfe22] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:51:14.060154|::1| [trace] [abdbd10cf02749e3cf255930f92126c2] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:51:14.063965|::1| [trace] [abdbd10cf02749e3cf255930f92126c2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'balamurugan', 'email' => 'barath@gamil.com', 'gender' => 'male', )
+16/03/2023 12:51:14.066140|::1| [trace] [abdbd10cf02749e3cf255930f92126c2] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male')
+16/03/2023 12:51:14.066865|::1| [error] [abdbd10cf02749e3cf255930f92126c2] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male') . Details
+16/03/2023 12:51:14.067883|::1| [trace] [abdbd10cf02749e3cf255930f92126c2] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:51:14.068785|::1| [error] [abdbd10cf02749e3cf255930f92126c2] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:51:14.659132|::1| [trace] [f283b064795554b6212f59ac6897bd85] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:51:14.663021|::1| [trace] [f283b064795554b6212f59ac6897bd85] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'balamurugan', 'email' => 'barath@gamil.com', 'gender' => 'male', )
+16/03/2023 12:51:14.665323|::1| [trace] [f283b064795554b6212f59ac6897bd85] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male')
+16/03/2023 12:51:14.665956|::1| [error] [f283b064795554b6212f59ac6897bd85] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male') . Details
+16/03/2023 12:51:14.666316|::1| [trace] [f283b064795554b6212f59ac6897bd85] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:51:14.666886|::1| [error] [f283b064795554b6212f59ac6897bd85] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:51:14.841411|::1| [trace] [34e3f4b758100577a160baa68e757e18] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:51:14.844750|::1| [trace] [34e3f4b758100577a160baa68e757e18] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'balamurugan', 'email' => 'barath@gamil.com', 'gender' => 'male', )
+16/03/2023 12:51:14.846645|::1| [trace] [34e3f4b758100577a160baa68e757e18] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male')
+16/03/2023 12:51:14.847388|::1| [error] [34e3f4b758100577a160baa68e757e18] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male') . Details
+16/03/2023 12:51:14.847687|::1| [trace] [34e3f4b758100577a160baa68e757e18] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:51:14.848314|::1| [error] [34e3f4b758100577a160baa68e757e18] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:51:15.045850|::1| [trace] [839fa0d9fbe327ac44b5cb27455ee647] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:51:15.049426|::1| [trace] [839fa0d9fbe327ac44b5cb27455ee647] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'balamurugan', 'email' => 'barath@gamil.com', 'gender' => 'male', )
+16/03/2023 12:51:15.051513|::1| [trace] [839fa0d9fbe327ac44b5cb27455ee647] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male')
+16/03/2023 12:51:15.052234|::1| [error] [839fa0d9fbe327ac44b5cb27455ee647] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male') . Details
+16/03/2023 12:51:15.052741|::1| [trace] [839fa0d9fbe327ac44b5cb27455ee647] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:51:15.053594|::1| [error] [839fa0d9fbe327ac44b5cb27455ee647] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:51:15.272995|::1| [trace] [b163528f0611cd3609f8edce0bf3fb99] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:51:15.278565|::1| [trace] [b163528f0611cd3609f8edce0bf3fb99] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'balamurugan', 'email' => 'barath@gamil.com', 'gender' => 'male', )
+16/03/2023 12:51:15.280778|::1| [trace] [b163528f0611cd3609f8edce0bf3fb99] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male')
+16/03/2023 12:51:15.281311|::1| [error] [b163528f0611cd3609f8edce0bf3fb99] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male') . Details
+16/03/2023 12:51:15.281724|::1| [trace] [b163528f0611cd3609f8edce0bf3fb99] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:51:15.282213|::1| [error] [b163528f0611cd3609f8edce0bf3fb99] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('balamurugan','barath@gamil.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:51:42.022135|::1| [trace] [df813b31aae83a7b243276c668468ee9] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:51:42.027647|::1| [trace] [df813b31aae83a7b243276c668468ee9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:51:48.144956|::1| [trace] [059b6d5cc40e51cb09dec983820c0e1b] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:51:48.148910|::1| [trace] [059b6d5cc40e51cb09dec983820c0e1b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user8agni@gmail.com', 'gender' => 'female', )
+16/03/2023 12:52:06.078587|::1| [trace] [4ab1bad7d277fb70c1c2b5668a027260] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:52:06.082679|::1| [trace] [4ab1bad7d277fb70c1c2b5668a027260] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user8agni@gmail.com', 'gender' => 'female', )
+16/03/2023 12:52:06.085669|::1| [trace] [4ab1bad7d277fb70c1c2b5668a027260] crud.class.inc (50) Database->query() : INSERT INTO crud (name, email, gender) VALUES ('Mahavishnu A','user8agni@gmail.com','female')
+16/03/2023 12:52:06.086441|::1| [error] [4ab1bad7d277fb70c1c2b5668a027260] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (name, email, gender) VALUES ('Mahavishnu A','user8agni@gmail.com','female') . Details
+16/03/2023 12:52:06.086719|::1| [trace] [4ab1bad7d277fb70c1c2b5668a027260] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:52:06.087228|::1| [error] [4ab1bad7d277fb70c1c2b5668a027260] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (name, email, gender) VALUES ('Mahavishnu A','user8agni@gmail.com','female') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:53:40.410300|::1| [trace] [8e34a37b68deab33245cc1a76d553229] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:53:40.418433|::1| [trace] [8e34a37b68deab33245cc1a76d553229] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:53:46.498466|::1| [trace] [8d51a957bf44a958907d3891a24875dc] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:53:46.503947|::1| [trace] [8d51a957bf44a958907d3891a24875dc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:53:46.506678|::1| [trace] [8d51a957bf44a958907d3891a24875dc] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:53:46.507390|::1| [error] [8d51a957bf44a958907d3891a24875dc] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:53:46.507834|::1| [trace] [8d51a957bf44a958907d3891a24875dc] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:53:46.508409|::1| [error] [8d51a957bf44a958907d3891a24875dc] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:53:47.847991|::1| [trace] [882600b918afc5fbee16406afb64efc2] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:53:47.852000|::1| [trace] [882600b918afc5fbee16406afb64efc2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:53:47.854103|::1| [trace] [882600b918afc5fbee16406afb64efc2] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:53:47.854857|::1| [error] [882600b918afc5fbee16406afb64efc2] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:53:47.855246|::1| [trace] [882600b918afc5fbee16406afb64efc2] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:53:47.855951|::1| [error] [882600b918afc5fbee16406afb64efc2] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:53:48.500902|::1| [trace] [f624c58a807f4fba91e8610486e683b4] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:53:48.504524|::1| [trace] [f624c58a807f4fba91e8610486e683b4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:53:48.506467|::1| [trace] [f624c58a807f4fba91e8610486e683b4] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:53:48.507076|::1| [error] [f624c58a807f4fba91e8610486e683b4] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:53:48.507509|::1| [trace] [f624c58a807f4fba91e8610486e683b4] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:53:48.508387|::1| [error] [f624c58a807f4fba91e8610486e683b4] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:53:48.722390|::1| [trace] [3201c257ac93fb312f20fb9305af0d7a] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:53:48.726414|::1| [trace] [3201c257ac93fb312f20fb9305af0d7a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:53:48.729598|::1| [trace] [3201c257ac93fb312f20fb9305af0d7a] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:53:48.730634|::1| [error] [3201c257ac93fb312f20fb9305af0d7a] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:53:48.730981|::1| [trace] [3201c257ac93fb312f20fb9305af0d7a] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:53:48.731642|::1| [error] [3201c257ac93fb312f20fb9305af0d7a] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:53:57.595649|::1| [trace] [442d1e4dab2f84e0cdf9ad7b71375033] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:53:57.599417|::1| [trace] [442d1e4dab2f84e0cdf9ad7b71375033] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:53:57.601638|::1| [trace] [442d1e4dab2f84e0cdf9ad7b71375033] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:53:57.602333|::1| [error] [442d1e4dab2f84e0cdf9ad7b71375033] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:53:57.602935|::1| [trace] [442d1e4dab2f84e0cdf9ad7b71375033] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:53:57.603528|::1| [error] [442d1e4dab2f84e0cdf9ad7b71375033] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:53:58.236356|::1| [trace] [589c48261e2c27f4d7ce0c2b4ba083a7] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:53:58.240637|::1| [trace] [589c48261e2c27f4d7ce0c2b4ba083a7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:53:58.243185|::1| [trace] [589c48261e2c27f4d7ce0c2b4ba083a7] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:53:58.243896|::1| [error] [589c48261e2c27f4d7ce0c2b4ba083a7] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:53:58.244277|::1| [trace] [589c48261e2c27f4d7ce0c2b4ba083a7] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:53:58.244802|::1| [error] [589c48261e2c27f4d7ce0c2b4ba083a7] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:57:03.867521|::1| [trace] [00dcec0f2d4be6f457e40394c59c6225] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:57:03.873141|::1| [trace] [00dcec0f2d4be6f457e40394c59c6225] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:57:03.875895|::1| [trace] [00dcec0f2d4be6f457e40394c59c6225] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:57:03.876782|::1| [error] [00dcec0f2d4be6f457e40394c59c6225] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:57:03.877115|::1| [trace] [00dcec0f2d4be6f457e40394c59c6225] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:57:03.877666|::1| [error] [00dcec0f2d4be6f457e40394c59c6225] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:57:06.167583|::1| [trace] [0874d2f04c5f2572a5e368fb8270a878] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:57:06.172097|::1| [trace] [0874d2f04c5f2572a5e368fb8270a878] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:57:06.174830|::1| [trace] [0874d2f04c5f2572a5e368fb8270a878] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:57:06.175589|::1| [error] [0874d2f04c5f2572a5e368fb8270a878] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:57:06.176134|::1| [trace] [0874d2f04c5f2572a5e368fb8270a878] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:57:06.176996|::1| [error] [0874d2f04c5f2572a5e368fb8270a878] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:57:07.616254|::1| [trace] [8febb09156861146a6fa980dbdaa89f0] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:57:07.620590|::1| [trace] [8febb09156861146a6fa980dbdaa89f0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:57:07.623055|::1| [trace] [8febb09156861146a6fa980dbdaa89f0] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:57:07.623950|::1| [error] [8febb09156861146a6fa980dbdaa89f0] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:57:07.624486|::1| [trace] [8febb09156861146a6fa980dbdaa89f0] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:57:07.625139|::1| [error] [8febb09156861146a6fa980dbdaa89f0] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:57:08.177011|::1| [trace] [2592c10fa879a8b74465c7266d53dedb] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:57:08.181894|::1| [trace] [2592c10fa879a8b74465c7266d53dedb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:57:08.184910|::1| [trace] [2592c10fa879a8b74465c7266d53dedb] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:57:08.185796|::1| [error] [2592c10fa879a8b74465c7266d53dedb] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:57:08.186187|::1| [trace] [2592c10fa879a8b74465c7266d53dedb] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:57:08.187176|::1| [error] [2592c10fa879a8b74465c7266d53dedb] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:57:08.565937|::1| [trace] [c33e457e3cfdb4b053e0c7cbfa51996f] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:57:08.569493|::1| [trace] [c33e457e3cfdb4b053e0c7cbfa51996f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:57:08.571707|::1| [trace] [c33e457e3cfdb4b053e0c7cbfa51996f] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:57:08.572380|::1| [error] [c33e457e3cfdb4b053e0c7cbfa51996f] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:57:08.572789|::1| [trace] [c33e457e3cfdb4b053e0c7cbfa51996f] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:57:08.573296|::1| [error] [c33e457e3cfdb4b053e0c7cbfa51996f] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:57:08.747833|::1| [trace] [5a87dcd911fb81e36ab5662b3145af1d] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:57:08.751399|::1| [trace] [5a87dcd911fb81e36ab5662b3145af1d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:57:08.753828|::1| [trace] [5a87dcd911fb81e36ab5662b3145af1d] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:57:08.754689|::1| [error] [5a87dcd911fb81e36ab5662b3145af1d] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:57:08.755140|::1| [trace] [5a87dcd911fb81e36ab5662b3145af1d] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:57:08.755758|::1| [error] [5a87dcd911fb81e36ab5662b3145af1d] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:57:08.935909|::1| [trace] [9c28d576aa86ee6c177e935d10bf247d] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:57:08.940131|::1| [trace] [9c28d576aa86ee6c177e935d10bf247d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:57:08.942199|::1| [trace] [9c28d576aa86ee6c177e935d10bf247d] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:57:08.942894|::1| [error] [9c28d576aa86ee6c177e935d10bf247d] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:57:08.943356|::1| [trace] [9c28d576aa86ee6c177e935d10bf247d] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:57:08.944159|::1| [error] [9c28d576aa86ee6c177e935d10bf247d] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:57:09.156279|::1| [trace] [31b0f5c992665a0460a8f9154dd761b4] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:57:09.179140|::1| [trace] [31b0f5c992665a0460a8f9154dd761b4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:57:09.181447|::1| [trace] [31b0f5c992665a0460a8f9154dd761b4] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:57:09.182292|::1| [error] [31b0f5c992665a0460a8f9154dd761b4] crud.class.inc (54) Database->query() : Error in query. INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') . Details
+16/03/2023 12:57:09.182735|::1| [trace] [31b0f5c992665a0460a8f9154dd761b4] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+16/03/2023 12:57:09.183253|::1| [error] [31b0f5c992665a0460a8f9154dd761b4] crud.class.inc (60) Database->query() : Error in query INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male') Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+16/03/2023 12:57:37.765172|::1| [trace] [e42923fcaed8732a8b1b158b05fe58d3] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:57:37.770721|::1| [trace] [e42923fcaed8732a8b1b158b05fe58d3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:57:37.773257|::1| [trace] [e42923fcaed8732a8b1b158b05fe58d3] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:57:39.384604|::1| [trace] [08916307cbc8df68b9575505f4a18892] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:57:39.388669|::1| [trace] [08916307cbc8df68b9575505f4a18892] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:57:39.391087|::1| [trace] [08916307cbc8df68b9575505f4a18892] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:57:56.471467|::1| [trace] [72e677fbac2f122eff71b74337666351] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:57:56.475259|::1| [trace] [72e677fbac2f122eff71b74337666351] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:57:56.477248|::1| [trace] [72e677fbac2f122eff71b74337666351] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:58:27.692755|::1| [trace] [a8b52af153147e6399a311de46266837] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:58:27.696500|::1| [trace] [a8b52af153147e6399a311de46266837] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:58:27.698951|::1| [trace] [a8b52af153147e6399a311de46266837] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:58:29.128509|::1| [trace] [67907ba623b0d709ed1fb6a898ef65bb] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:58:29.132014|::1| [trace] [67907ba623b0d709ed1fb6a898ef65bb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:58:29.134494|::1| [trace] [67907ba623b0d709ed1fb6a898ef65bb] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 12:58:32.446803|::1| [trace] [953bd5e7e03f4c2ca65a2e9766fabbdc] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:58:32.454771|::1| [trace] [953bd5e7e03f4c2ca65a2e9766fabbdc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:58:38.780975|::1| [trace] [dbd8cb46967da24c9d8a0c47362dbf17] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:58:38.786891|::1| [trace] [dbd8cb46967da24c9d8a0c47362dbf17] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'female', )
+16/03/2023 12:58:38.789546|::1| [trace] [dbd8cb46967da24c9d8a0c47362dbf17] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','female')
+16/03/2023 12:59:45.186753|::1| [trace] [75d106e79665104db1cc9db7c2202da6] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:59:45.190545|::1| [trace] [75d106e79665104db1cc9db7c2202da6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 12:59:52.794650|::1| [trace] [5c3b13355f5c9e9cb788e9f12ec156ec] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 12:59:52.800276|::1| [trace] [5c3b13355f5c9e9cb788e9f12ec156ec] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 12:59:52.803021|::1| [trace] [5c3b13355f5c9e9cb788e9f12ec156ec] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user6agni@gmail.com','male')
+16/03/2023 13:03:58.078725|::1| [trace] [55d0c4f6e73783242de38d72bbd88f4a] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:03:58.085398|::1| [trace] [55d0c4f6e73783242de38d72bbd88f4a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:03:58.259610|::1| [trace] [832be5dac87b8c87d3c327431f5480bd] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:03:58.265628|::1| [trace] [832be5dac87b8c87d3c327431f5480bd] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:03:58.272289|::1| [trace] [832be5dac87b8c87d3c327431f5480bd] crud.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:06:29.632168|::1| [trace] [417e65003cf246280a8cd90771b476e1] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:06:29.637896|::1| [trace] [417e65003cf246280a8cd90771b476e1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:06:29.898891|::1| [trace] [a0fb3343525d8c36c4092adc05d24032] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:06:29.905812|::1| [trace] [a0fb3343525d8c36c4092adc05d24032] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:06:29.910003|::1| [trace] [a0fb3343525d8c36c4092adc05d24032] crud.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:06:31.129488|::1| [trace] [d754e927f9025eb8fea5a7c4db189b51] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:06:31.133687|::1| [trace] [d754e927f9025eb8fea5a7c4db189b51] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:06:31.346544|::1| [trace] [a93cd0e7b6d3f26affe9eeeabec88a87] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:06:31.353179|::1| [trace] [a93cd0e7b6d3f26affe9eeeabec88a87] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:06:31.356693|::1| [trace] [a93cd0e7b6d3f26affe9eeeabec88a87] crud.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:07:10.877233|::1| [trace] [155ff4d590cda6ae8a08247f6b30a5e8] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:07:10.883399|::1| [trace] [155ff4d590cda6ae8a08247f6b30a5e8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:07:11.099935|::1| [trace] [6eae9a5497426e27f90881872f63c42b] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:07:11.106497|::1| [trace] [6eae9a5497426e27f90881872f63c42b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:07:11.112999|::1| [trace] [6eae9a5497426e27f90881872f63c42b] crud.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:09:57.411854|::1| [trace] [6bbf77b385ad19db7a3fd1a8d0afce8a] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:09:57.442219|::1| [trace] [6bbf77b385ad19db7a3fd1a8d0afce8a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:09:57.617902|::1| [trace] [c217e03af645961c8211a97f587992a9] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:09:57.624555|::1| [trace] [c217e03af645961c8211a97f587992a9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:09:57.628070|::1| [trace] [c217e03af645961c8211a97f587992a9] crud.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:10:58.280750|::1| [trace] [830243e83191ed56f2b97320073c41a8] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:10:58.287808|::1| [trace] [830243e83191ed56f2b97320073c41a8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:10:58.290693|::1| [trace] [830243e83191ed56f2b97320073c41a8] crud.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:13:49.371762|::1| [trace] [880090807d8630dec2b0e5fa8a74467c] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:13:49.376970|::1| [trace] [880090807d8630dec2b0e5fa8a74467c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:13:49.380389|::1| [trace] [880090807d8630dec2b0e5fa8a74467c] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:13:53.715821|::1| [trace] [23a0bbe78781d13ddfa4e6bdf2a57598] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:13:53.721636|::1| [trace] [23a0bbe78781d13ddfa4e6bdf2a57598] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:13:53.948090|::1| [trace] [88b4cb78e5eaf166d3afa7ba58155173] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:13:53.955918|::1| [trace] [88b4cb78e5eaf166d3afa7ba58155173] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:13:53.959688|::1| [trace] [88b4cb78e5eaf166d3afa7ba58155173] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:16:38.713788|::1| [trace] [a030e905424b9767030ba7bf4bf809f9] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:16:38.718226|::1| [trace] [a030e905424b9767030ba7bf4bf809f9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:16:39.032140|::1| [trace] [77e3c7e913b96fb70d9507c35772972f] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:16:39.038089|::1| [trace] [77e3c7e913b96fb70d9507c35772972f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:16:39.042737|::1| [trace] [77e3c7e913b96fb70d9507c35772972f] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:19:45.164752|::1| [trace] [634f603c00715614c8aa6989a1d4d368] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:19:45.172561|::1| [trace] [634f603c00715614c8aa6989a1d4d368] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:19:45.370171|::1| [trace] [5c7526d4d7a3a415c0622f6b7e6c536c] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:19:45.376712|::1| [trace] [5c7526d4d7a3a415c0622f6b7e6c536c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:19:45.380419|::1| [trace] [5c7526d4d7a3a415c0622f6b7e6c536c] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:20:08.708328|::1| [trace] [c292cb99b1c072913ab8e3bbb74789fc] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:20:08.714014|::1| [trace] [c292cb99b1c072913ab8e3bbb74789fc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:20:08.965065|::1| [trace] [bf35c8b4a5e169474dfde2a812e53474] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:20:08.971698|::1| [trace] [bf35c8b4a5e169474dfde2a812e53474] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:20:08.975091|::1| [trace] [bf35c8b4a5e169474dfde2a812e53474] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:21:00.456794|::1| [trace] [19a8b5a3487c92c8dccb8037203f0160] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:21:00.460922|::1| [trace] [19a8b5a3487c92c8dccb8037203f0160] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:21:00.624679|::1| [trace] [f44ea696dd8e9fb33a45679c873b03da] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:21:00.629611|::1| [trace] [f44ea696dd8e9fb33a45679c873b03da] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:21:00.631624|::1| [trace] [f44ea696dd8e9fb33a45679c873b03da] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:21:07.295003|::1| [trace] [af83fa0b6a515c8ecc5dc65726492a6d] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:21:07.299789|::1| [trace] [af83fa0b6a515c8ecc5dc65726492a6d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Vishnu', 'email' => 'user6agni@gmail.com', 'gender' => 'male', )
+16/03/2023 13:21:07.303451|::1| [trace] [af83fa0b6a515c8ecc5dc65726492a6d] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Vishnu','user6agni@gmail.com','male')
+16/03/2023 13:21:07.314678|::1| [trace] [f6c9853d403b430d281cce558d3dc29f] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:21:07.319226|::1| [trace] [f6c9853d403b430d281cce558d3dc29f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:21:07.321219|::1| [trace] [f6c9853d403b430d281cce558d3dc29f] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:21:17.947557|::1| [trace] [86c0c0bcc6ef48fdd3d3ece08e65cd90] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:21:17.954485|::1| [trace] [86c0c0bcc6ef48fdd3d3ece08e65cd90] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', )
+16/03/2023 13:21:17.956825|::1| [trace] [86c0c0bcc6ef48fdd3d3ece08e65cd90] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('','','')
+16/03/2023 13:21:22.277203|::1| [trace] [588bd50eef170043f495ff0b672c22c8] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:21:22.280919|::1| [trace] [588bd50eef170043f495ff0b672c22c8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:21:22.408829|::1| [trace] [398f7adc28338ea70a73254d951091b2] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:21:22.413774|::1| [trace] [398f7adc28338ea70a73254d951091b2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:21:22.418420|::1| [trace] [398f7adc28338ea70a73254d951091b2] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:23:23.551201|::1| [trace] [579257fb3556e7a850d5aa8b6cff764c] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:23:23.555813|::1| [trace] [579257fb3556e7a850d5aa8b6cff764c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:23:23.699446|::1| [trace] [183fd2889ccb413fc2047fe5f2b0016f] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:23:23.704735|::1| [trace] [183fd2889ccb413fc2047fe5f2b0016f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:23:23.707232|::1| [trace] [183fd2889ccb413fc2047fe5f2b0016f] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:23:29.161809|::1| [trace] [0a3c4f000035ffa66998cbeffe4718af] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:23:29.166852|::1| [trace] [0a3c4f000035ffa66998cbeffe4718af] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user8agni@gmail.com', 'gender' => 'female', )
+16/03/2023 13:23:30.477952|::1| [trace] [1d45273a9919a93d79e4f39f86718bc2] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:23:30.481774|::1| [trace] [1d45273a9919a93d79e4f39f86718bc2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user8agni@gmail.com', 'gender' => 'female', )
+16/03/2023 13:23:31.721641|::1| [trace] [d835fccffb2d570eca3463ac32b7a55d] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:23:31.725524|::1| [trace] [d835fccffb2d570eca3463ac32b7a55d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user8agni@gmail.com', 'gender' => 'female', )
+16/03/2023 13:23:31.942821|::1| [trace] [e196f76059f10c68f049fe1395dc3c63] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:23:31.965579|::1| [trace] [e196f76059f10c68f049fe1395dc3c63] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user8agni@gmail.com', 'gender' => 'female', )
+16/03/2023 13:24:36.078104|::1| [trace] [6629bcdb4e453712b52455ba16e03231] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:24:36.082405|::1| [trace] [6629bcdb4e453712b52455ba16e03231] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'user8agni@gmail.com', 'gender' => 'female', )
+16/03/2023 13:24:36.084546|::1| [trace] [6629bcdb4e453712b52455ba16e03231] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','user8agni@gmail.com','female')
+16/03/2023 13:24:36.103379|::1| [trace] [54395c50be3444630069e7017f1c1041] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:24:36.108130|::1| [trace] [54395c50be3444630069e7017f1c1041] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:24:36.110148|::1| [trace] [54395c50be3444630069e7017f1c1041] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:24:43.181257|::1| [trace] [6cec3b9a4eb29ec76745f8f8b99004c7] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:24:43.185583|::1| [trace] [6cec3b9a4eb29ec76745f8f8b99004c7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', )
+16/03/2023 13:24:48.003151|::1| [trace] [a9f9673b507ec99cd3a8ada37db1905f] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:24:48.008704|::1| [trace] [a9f9673b507ec99cd3a8ada37db1905f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:24:48.146974|::1| [trace] [f8e472efa8ac0c2506a35009ef5eb023] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:24:48.150652|::1| [trace] [f8e472efa8ac0c2506a35009ef5eb023] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:24:48.152653|::1| [trace] [f8e472efa8ac0c2506a35009ef5eb023] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:25:17.359747|::1| [trace] [4d4cdf77cc06e2b0f70c4c398d5de752] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:25:17.364772|::1| [trace] [4d4cdf77cc06e2b0f70c4c398d5de752] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:25:17.519145|::1| [trace] [6189430e5c1ad67e041553fd019951f5] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:25:17.526642|::1| [trace] [6189430e5c1ad67e041553fd019951f5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:25:17.530257|::1| [trace] [6189430e5c1ad67e041553fd019951f5] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:25:35.391199|::1| [trace] [2d5f84fa21a08ba561d38cb273700082] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:25:35.395536|::1| [trace] [2d5f84fa21a08ba561d38cb273700082] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:25:35.605063|::1| [trace] [f60695293e67c458ce1c0545def7f721] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:25:35.613297|::1| [trace] [f60695293e67c458ce1c0545def7f721] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:25:35.616862|::1| [trace] [f60695293e67c458ce1c0545def7f721] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:25:51.377295|::1| [trace] [74939dd75d4a654ed9a2c6eddaf3a53f] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:25:51.382111|::1| [trace] [74939dd75d4a654ed9a2c6eddaf3a53f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:25:51.543556|::1| [trace] [5baac5a73b542280ec139e0c009de75a] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:25:51.548630|::1| [trace] [5baac5a73b542280ec139e0c009de75a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:25:51.550996|::1| [trace] [5baac5a73b542280ec139e0c009de75a] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:25:58.428489|::1| [trace] [303ae087862f39af3bc2f25c5193d0dd] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:25:58.431988|::1| [trace] [303ae087862f39af3bc2f25c5193d0dd] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 13:25:58.584978|::1| [trace] [d42209e0607ce30b7d9b7f9d40f2e018] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:25:58.591892|::1| [trace] [d42209e0607ce30b7d9b7f9d40f2e018] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:25:58.593828|::1| [trace] [d42209e0607ce30b7d9b7f9d40f2e018] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:26:09.844027|::1| [trace] [f9eff0d1f483e363d3e3c54b17fd85b9] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:26:09.848445|::1| [trace] [f9eff0d1f483e363d3e3c54b17fd85b9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'Mahavishnu A', 'email' => 'barath@gamil.com', 'gender' => 'male', )
+16/03/2023 13:26:09.851293|::1| [trace] [f9eff0d1f483e363d3e3c54b17fd85b9] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('Mahavishnu A','barath@gamil.com','male')
+16/03/2023 13:26:09.862756|::1| [trace] [378787c5a6440b11a168317bb1fc906c] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:26:09.866348|::1| [trace] [378787c5a6440b11a168317bb1fc906c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:26:09.869162|::1| [trace] [378787c5a6440b11a168317bb1fc906c] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 13:26:17.704646|::1| [trace] [6187963fc0f843642e66ccb5901a5b3a] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 13:26:17.709593|::1| [trace] [6187963fc0f843642e66ccb5901a5b3a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 13:26:17.712156|::1| [trace] [6187963fc0f843642e66ccb5901a5b3a] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 15:36:26.057230|::1| [trace] [5f54c737e7fd217058128e58c89ad264] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 15:36:26.082878|::1| [trace] [5f54c737e7fd217058128e58c89ad264] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', )
+16/03/2023 15:36:30.280364|::1| [trace] [52cb8cf2b62cd86ed8a13f0fe3bd32ad] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 15:36:30.289052|::1| [trace] [52cb8cf2b62cd86ed8a13f0fe3bd32ad] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 15:36:30.517935|::1| [trace] [aa51bd7fb96f36b2a035814a6c31487a] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 15:36:30.523685|::1| [trace] [aa51bd7fb96f36b2a035814a6c31487a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 15:36:30.529849|::1| [trace] [aa51bd7fb96f36b2a035814a6c31487a] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 16:22:39.642422|::1| [trace] [09652e9871395d542e77405b1028872d] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 16:22:39.676019|::1| [trace] [09652e9871395d542e77405b1028872d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 16:22:40.221369|::1| [trace] [e684c334818aa3653eaaeeb5a9de696e] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 16:22:40.245348|::1| [trace] [e684c334818aa3653eaaeeb5a9de696e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 16:22:40.252599|::1| [trace] [e684c334818aa3653eaaeeb5a9de696e] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 16:22:50.971302|::1| [trace] [d1be110e6f89481d0b41372bc8f75ee8] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 16:22:50.988004|::1| [trace] [d1be110e6f89481d0b41372bc8f75ee8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'create', 'name' => 'jaga', 'email' => 'user6agni@gmail.com', 'gender' => 'female', )
+16/03/2023 16:22:50.998487|::1| [trace] [d1be110e6f89481d0b41372bc8f75ee8] crud.class.inc (50) Database->query() : INSERT INTO crud (username, email, gender) VALUES ('jaga','user6agni@gmail.com','female')
+16/03/2023 16:22:51.026361|::1| [trace] [23dcb5c38f3f332690517ad4e8fb5809] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 16:22:51.036408|::1| [trace] [23dcb5c38f3f332690517ad4e8fb5809] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 16:22:51.043734|::1| [trace] [23dcb5c38f3f332690517ad4e8fb5809] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 16:22:54.976542|::1| [trace] [b0a8636dd99568b09f0bfbf47e810cac] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 16:22:54.987565|::1| [trace] [b0a8636dd99568b09f0bfbf47e810cac] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 16:22:55.140336|::1| [trace] [275da4e28021c81b659731c46e779ae1] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 16:22:55.150039|::1| [trace] [275da4e28021c81b659731c46e779ae1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 16:22:55.156302|::1| [trace] [275da4e28021c81b659731c46e779ae1] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 16:22:56.438908|::1| [trace] [7d763b8613c4510cdf37c0e04b488742] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 16:22:56.450015|::1| [trace] [7d763b8613c4510cdf37c0e04b488742] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 16:22:56.573187|::1| [trace] [bd0d9b0606942ca54abdc18036e9bfbf] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 16:22:56.581882|::1| [trace] [bd0d9b0606942ca54abdc18036e9bfbf] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 16:22:56.589301|::1| [trace] [bd0d9b0606942ca54abdc18036e9bfbf] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 16:24:51.251791|::1| [trace] [36dd148bd2c4b9604d939067ddd2c21c] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 16:24:51.265460|::1| [trace] [36dd148bd2c4b9604d939067ddd2c21c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 16:24:51.438380|::1| [trace] [6335c12379d30870e2071c38b57e8d14] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 16:24:51.445260|::1| [trace] [6335c12379d30870e2071c38b57e8d14] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 16:24:51.449656|::1| [trace] [6335c12379d30870e2071c38b57e8d14] database.class.inc (50) Database->query() : SELECT * FROM crud
+16/03/2023 16:39:17.046148|::1| [trace] [24f4733ed497dd38a78521fe936f3022] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 16:39:17.062382|::1| [trace] [24f4733ed497dd38a78521fe936f3022] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+16/03/2023 16:39:17.645076|::1| [trace] [678623e3a5170d0aa25801c8930ffa48] database.class.inc (33) Database->connect() : Connecting to database. vishwanath
+16/03/2023 16:39:17.654474|::1| [trace] [678623e3a5170d0aa25801c8930ffa48] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'read', )
+16/03/2023 16:39:17.663719|::1| [trace] [678623e3a5170d0aa25801c8930ffa48] database.class.inc (50) Database->query() : SELECT * FROM crud

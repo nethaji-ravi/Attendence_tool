@@ -1,0 +1,80 @@
+#test/test/DESKTOP-JPEDOAG/::1/2023-06-26/10:32:37/
+26/06/2023 10:32:37.938103|::1| [trace] [c4f6efe4c5a12911982cfff28f9ff01b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:32:37.978132|::1| [trace] [c4f6efe4c5a12911982cfff28f9ff01b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/06/2023 10:32:40.020217|::1| [trace] [97ec0f94a2c7c18a8be497fd406b96d8] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:32:40.033691|::1| [trace] [97ec0f94a2c7c18a8be497fd406b96d8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/06/2023 10:32:47.142849|::1| [trace] [8ad96b0d597aed0be246ecdf5a3768e2] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:32:47.150681|::1| [trace] [8ad96b0d597aed0be246ecdf5a3768e2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/06/2023 10:32:47.159126|::1| [trace] [8ad96b0d597aed0be246ecdf5a3768e2] database.class.inc (50) Database->query() : SELECT user_id FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/06/2023 10:32:49.585072|::1| [trace] [a3e9fbded76446d1a437b423ca04d4cb] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:32:49.593409|::1| [trace] [a3e9fbded76446d1a437b423ca04d4cb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/06/2023 10:32:49.608283|::1| [trace] [a3e9fbded76446d1a437b423ca04d4cb] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/06/2023 10:32:57.069631|::1| [trace] [a940139b10c14de194f72d6c7a14b15e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:32:57.074381|::1| [trace] [a940139b10c14de194f72d6c7a14b15e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewfilter', 'filterdate' => '2023-05-16', )
+26/06/2023 10:32:57.080913|::1| [trace] [a940139b10c14de194f72d6c7a14b15e] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date = '2023-05-16'
+26/06/2023 10:33:16.788414|::1| [trace] [afc0f1b0d966a85e4732d5abc9319386] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:33:16.798475|::1| [trace] [afc0f1b0d966a85e4732d5abc9319386] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/06/2023 10:33:16.805093|::1| [trace] [afc0f1b0d966a85e4732d5abc9319386] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/06/2023 10:33:27.933717|::1| [trace] [6621691edf6a8ea207cf902cc025f8e3] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:33:27.938431|::1| [trace] [6621691edf6a8ea207cf902cc025f8e3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-16', 'maxidate' => '2023-05-16', )
+26/06/2023 10:33:27.944396|::1| [trace] [6621691edf6a8ea207cf902cc025f8e3] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-16' AND punching_date <= '2023-05-16' ORDER BY punching_date DESC
+26/06/2023 10:38:20.118408|::1| [trace] [97e20869316ef027e3e5277e9a9f74f3] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:38:20.138958|::1| [trace] [97e20869316ef027e3e5277e9a9f74f3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/06/2023 10:38:20.149914|::1| [trace] [97e20869316ef027e3e5277e9a9f74f3] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/06/2023 10:38:31.400335|::1| [trace] [960b88b759ab7dbf23afeffd406ff3ee] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:38:31.407815|::1| [trace] [960b88b759ab7dbf23afeffd406ff3ee] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-16', 'maxidate' => '2023-05-16', )
+26/06/2023 10:38:31.418632|::1| [trace] [960b88b759ab7dbf23afeffd406ff3ee] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-16' AND punching_date <= '2023-05-16' ORDER BY punching_date DESC
+26/06/2023 10:38:35.459105|::1| [trace] [253a4d8e735b13608e4841ca3135e1b1] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:38:35.473804|::1| [trace] [253a4d8e735b13608e4841ca3135e1b1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/06/2023 10:38:35.477916|::1| [trace] [253a4d8e735b13608e4841ca3135e1b1] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/06/2023 10:38:39.933089|::1| [trace] [50788d75c96912a7fe0ab5a88709011d] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:38:39.937377|::1| [trace] [50788d75c96912a7fe0ab5a88709011d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewfilter', 'filterdate' => '2023-05-16', )
+26/06/2023 10:38:39.943958|::1| [trace] [50788d75c96912a7fe0ab5a88709011d] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date = '2023-05-16'
+26/06/2023 10:38:58.128443|::1| [trace] [6ef13c170806fdfb11ec0113f228d746] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:38:58.146089|::1| [trace] [6ef13c170806fdfb11ec0113f228d746] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reason', 'id' => '235', 'value' => '', )
+26/06/2023 10:38:58.156126|::1| [trace] [6ef13c170806fdfb11ec0113f228d746] crud.class.inc (50) Database->query() : UPDATE employee_punching_detail set reasons = '' where id= '235'
+26/06/2023 10:39:08.896836|::1| [trace] [1aab20f6e757c1003c13c9eaa4c4b4ba] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:39:08.903239|::1| [trace] [1aab20f6e757c1003c13c9eaa4c4b4ba] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reason', 'id' => '236', 'value' => 'Permission', )
+26/06/2023 10:39:08.909514|::1| [trace] [1aab20f6e757c1003c13c9eaa4c4b4ba] crud.class.inc (50) Database->query() : UPDATE employee_punching_detail set reasons = 'Permission' where id= '236'
+26/06/2023 10:39:16.411726|::1| [trace] [3a6b8df6fb0291f3949f2fd08df0c1c1] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:39:16.424896|::1| [trace] [3a6b8df6fb0291f3949f2fd08df0c1c1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/06/2023 10:39:16.433528|::1| [trace] [3a6b8df6fb0291f3949f2fd08df0c1c1] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/06/2023 10:39:21.350054|::1| [trace] [983d9f473c843101eea79b39ee167b7b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:39:21.356262|::1| [trace] [983d9f473c843101eea79b39ee167b7b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewfilter', 'filterdate' => '2023-05-16', )
+26/06/2023 10:39:21.363003|::1| [trace] [983d9f473c843101eea79b39ee167b7b] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date = '2023-05-16'
+26/06/2023 10:39:44.619597|::1| [trace] [666f2c60d101cbfc837f661deee0d49a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:39:44.627283|::1| [trace] [666f2c60d101cbfc837f661deee0d49a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/06/2023 10:39:44.635715|::1| [trace] [666f2c60d101cbfc837f661deee0d49a] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/06/2023 10:39:52.292726|::1| [trace] [1acb5c95e1ae09c864b856e4b9661fdc] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:39:52.297805|::1| [trace] [1acb5c95e1ae09c864b856e4b9661fdc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewfilter', 'filterdate' => '2023-05-16', )
+26/06/2023 10:39:52.304550|::1| [trace] [1acb5c95e1ae09c864b856e4b9661fdc] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date = '2023-05-16'
+26/06/2023 10:40:10.188492|::1| [trace] [3832187a29de6b9769e2ad3287b8459e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:40:10.194289|::1| [trace] [3832187a29de6b9769e2ad3287b8459e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reason', 'id' => '244', 'value' => '', )
+26/06/2023 10:40:10.200824|::1| [trace] [3832187a29de6b9769e2ad3287b8459e] crud.class.inc (50) Database->query() : UPDATE employee_punching_detail set reasons = '' where id= '244'
+26/06/2023 10:44:05.389116|::1| [trace] [3158526b455a02407e5e8b4e08ee1e47] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:44:05.406178|::1| [trace] [3158526b455a02407e5e8b4e08ee1e47] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/06/2023 10:44:05.418432|::1| [trace] [3158526b455a02407e5e8b4e08ee1e47] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/06/2023 10:44:10.333616|::1| [trace] [05548d551580328f772d8435675569b5] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:44:10.338061|::1| [trace] [05548d551580328f772d8435675569b5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewfilter', 'filterdate' => '2023-05-16', )
+26/06/2023 10:44:10.345082|::1| [trace] [05548d551580328f772d8435675569b5] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date = '2023-05-16'
+26/06/2023 10:44:22.429199|::1| [trace] [1eb3226e6b0da8a2f58ce6ac06a1e992] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:44:22.436148|::1| [trace] [1eb3226e6b0da8a2f58ce6ac06a1e992] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reason', 'id' => '246', 'value' => '', )
+26/06/2023 10:44:22.445373|::1| [trace] [1eb3226e6b0da8a2f58ce6ac06a1e992] crud.class.inc (50) Database->query() : UPDATE employee_punching_detail set reasons = '' where id= '246'
+26/06/2023 10:44:25.726923|::1| [trace] [274da418579a1b7fc119b222160d7ca4] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:44:25.740345|::1| [trace] [274da418579a1b7fc119b222160d7ca4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/06/2023 10:44:25.746042|::1| [trace] [274da418579a1b7fc119b222160d7ca4] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/06/2023 10:44:35.630672|::1| [trace] [808cff35688935c222a8f769d09e4927] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 10:44:35.635883|::1| [trace] [808cff35688935c222a8f769d09e4927] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-16', 'maxidate' => '2023-05-16', )
+26/06/2023 10:44:35.642803|::1| [trace] [808cff35688935c222a8f769d09e4927] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-16' AND punching_date <= '2023-05-16' ORDER BY punching_date DESC
+26/06/2023 12:39:41.074192|::1| [trace] [dc9d8ef9d5dda2a43748f95ef610bbe9] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 12:39:41.104706|::1| [trace] [dc9d8ef9d5dda2a43748f95ef610bbe9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/06/2023 12:39:41.109631|::1| [trace] [dc9d8ef9d5dda2a43748f95ef610bbe9] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/06/2023 12:39:51.608675|::1| [trace] [32dc8d68831e23038304c1d4484d1605] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 12:39:51.629951|::1| [trace] [32dc8d68831e23038304c1d4484d1605] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-16', 'maxidate' => '2023-05-16', )
+26/06/2023 12:39:51.634393|::1| [trace] [32dc8d68831e23038304c1d4484d1605] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-16' AND punching_date <= '2023-05-16' ORDER BY punching_date DESC
+26/06/2023 12:39:56.252207|::1| [trace] [933b75b487eff2b43be0fd3a9b9d3ba4] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 12:39:56.261459|::1| [trace] [933b75b487eff2b43be0fd3a9b9d3ba4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/06/2023 12:39:56.267013|::1| [trace] [933b75b487eff2b43be0fd3a9b9d3ba4] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/06/2023 12:40:01.844578|::1| [trace] [4f1f57f4e26f9fe25db52e7abc035b0b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/06/2023 12:40:01.847775|::1| [trace] [4f1f57f4e26f9fe25db52e7abc035b0b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewfilter', 'filterdate' => '2023-05-16', )
+26/06/2023 12:40:01.850363|::1| [trace] [4f1f57f4e26f9fe25db52e7abc035b0b] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date = '2023-05-16'

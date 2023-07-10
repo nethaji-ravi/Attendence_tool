@@ -1,0 +1,4 @@
+#test/test/MAHII/::1/2023-04-22/11:10:00/
+22/04/2023 11:10:00.366410|::1| [trace] [342619a03e69fa906ee14ae1afa33e58] database.class.inc (33) Database->connect() : Connecting to database. task
+22/04/2023 11:10:00.792613|::1| [trace] [342619a03e69fa906ee14ae1afa33e58] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+22/04/2023 11:10:01.139197|::1| [trace] [342619a03e69fa906ee14ae1afa33e58] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'

@@ -1,0 +1,421 @@
+#test/test/MAHII/::1/2023-04-20/08:00:23/
+20/04/2023 08:00:23.899331|::1| [trace] [a0349909e3b584211eea1ff5dcce5ef2] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:00:23.943159|::1| [trace] [a0349909e3b584211eea1ff5dcce5ef2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:00:23.960656|::1| [trace] [a0349909e3b584211eea1ff5dcce5ef2] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:02:10.647352|::1| [trace] [c58a2c47746eb298e23c2d5529b63260] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:02:10.661315|::1| [trace] [c58a2c47746eb298e23c2d5529b63260] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:02:10.684755|::1| [trace] [c58a2c47746eb298e23c2d5529b63260] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:02:12.496319|::1| [trace] [d7068a7fa10403fd85cee640309888b6] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:02:12.507713|::1| [trace] [d7068a7fa10403fd85cee640309888b6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:02:12.512904|::1| [trace] [d7068a7fa10403fd85cee640309888b6] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:02:40.438942|::1| [trace] [e85e7bc62db2295259680e78783f4459] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:02:40.452179|::1| [trace] [e85e7bc62db2295259680e78783f4459] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:02:40.460216|::1| [trace] [e85e7bc62db2295259680e78783f4459] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:03:30.796654|::1| [trace] [d5636d6e13271b49385c69829375562a] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:03:30.804663|::1| [trace] [d5636d6e13271b49385c69829375562a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:03:30.809416|::1| [trace] [d5636d6e13271b49385c69829375562a] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:03:32.141756|::1| [trace] [d77ac8801e5068cb91f73b6275d77787] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:03:32.152554|::1| [trace] [d77ac8801e5068cb91f73b6275d77787] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:03:32.157901|::1| [trace] [d77ac8801e5068cb91f73b6275d77787] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:04:10.379746|::1| [trace] [4c9deff8a210eff3c07d1374a2b57038] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:04:10.387743|::1| [trace] [4c9deff8a210eff3c07d1374a2b57038] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:04:10.393414|::1| [trace] [4c9deff8a210eff3c07d1374a2b57038] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:04:11.616383|::1| [trace] [c3cf11e68a88a0feecdfefda3dd86cff] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:04:11.624727|::1| [trace] [c3cf11e68a88a0feecdfefda3dd86cff] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:04:11.631073|::1| [trace] [c3cf11e68a88a0feecdfefda3dd86cff] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:04:29.137907|::1| [trace] [6535f75401878bd4ce5fd452f434f356] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:04:29.151010|::1| [trace] [6535f75401878bd4ce5fd452f434f356] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:04:29.160382|::1| [trace] [6535f75401878bd4ce5fd452f434f356] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:04:30.246916|::1| [trace] [46a85fecabd06fa4e49874df554bc11e] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:04:30.253725|::1| [trace] [46a85fecabd06fa4e49874df554bc11e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:04:30.260216|::1| [trace] [46a85fecabd06fa4e49874df554bc11e] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:04:30.565845|::1| [trace] [7756d0826bea7d34f5bc2027cbff2225] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:04:30.575334|::1| [trace] [7756d0826bea7d34f5bc2027cbff2225] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:04:30.580743|::1| [trace] [7756d0826bea7d34f5bc2027cbff2225] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:05:34.546493|::1| [trace] [2b74b99ee38fc1c357574fd31dc18783] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:05:34.561161|::1| [trace] [2b74b99ee38fc1c357574fd31dc18783] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:05:34.571120|::1| [trace] [2b74b99ee38fc1c357574fd31dc18783] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:06:27.591514|::1| [trace] [72125d69e926115fb132a9ac0b7ed0b5] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:06:27.601645|::1| [trace] [72125d69e926115fb132a9ac0b7ed0b5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:06:27.606373|::1| [trace] [72125d69e926115fb132a9ac0b7ed0b5] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:06:28.929388|::1| [trace] [f1bf1f3b81e159b9752f5d592fd4f3fc] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:06:28.939970|::1| [trace] [f1bf1f3b81e159b9752f5d592fd4f3fc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:06:28.945584|::1| [trace] [f1bf1f3b81e159b9752f5d592fd4f3fc] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:06:30.076631|::1| [trace] [ec20ac3a43898d15da0e4357f2bea3be] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:06:30.086524|::1| [trace] [ec20ac3a43898d15da0e4357f2bea3be] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:06:30.093394|::1| [trace] [ec20ac3a43898d15da0e4357f2bea3be] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:06:30.133461|::1| [trace] [78d3792546d9370c57e7bb8d614de083] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:06:30.144150|::1| [trace] [78d3792546d9370c57e7bb8d614de083] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:06:30.148947|::1| [trace] [78d3792546d9370c57e7bb8d614de083] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:06:30.354640|::1| [trace] [da3c456edae55a5100119a43a2744afe] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:06:30.363394|::1| [trace] [da3c456edae55a5100119a43a2744afe] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:06:30.370260|::1| [trace] [da3c456edae55a5100119a43a2744afe] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:06:30.443119|::1| [trace] [0e03930a064823400f1d91eb57701b61] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:06:30.452193|::1| [trace] [0e03930a064823400f1d91eb57701b61] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:06:30.456409|::1| [trace] [0e03930a064823400f1d91eb57701b61] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:06:30.786633|::1| [trace] [3901263329b4de982681504722431d20] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:06:30.793739|::1| [trace] [3901263329b4de982681504722431d20] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:06:30.798515|::1| [trace] [3901263329b4de982681504722431d20] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:07:51.982888|::1| [trace] [21fd11698c1eedb3e4912e33eb8d2d4e] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:07:51.994637|::1| [trace] [21fd11698c1eedb3e4912e33eb8d2d4e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:07:52.001605|::1| [trace] [21fd11698c1eedb3e4912e33eb8d2d4e] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:07:52.243626|::1| [trace] [d33c4ffe49e1039be76810cb1c41a778] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:07:52.257545|::1| [trace] [d33c4ffe49e1039be76810cb1c41a778] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:07:52.268512|::1| [trace] [d33c4ffe49e1039be76810cb1c41a778] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:07:52.342341|::1| [trace] [a2207e78771b3cc332909182777fbb51] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:07:52.356916|::1| [trace] [a2207e78771b3cc332909182777fbb51] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:07:52.370521|::1| [trace] [a2207e78771b3cc332909182777fbb51] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:07:52.667114|::1| [trace] [857c6e358eca30a93258d2f9b651d9a1] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:07:52.675201|::1| [trace] [857c6e358eca30a93258d2f9b651d9a1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:07:52.682964|::1| [trace] [857c6e358eca30a93258d2f9b651d9a1] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:08:08.091303|::1| [trace] [948a4cd59ab1146c0cfc22292cc431b6] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:08:08.107918|::1| [trace] [948a4cd59ab1146c0cfc22292cc431b6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:08:08.119522|::1| [trace] [948a4cd59ab1146c0cfc22292cc431b6] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:08:10.972259|::1| [trace] [c182cc4a9e63f2d57e13f505f3a517d5] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:08:10.981221|::1| [trace] [c182cc4a9e63f2d57e13f505f3a517d5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:08:10.986691|::1| [trace] [c182cc4a9e63f2d57e13f505f3a517d5] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:08:25.510339|::1| [trace] [cbb08438172b622796f218a99c14e494] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:08:25.518280|::1| [trace] [cbb08438172b622796f218a99c14e494] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:08:25.524255|::1| [trace] [cbb08438172b622796f218a99c14e494] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:09:33.314522|::1| [trace] [115e1591776a3cc95650f10ce8dd0d53] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:09:33.328006|::1| [trace] [115e1591776a3cc95650f10ce8dd0d53] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:09:33.338043|::1| [trace] [115e1591776a3cc95650f10ce8dd0d53] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:09:34.409544|::1| [trace] [e80f1ca9acd45cacc2eec80f002b3f41] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:09:34.419898|::1| [trace] [e80f1ca9acd45cacc2eec80f002b3f41] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:09:34.428549|::1| [trace] [e80f1ca9acd45cacc2eec80f002b3f41] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:09:34.525023|::1| [trace] [00a61154f2a1098c6b91eb9e791a20db] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:09:34.534399|::1| [trace] [00a61154f2a1098c6b91eb9e791a20db] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:09:34.541647|::1| [trace] [00a61154f2a1098c6b91eb9e791a20db] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:09:55.385998|::1| [trace] [6627d43da1c5fd273664abe35c7ea286] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:09:55.399581|::1| [trace] [6627d43da1c5fd273664abe35c7ea286] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:09:55.408942|::1| [trace] [6627d43da1c5fd273664abe35c7ea286] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:11:05.518990|::1| [trace] [ab35387755045154670482d72a327741] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:11:05.528249|::1| [trace] [ab35387755045154670482d72a327741] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:11:05.534862|::1| [trace] [ab35387755045154670482d72a327741] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:11:05.877746|::1| [trace] [fd1ef283c60ad40569842be8ceb613e1] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:11:05.891474|::1| [trace] [fd1ef283c60ad40569842be8ceb613e1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:11:05.901021|::1| [trace] [fd1ef283c60ad40569842be8ceb613e1] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:11:06.185736|::1| [trace] [1006ee6cedc4ec9f21e05bb9d737ceda] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:11:06.199129|::1| [trace] [1006ee6cedc4ec9f21e05bb9d737ceda] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:11:06.207025|::1| [trace] [1006ee6cedc4ec9f21e05bb9d737ceda] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:11:06.220818|::1| [trace] [fc799da38bc6fd596da30961b1f36803] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:11:06.232384|::1| [trace] [fc799da38bc6fd596da30961b1f36803] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:11:06.239728|::1| [trace] [fc799da38bc6fd596da30961b1f36803] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:11:06.326000|::1| [trace] [e2179a162980a64e4dcc8e091bdea02d] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:11:06.333499|::1| [trace] [e2179a162980a64e4dcc8e091bdea02d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:11:06.339736|::1| [trace] [e2179a162980a64e4dcc8e091bdea02d] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:11:06.679974|::1| [trace] [db9ce6f6e58a8d96b482ba8518b45a05] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:11:06.689512|::1| [trace] [db9ce6f6e58a8d96b482ba8518b45a05] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:11:06.694582|::1| [trace] [db9ce6f6e58a8d96b482ba8518b45a05] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:12:02.064774|::1| [trace] [f84ec1c5fdc7176354bd0e8730d33fe4] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:12:02.076507|::1| [trace] [f84ec1c5fdc7176354bd0e8730d33fe4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:12:02.086070|::1| [trace] [f84ec1c5fdc7176354bd0e8730d33fe4] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:12:28.522310|::1| [trace] [468d5571638d4f29afb4529276f197c5] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:12:28.535748|::1| [trace] [468d5571638d4f29afb4529276f197c5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:12:28.543508|::1| [trace] [468d5571638d4f29afb4529276f197c5] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:13:23.965698|::1| [trace] [31ad3998da5d4af61ad6f4e00a374ffb] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:13:23.978327|::1| [trace] [31ad3998da5d4af61ad6f4e00a374ffb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:13:23.985595|::1| [trace] [31ad3998da5d4af61ad6f4e00a374ffb] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:14:02.890048|::1| [trace] [6351761319e43a5a683d768de9a982a9] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:14:02.900110|::1| [trace] [6351761319e43a5a683d768de9a982a9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:14:02.907664|::1| [trace] [6351761319e43a5a683d768de9a982a9] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:14:26.699419|::1| [trace] [34794b2035455b917c76adc4ec199fdc] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:14:26.719723|::1| [trace] [34794b2035455b917c76adc4ec199fdc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:14:26.733340|::1| [trace] [34794b2035455b917c76adc4ec199fdc] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:15:02.974963|::1| [trace] [c5e213b96b4c190130fdbf6115717736] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:15:02.985939|::1| [trace] [c5e213b96b4c190130fdbf6115717736] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:15:02.991746|::1| [trace] [c5e213b96b4c190130fdbf6115717736] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:32:38.413784|::1| [trace] [f53762b49f23a671a5981096ee02d27c] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:32:38.440959|::1| [trace] [f53762b49f23a671a5981096ee02d27c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:32:38.460558|::1| [trace] [f53762b49f23a671a5981096ee02d27c] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:33:49.418900|::1| [trace] [ab956536ccc3ccc3045fa6adfeea5986] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:33:49.431749|::1| [trace] [ab956536ccc3ccc3045fa6adfeea5986] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:33:49.442305|::1| [trace] [ab956536ccc3ccc3045fa6adfeea5986] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:33:50.550267|::1| [trace] [17a827bc2971a32df6a4e35d150bb8c2] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:33:50.559875|::1| [trace] [17a827bc2971a32df6a4e35d150bb8c2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:33:50.564738|::1| [trace] [17a827bc2971a32df6a4e35d150bb8c2] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:35:41.741550|::1| [trace] [6160c8fa16412fa1dbb943777d43f715] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:35:41.753096|::1| [trace] [6160c8fa16412fa1dbb943777d43f715] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:35:41.759891|::1| [trace] [6160c8fa16412fa1dbb943777d43f715] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:36:13.729355|::1| [trace] [9a1a1983928ac06c43e30a42cc324cf7] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:36:13.741915|::1| [trace] [9a1a1983928ac06c43e30a42cc324cf7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:36:13.752886|::1| [trace] [9a1a1983928ac06c43e30a42cc324cf7] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:43:10.991556|::1| [trace] [c1424d4bdfa8262dcdee7db7484b986b] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:43:11.004014|::1| [trace] [c1424d4bdfa8262dcdee7db7484b986b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:43:11.012962|::1| [trace] [c1424d4bdfa8262dcdee7db7484b986b] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:44:13.325954|::1| [trace] [ba932f59b2b06d62eccea988caa8f1f0] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:44:13.339067|::1| [trace] [ba932f59b2b06d62eccea988caa8f1f0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:44:13.347455|::1| [trace] [ba932f59b2b06d62eccea988caa8f1f0] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:44:44.747473|::1| [trace] [1fa26f6679ad09059528f347b0e279d8] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:44:44.755650|::1| [trace] [1fa26f6679ad09059528f347b0e279d8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:44:44.762152|::1| [trace] [1fa26f6679ad09059528f347b0e279d8] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:47:41.027515|::1| [trace] [bc4fabb4514d1a7df1d1b930005c03e5] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:47:41.040983|::1| [trace] [bc4fabb4514d1a7df1d1b930005c03e5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:47:41.048934|::1| [trace] [bc4fabb4514d1a7df1d1b930005c03e5] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:48:19.314901|::1| [trace] [876a75bf3da97cc621eb0f7b0de19c1c] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:48:19.397794|::1| [trace] [876a75bf3da97cc621eb0f7b0de19c1c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:48:19.461021|::1| [trace] [876a75bf3da97cc621eb0f7b0de19c1c] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:49:19.924971|::1| [trace] [cd5935fb1975aecbaa373335b58bf218] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:49:19.934413|::1| [trace] [cd5935fb1975aecbaa373335b58bf218] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:49:19.939946|::1| [trace] [cd5935fb1975aecbaa373335b58bf218] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:49:54.962241|::1| [trace] [cfeec507c84846a150dc6b415670ffb4] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:49:54.977828|::1| [trace] [cfeec507c84846a150dc6b415670ffb4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:49:54.986439|::1| [trace] [cfeec507c84846a150dc6b415670ffb4] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 08:57:26.966139|::1| [trace] [0459d7bf7963bded5d7eeac26810b4dc] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 08:57:27.003518|::1| [trace] [0459d7bf7963bded5d7eeac26810b4dc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 08:57:27.019000|::1| [trace] [0459d7bf7963bded5d7eeac26810b4dc] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 09:07:17.331880|::1| [trace] [4117f730d7ddfb346af4c4ae23a39bf7] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 09:07:17.346005|::1| [trace] [4117f730d7ddfb346af4c4ae23a39bf7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 09:07:17.353379|::1| [trace] [4117f730d7ddfb346af4c4ae23a39bf7] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 09:10:21.413530|::1| [trace] [77f01343b65583e741136b867186cfdf] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 09:10:21.428992|::1| [trace] [77f01343b65583e741136b867186cfdf] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 09:10:21.439553|::1| [trace] [77f01343b65583e741136b867186cfdf] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 09:11:12.320329|::1| [trace] [53a1b9e4b28c66f75264124dfdd24837] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 09:11:12.344068|::1| [trace] [53a1b9e4b28c66f75264124dfdd24837] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 09:11:12.359410|::1| [trace] [53a1b9e4b28c66f75264124dfdd24837] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 09:49:56.288278|::1| [trace] [5f1561e0895ca21ac19859851a99cb99] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 09:49:56.326746|::1| [trace] [5f1561e0895ca21ac19859851a99cb99] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 09:49:56.346462|::1| [trace] [5f1561e0895ca21ac19859851a99cb99] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 09:50:16.691169|::1| [trace] [6c9db8b3a9f752b04999a3f4d710523e] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 09:50:16.789522|::1| [trace] [6c9db8b3a9f752b04999a3f4d710523e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 09:50:16.855495|::1| [trace] [6c9db8b3a9f752b04999a3f4d710523e] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 09:50:45.876410|::1| [trace] [c637f518588ad3091f77884cbf91078a] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 09:50:45.885289|::1| [trace] [c637f518588ad3091f77884cbf91078a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 09:50:45.893181|::1| [trace] [c637f518588ad3091f77884cbf91078a] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 09:52:15.723195|::1| [trace] [5ee02552249b89a7610036eae68d8a50] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 09:52:15.747347|::1| [trace] [5ee02552249b89a7610036eae68d8a50] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 09:52:15.767658|::1| [trace] [5ee02552249b89a7610036eae68d8a50] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 09:53:09.076204|::1| [trace] [0ff880642f093f64ea6010ef65459fe7] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 09:53:09.148113|::1| [trace] [0ff880642f093f64ea6010ef65459fe7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 09:53:09.211134|::1| [trace] [0ff880642f093f64ea6010ef65459fe7] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 09:57:38.875425|::1| [trace] [b2e5474d84e68ac45de0b6b0b5b949d6] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 09:57:38.894839|::1| [trace] [b2e5474d84e68ac45de0b6b0b5b949d6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 09:57:38.910610|::1| [trace] [b2e5474d84e68ac45de0b6b0b5b949d6] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 09:59:21.246483|::1| [trace] [ba2c83e22ac38679a72b0c2aa3f16148] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 09:59:21.265117|::1| [trace] [ba2c83e22ac38679a72b0c2aa3f16148] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 09:59:21.279167|::1| [trace] [ba2c83e22ac38679a72b0c2aa3f16148] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:01:07.169801|::1| [trace] [74fe4e58a012868e8c013cc355fcae24] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:01:07.192065|::1| [trace] [74fe4e58a012868e8c013cc355fcae24] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:01:07.213692|::1| [trace] [74fe4e58a012868e8c013cc355fcae24] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:04:01.866449|::1| [trace] [cb12515ff78220afded308ec016466e8] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:04:01.880489|::1| [trace] [cb12515ff78220afded308ec016466e8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:04:01.891836|::1| [trace] [cb12515ff78220afded308ec016466e8] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:06:05.188972|::1| [trace] [71d04b94c5196a124713a6e590aa9147] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:06:05.203160|::1| [trace] [71d04b94c5196a124713a6e590aa9147] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:06:05.211076|::1| [trace] [71d04b94c5196a124713a6e590aa9147] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:09:29.381145|::1| [trace] [1066bf99f96f30aa4a86326b9d29aa44] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:09:29.508014|::1| [trace] [1066bf99f96f30aa4a86326b9d29aa44] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:09:29.566258|::1| [trace] [1066bf99f96f30aa4a86326b9d29aa44] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:12:51.966672|::1| [trace] [2a93b69102212c50b0b4ded6590bf481] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:12:52.008043|::1| [trace] [2a93b69102212c50b0b4ded6590bf481] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:12:52.033304|::1| [trace] [2a93b69102212c50b0b4ded6590bf481] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:16:43.517636|::1| [trace] [a86be93aa853a32d747209ec2daa04bc] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:16:43.528662|::1| [trace] [a86be93aa853a32d747209ec2daa04bc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:16:43.543315|::1| [trace] [a86be93aa853a32d747209ec2daa04bc] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:20:58.091728|::1| [trace] [fa706f563d9934cba18f1c48e32c3b6e] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:20:58.111722|::1| [trace] [fa706f563d9934cba18f1c48e32c3b6e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:20:58.126503|::1| [trace] [fa706f563d9934cba18f1c48e32c3b6e] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:21:58.959312|::1| [trace] [2ea2a6ff4aef6a7be0a00439fb3f19be] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:21:59.019094|::1| [trace] [2ea2a6ff4aef6a7be0a00439fb3f19be] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:21:59.049793|::1| [trace] [2ea2a6ff4aef6a7be0a00439fb3f19be] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:23:03.219213|::1| [trace] [e3131ce98ad1a416e08e0155755bedff] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:23:03.237896|::1| [trace] [e3131ce98ad1a416e08e0155755bedff] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:23:03.253478|::1| [trace] [e3131ce98ad1a416e08e0155755bedff] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:23:58.411571|::1| [trace] [9c0bc50b8f3dc16f592b891b188a01b7] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:23:58.474843|::1| [trace] [9c0bc50b8f3dc16f592b891b188a01b7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:23:58.521073|::1| [trace] [9c0bc50b8f3dc16f592b891b188a01b7] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:25:49.759799|::1| [trace] [68eefde6f5a4e7973ece3d769d7fcec2] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:25:49.774933|::1| [trace] [68eefde6f5a4e7973ece3d769d7fcec2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:25:49.785311|::1| [trace] [68eefde6f5a4e7973ece3d769d7fcec2] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:26:06.579204|::1| [trace] [b37ab6ba0bd18c3017250ba620e6efcd] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:26:06.672604|::1| [trace] [b37ab6ba0bd18c3017250ba620e6efcd] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:26:06.771606|::1| [trace] [b37ab6ba0bd18c3017250ba620e6efcd] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:26:24.222172|::1| [trace] [9833f9c0ef3fafcc169d60832303e400] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:26:24.244561|::1| [trace] [9833f9c0ef3fafcc169d60832303e400] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:26:24.261217|::1| [trace] [9833f9c0ef3fafcc169d60832303e400] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:26:41.643984|::1| [trace] [e69a557d425569dc1bbbf5189ae4d154] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:26:41.719677|::1| [trace] [e69a557d425569dc1bbbf5189ae4d154] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:26:41.776011|::1| [trace] [e69a557d425569dc1bbbf5189ae4d154] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:29:23.785675|::1| [trace] [5dc678e0ed5265f13c871abb3f05c37e] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:29:23.871556|::1| [trace] [5dc678e0ed5265f13c871abb3f05c37e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:29:23.945271|::1| [trace] [5dc678e0ed5265f13c871abb3f05c37e] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:31:08.585372|::1| [trace] [ff24deea5c6ae341039138532f7955c4] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:31:08.690077|::1| [trace] [ff24deea5c6ae341039138532f7955c4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:31:08.836327|::1| [trace] [ff24deea5c6ae341039138532f7955c4] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:41:24.804203|::1| [trace] [5b1fb7ea807f7770f81103d74e7f582e] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:41:24.827004|::1| [trace] [5b1fb7ea807f7770f81103d74e7f582e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:41:24.842108|::1| [trace] [5b1fb7ea807f7770f81103d74e7f582e] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:42:07.951267|::1| [trace] [672af18447534da2e01f85972b0eafad] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:42:08.011324|::1| [trace] [672af18447534da2e01f85972b0eafad] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:42:08.058711|::1| [trace] [672af18447534da2e01f85972b0eafad] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:44:56.599387|::1| [trace] [8dd1ff19f447358213f6f5ec84f0ebc9] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:44:56.637114|::1| [trace] [8dd1ff19f447358213f6f5ec84f0ebc9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:44:56.662576|::1| [trace] [8dd1ff19f447358213f6f5ec84f0ebc9] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:53:11.109622|::1| [trace] [2dcb1832f2ba26b1877d1871464c3219] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:53:11.133173|::1| [trace] [2dcb1832f2ba26b1877d1871464c3219] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:53:11.150337|::1| [trace] [2dcb1832f2ba26b1877d1871464c3219] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:57:02.928875|::1| [trace] [9d4b4fae28f282413989383641f56e89] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:57:02.938899|::1| [trace] [9d4b4fae28f282413989383641f56e89] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:57:02.951379|::1| [trace] [9d4b4fae28f282413989383641f56e89] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:57:32.394284|::1| [trace] [8f19542cc6542ebc2ccf969a8d418873] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:57:32.455061|::1| [trace] [8f19542cc6542ebc2ccf969a8d418873] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:57:32.536065|::1| [trace] [8f19542cc6542ebc2ccf969a8d418873] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:58:03.811675|::1| [trace] [ba99cfef842a1e345e8e7e01ffced3a7] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:58:03.870883|::1| [trace] [ba99cfef842a1e345e8e7e01ffced3a7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:58:03.931592|::1| [trace] [ba99cfef842a1e345e8e7e01ffced3a7] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:58:30.776961|::1| [trace] [75380e354e552caefbf35b9b5daaee98] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:58:30.792898|::1| [trace] [75380e354e552caefbf35b9b5daaee98] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:58:30.804510|::1| [trace] [75380e354e552caefbf35b9b5daaee98] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 10:59:14.030643|::1| [trace] [791e1e6e1385a65edbfc3a0b0c4d6ef7] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 10:59:14.115186|::1| [trace] [791e1e6e1385a65edbfc3a0b0c4d6ef7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 10:59:14.169523|::1| [trace] [791e1e6e1385a65edbfc3a0b0c4d6ef7] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:01:00.955463|::1| [trace] [0520a6d5f09fbc1351ce2208a8511bc6] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:01:01.042073|::1| [trace] [0520a6d5f09fbc1351ce2208a8511bc6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:01:01.111404|::1| [trace] [0520a6d5f09fbc1351ce2208a8511bc6] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:01:36.532990|::1| [trace] [80b0df2c0c1eb2ffc0e2097792ab09a8] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:01:36.633361|::1| [trace] [80b0df2c0c1eb2ffc0e2097792ab09a8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:01:36.745376|::1| [trace] [80b0df2c0c1eb2ffc0e2097792ab09a8] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:01:56.231904|::1| [trace] [a1f846d653d7e24ef3f604eb4352e919] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:01:56.246015|::1| [trace] [a1f846d653d7e24ef3f604eb4352e919] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:01:56.257970|::1| [trace] [a1f846d653d7e24ef3f604eb4352e919] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:02:21.049105|::1| [trace] [a7442ee98a59c81582eac0e2fcaa4153] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:02:21.062211|::1| [trace] [a7442ee98a59c81582eac0e2fcaa4153] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:02:21.072108|::1| [trace] [a7442ee98a59c81582eac0e2fcaa4153] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:03:33.640409|::1| [trace] [137d75746020b0cb11c580201351a51c] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:03:33.708352|::1| [trace] [137d75746020b0cb11c580201351a51c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:03:33.779277|::1| [trace] [137d75746020b0cb11c580201351a51c] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:14:01.270638|::1| [trace] [5285558ee648e56d3b8df75806c56a33] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:14:01.284363|::1| [trace] [5285558ee648e56d3b8df75806c56a33] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:14:01.296312|::1| [trace] [5285558ee648e56d3b8df75806c56a33] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:18:50.693053|::1| [trace] [970888fca97d1052822eaa9a9bd70bc0] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:18:50.710231|::1| [trace] [970888fca97d1052822eaa9a9bd70bc0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:18:50.725162|::1| [trace] [970888fca97d1052822eaa9a9bd70bc0] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:19:18.126739|::1| [trace] [45061ce05deacaf71e34b2e2cfc94be4] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:19:18.171860|::1| [trace] [45061ce05deacaf71e34b2e2cfc94be4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:19:18.203726|::1| [trace] [45061ce05deacaf71e34b2e2cfc94be4] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:20:59.638473|::1| [trace] [9604dfbf9cadac4a4ce399653c345825] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:20:59.653633|::1| [trace] [9604dfbf9cadac4a4ce399653c345825] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:20:59.664443|::1| [trace] [9604dfbf9cadac4a4ce399653c345825] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:21:17.699332|::1| [trace] [d4cf4406d4f917becc571fc95c380205] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:21:17.709403|::1| [trace] [d4cf4406d4f917becc571fc95c380205] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:21:17.716872|::1| [trace] [d4cf4406d4f917becc571fc95c380205] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:21:59.305157|::1| [trace] [73350d86e9bdae790d874e4910967191] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:21:59.318366|::1| [trace] [73350d86e9bdae790d874e4910967191] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:21:59.327157|::1| [trace] [73350d86e9bdae790d874e4910967191] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:23:40.180561|::1| [trace] [7f68a2fa8159bcde66aa443b404a33b6] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:23:40.200584|::1| [trace] [7f68a2fa8159bcde66aa443b404a33b6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:23:40.214648|::1| [trace] [7f68a2fa8159bcde66aa443b404a33b6] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:25:27.388617|::1| [trace] [f938a0d56e1fd77bac72e5b36a8616dd] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:25:27.402184|::1| [trace] [f938a0d56e1fd77bac72e5b36a8616dd] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:25:27.412935|::1| [trace] [f938a0d56e1fd77bac72e5b36a8616dd] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:26:12.985245|::1| [trace] [9a03bbd82f147fa53c455712796d7714] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:26:12.999290|::1| [trace] [9a03bbd82f147fa53c455712796d7714] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:26:13.009433|::1| [trace] [9a03bbd82f147fa53c455712796d7714] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:27:09.072129|::1| [trace] [2985d31965d43b4dd668df4e0c10dc4f] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:27:09.154412|::1| [trace] [2985d31965d43b4dd668df4e0c10dc4f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:27:09.196480|::1| [trace] [2985d31965d43b4dd668df4e0c10dc4f] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:27:10.655345|::1| [trace] [a6bf5aa45539a69d86117aa8928582ff] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:27:10.662754|::1| [trace] [a6bf5aa45539a69d86117aa8928582ff] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:27:10.669965|::1| [trace] [a6bf5aa45539a69d86117aa8928582ff] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:27:36.425611|::1| [trace] [f818118cb73d7ba113dadc8e28abcfe4] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:27:36.441015|::1| [trace] [f818118cb73d7ba113dadc8e28abcfe4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:27:36.453531|::1| [trace] [f818118cb73d7ba113dadc8e28abcfe4] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:29:47.605916|::1| [trace] [3d79946f5711319462d60aea77900240] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:29:47.626960|::1| [trace] [3d79946f5711319462d60aea77900240] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:29:47.640861|::1| [trace] [3d79946f5711319462d60aea77900240] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:30:14.994087|::1| [trace] [e6f0f220c21375461279f684c1d65091] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:30:15.009289|::1| [trace] [e6f0f220c21375461279f684c1d65091] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:30:15.018275|::1| [trace] [e6f0f220c21375461279f684c1d65091] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:31:17.929985|::1| [trace] [344438ceb25e74d893aa2983a2032583] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:31:17.941726|::1| [trace] [344438ceb25e74d893aa2983a2032583] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:31:17.949105|::1| [trace] [344438ceb25e74d893aa2983a2032583] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:32:03.914027|::1| [trace] [71d3a4f3f5ad9d70cdd49a3ab1cb9e2a] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:32:03.921732|::1| [trace] [71d3a4f3f5ad9d70cdd49a3ab1cb9e2a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:32:03.927028|::1| [trace] [71d3a4f3f5ad9d70cdd49a3ab1cb9e2a] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:32:07.222605|::1| [trace] [1aa44675f188196c3c780d6381223e59] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:32:07.229893|::1| [trace] [1aa44675f188196c3c780d6381223e59] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:32:07.236118|::1| [trace] [1aa44675f188196c3c780d6381223e59] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 11:42:39.927793|::1| [trace] [f1996a861a77a2194b9e403f3d18be2d] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 11:42:40.018699|::1| [trace] [f1996a861a77a2194b9e403f3d18be2d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 11:42:40.085935|::1| [trace] [f1996a861a77a2194b9e403f3d18be2d] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 12:35:32.364301|::1| [trace] [21152e4106b8c1d0fa8cac1857854743] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 12:35:32.399384|::1| [trace] [21152e4106b8c1d0fa8cac1857854743] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 12:35:32.420892|::1| [trace] [21152e4106b8c1d0fa8cac1857854743] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 12:39:49.617782|::1| [trace] [3322bdfa6d3bd9456ab491b1d18b5823] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 12:39:49.633183|::1| [trace] [3322bdfa6d3bd9456ab491b1d18b5823] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 12:39:49.647209|::1| [trace] [3322bdfa6d3bd9456ab491b1d18b5823] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 12:42:58.024318|::1| [trace] [0f439603d72d553da2f945fb3c03f88e] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 12:42:58.038180|::1| [trace] [0f439603d72d553da2f945fb3c03f88e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 12:42:58.049346|::1| [trace] [0f439603d72d553da2f945fb3c03f88e] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 12:42:59.594091|::1| [trace] [560b2317c6ef4272d54d8983483443fb] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 12:42:59.604526|::1| [trace] [560b2317c6ef4272d54d8983483443fb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 12:42:59.610811|::1| [trace] [560b2317c6ef4272d54d8983483443fb] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 12:43:16.068399|::1| [trace] [fa0cf3a1ff61d435b3145d041a2e7f78] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 12:43:16.089135|::1| [trace] [fa0cf3a1ff61d435b3145d041a2e7f78] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 12:43:16.102910|::1| [trace] [fa0cf3a1ff61d435b3145d041a2e7f78] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 12:44:06.220478|::1| [trace] [81f153a48961b997ab0499bb070a7154] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 12:44:06.234621|::1| [trace] [81f153a48961b997ab0499bb070a7154] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 12:44:06.246088|::1| [trace] [81f153a48961b997ab0499bb070a7154] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 12:44:07.625988|::1| [trace] [40697c34ed8807f2a2408971a337a60c] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 12:44:07.634819|::1| [trace] [40697c34ed8807f2a2408971a337a60c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 12:44:07.639717|::1| [trace] [40697c34ed8807f2a2408971a337a60c] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 12:44:53.789047|::1| [trace] [87f489652bd67e33a318471495b41a71] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 12:44:53.798396|::1| [trace] [87f489652bd67e33a318471495b41a71] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 12:44:53.811105|::1| [trace] [87f489652bd67e33a318471495b41a71] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 12:52:16.494116|::1| [trace] [a14a8115ff7615a54c71d7793e5a2f19] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 12:52:16.514657|::1| [trace] [a14a8115ff7615a54c71d7793e5a2f19] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 12:52:16.530231|::1| [trace] [a14a8115ff7615a54c71d7793e5a2f19] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 12:53:38.212017|::1| [trace] [2bf30bedab74ebc55f54d9b3629c614b] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 12:53:38.224966|::1| [trace] [2bf30bedab74ebc55f54d9b3629c614b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 12:53:38.233829|::1| [trace] [2bf30bedab74ebc55f54d9b3629c614b] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 12:54:50.011944|::1| [trace] [202c76e561f6ec5caefb3318204ace78] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 12:54:50.022968|::1| [trace] [202c76e561f6ec5caefb3318204ace78] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 12:54:50.029320|::1| [trace] [202c76e561f6ec5caefb3318204ace78] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 12:55:29.830801|::1| [trace] [0f88c26fc240b456c5075cc6d9c71c41] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 12:55:29.849370|::1| [trace] [0f88c26fc240b456c5075cc6d9c71c41] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 12:55:29.859857|::1| [trace] [0f88c26fc240b456c5075cc6d9c71c41] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 13:24:18.613583|::1| [trace] [7dd1b8cb76c92e337e986b956719e2a6] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 13:24:18.843287|::1| [trace] [7dd1b8cb76c92e337e986b956719e2a6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 13:24:18.971401|::1| [trace] [7dd1b8cb76c92e337e986b956719e2a6] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 13:28:03.589163|::1| [trace] [ef6483a720dc7c4b0414c1e0692310d1] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 13:28:03.618395|::1| [trace] [ef6483a720dc7c4b0414c1e0692310d1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 13:28:03.629307|::1| [trace] [ef6483a720dc7c4b0414c1e0692310d1] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 13:30:50.232114|::1| [trace] [b7d4c9685666c7f069b96d22cee40f4a] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 13:30:50.268891|::1| [trace] [b7d4c9685666c7f069b96d22cee40f4a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 13:30:50.293680|::1| [trace] [b7d4c9685666c7f069b96d22cee40f4a] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 13:33:19.205231|::1| [trace] [ea8b4b2468f861cedf48ac212ba16105] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 13:33:19.218940|::1| [trace] [ea8b4b2468f861cedf48ac212ba16105] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 13:33:19.234163|::1| [trace] [ea8b4b2468f861cedf48ac212ba16105] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 13:33:37.283130|::1| [trace] [46aeb8c70485ff4d3a7362aaa3bfc0f0] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 13:33:37.302109|::1| [trace] [46aeb8c70485ff4d3a7362aaa3bfc0f0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 13:33:37.316421|::1| [trace] [46aeb8c70485ff4d3a7362aaa3bfc0f0] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 13:34:33.248007|::1| [trace] [7478b97087474746ce98e1cf133bad44] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 13:34:33.258724|::1| [trace] [7478b97087474746ce98e1cf133bad44] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 13:34:33.265192|::1| [trace] [7478b97087474746ce98e1cf133bad44] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 15:21:35.584897|::1| [trace] [2c15dd34a9b276d418db12510113be38] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 15:21:35.697113|::1| [trace] [2c15dd34a9b276d418db12510113be38] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 15:21:35.730644|::1| [trace] [2c15dd34a9b276d418db12510113be38] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 15:22:19.971419|::1| [trace] [91969a8209476c53919666b6b4f68305] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 15:22:19.986140|::1| [trace] [91969a8209476c53919666b6b4f68305] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 15:22:19.997287|::1| [trace] [91969a8209476c53919666b6b4f68305] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 15:31:19.158102|::1| [trace] [93e6955de7e5c6c3a39bd3f4553a8bc3] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 15:31:19.171221|::1| [trace] [93e6955de7e5c6c3a39bd3f4553a8bc3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 15:31:19.186372|::1| [trace] [93e6955de7e5c6c3a39bd3f4553a8bc3] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 15:57:52.930480|::1| [trace] [b8534a113bd0bf745f119362ad1e65a0] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 15:57:52.949736|::1| [trace] [b8534a113bd0bf745f119362ad1e65a0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 15:57:52.963773|::1| [trace] [b8534a113bd0bf745f119362ad1e65a0] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 16:10:53.756958|::1| [trace] [27046c5990c24f6fb256a579fe74d9ee] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 16:10:53.777584|::1| [trace] [27046c5990c24f6fb256a579fe74d9ee] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 16:10:53.794950|::1| [trace] [27046c5990c24f6fb256a579fe74d9ee] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 16:11:31.248644|::1| [trace] [527d3de04c7c56c745429c7bf2b88926] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 16:11:31.327323|::1| [trace] [527d3de04c7c56c745429c7bf2b88926] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 16:11:31.398210|::1| [trace] [527d3de04c7c56c745429c7bf2b88926] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 16:11:39.219849|::1| [trace] [65056c4cc677098fedddb7ce3e5e9272] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 16:11:39.234045|::1| [trace] [65056c4cc677098fedddb7ce3e5e9272] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 16:11:39.242597|::1| [trace] [65056c4cc677098fedddb7ce3e5e9272] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 16:12:09.537789|::1| [trace] [ff620aa53e2e19905bcf82821d7d53cb] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 16:12:09.552081|::1| [trace] [ff620aa53e2e19905bcf82821d7d53cb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 16:12:09.563931|::1| [trace] [ff620aa53e2e19905bcf82821d7d53cb] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'
+20/04/2023 16:16:47.877336|::1| [trace] [a7707cc97bd133e3399463d41ea5af69] database.class.inc (33) Database->connect() : Connecting to database. task
+20/04/2023 16:16:47.920527|::1| [trace] [a7707cc97bd133e3399463d41ea5af69] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/04/2023 16:16:47.965284|::1| [trace] [a7707cc97bd133e3399463d41ea5af69] database.class.inc (50) Database->query() : select * from data where date > '2023-02-28' and date < '2023-04-01'

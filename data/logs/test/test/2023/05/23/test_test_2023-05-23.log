@@ -1,0 +1,20 @@
+#test/test/DESKTOP-JPEDOAG/::1/2023-05-23/10:09:13/
+23/05/2023 10:09:13.858084|::1| [trace] [93496853eacb74241440a6c138f6da6e] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+23/05/2023 10:09:13.955215|::1| [trace] [93496853eacb74241440a6c138f6da6e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+23/05/2023 10:09:20.756753|::1| [trace] [34b7094e4f5bf51369dc48eadea319b5] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+23/05/2023 10:09:20.759501|::1| [trace] [34b7094e4f5bf51369dc48eadea319b5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'nethaji', 'password' => '123', )
+23/05/2023 10:09:20.763848|::1| [trace] [34b7094e4f5bf51369dc48eadea319b5] database.class.inc (50) Database->query() : SELECT * FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+23/05/2023 10:09:20.790402|::1| [trace] [a2aadef9e5df0d7f66064ee9a5cd8c8b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+23/05/2023 10:09:20.794780|::1| [trace] [a2aadef9e5df0d7f66064ee9a5cd8c8b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+23/05/2023 10:09:21.004380|::1| [trace] [61cd29c9dad49c9f8d019e4636a4fc69] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+23/05/2023 10:09:21.009859|::1| [trace] [61cd29c9dad49c9f8d019e4636a4fc69] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'operator', )
+23/05/2023 10:09:21.013201|::1| [trace] [61cd29c9dad49c9f8d019e4636a4fc69] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+23/05/2023 10:09:21.021836|::1| [trace] [a81865cb0079d2c6169572ee55648b35] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+23/05/2023 10:09:21.025638|::1| [trace] [a81865cb0079d2c6169572ee55648b35] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'via_sub', )
+23/05/2023 10:09:21.028825|::1| [trace] [a81865cb0079d2c6169572ee55648b35] database.class.inc (50) Database->query() : SELECT via_sub FROM agency_list GROUP BY via_sub DESC
+23/05/2023 10:43:58.078282|::1| [trace] [00234645235518d22d9edb508672fc10] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+23/05/2023 10:43:58.089175|::1| [trace] [00234645235518d22d9edb508672fc10] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+23/05/2023 10:47:34.225132|::1| [trace] [f9151b861d3f19481cbc0e33dfe64d4f] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+23/05/2023 10:47:34.236097|::1| [trace] [f9151b861d3f19481cbc0e33dfe64d4f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+23/05/2023 10:47:47.523255|::1| [trace] [3cb6cef9ae2da5ec53fdceeefdffd6c3] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+23/05/2023 10:47:47.530559|::1| [trace] [3cb6cef9ae2da5ec53fdceeefdffd6c3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'uploadcsv' => '', )

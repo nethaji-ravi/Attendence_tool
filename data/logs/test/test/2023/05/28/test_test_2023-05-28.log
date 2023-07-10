@@ -1,0 +1,57 @@
+#test/test/MAHII/::1/2023-05-28/20:45:25/
+28/05/2023 20:45:25.523283|::1| [trace] [97d8b7c495afb0cdf703418a28bf2871] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:45:25.802761|::1| [trace] [97d8b7c495afb0cdf703418a28bf2871] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+28/05/2023 20:45:34.783818|::1| [trace] [026f64946cae55b8cd0d3fa4fb743bf3] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:45:34.788693|::1| [trace] [026f64946cae55b8cd0d3fa4fb743bf3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'negtha', 'password' => '123', )
+28/05/2023 20:45:34.797071|::1| [trace] [026f64946cae55b8cd0d3fa4fb743bf3] crud.init.php (22) CrudController->router() : hi
+28/05/2023 20:45:34.798259|::1| [trace] [026f64946cae55b8cd0d3fa4fb743bf3] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='negtha' AND password='123'
+28/05/2023 20:45:36.541520|::1| [trace] [91669a8dd629a90763fdb197b4f408ac] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:45:36.549012|::1| [trace] [91669a8dd629a90763fdb197b4f408ac] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'negtha', 'password' => '123', )
+28/05/2023 20:45:36.555079|::1| [trace] [91669a8dd629a90763fdb197b4f408ac] crud.init.php (22) CrudController->router() : hi
+28/05/2023 20:45:36.556045|::1| [trace] [91669a8dd629a90763fdb197b4f408ac] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='negtha' AND password='123'
+28/05/2023 20:45:37.578758|::1| [trace] [5bb62f6cdb092d28f6f0d4a79d62fe7b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:45:37.582542|::1| [trace] [5bb62f6cdb092d28f6f0d4a79d62fe7b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'negtha', 'password' => '123', )
+28/05/2023 20:45:37.587521|::1| [trace] [5bb62f6cdb092d28f6f0d4a79d62fe7b] crud.init.php (22) CrudController->router() : hi
+28/05/2023 20:45:37.588645|::1| [trace] [5bb62f6cdb092d28f6f0d4a79d62fe7b] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='negtha' AND password='123'
+28/05/2023 20:45:37.783955|::1| [trace] [e81aa92f80868ebbd10470bfb7b97fb4] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:45:37.787739|::1| [trace] [e81aa92f80868ebbd10470bfb7b97fb4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'negtha', 'password' => '123', )
+28/05/2023 20:45:37.792932|::1| [trace] [e81aa92f80868ebbd10470bfb7b97fb4] crud.init.php (22) CrudController->router() : hi
+28/05/2023 20:45:37.794285|::1| [trace] [e81aa92f80868ebbd10470bfb7b97fb4] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='negtha' AND password='123'
+28/05/2023 20:45:38.210654|::1| [trace] [1d2893eeacf78c3d0a0100d22c848156] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:45:38.214466|::1| [trace] [1d2893eeacf78c3d0a0100d22c848156] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'negtha', 'password' => '123', )
+28/05/2023 20:45:38.219531|::1| [trace] [1d2893eeacf78c3d0a0100d22c848156] crud.init.php (22) CrudController->router() : hi
+28/05/2023 20:45:38.220376|::1| [trace] [1d2893eeacf78c3d0a0100d22c848156] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='negtha' AND password='123'
+28/05/2023 20:45:38.415803|::1| [trace] [cc0f72ef564cc67ff6f4c79d13dfeb56] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:45:38.445841|::1| [trace] [cc0f72ef564cc67ff6f4c79d13dfeb56] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'negtha', 'password' => '123', )
+28/05/2023 20:45:38.488461|::1| [trace] [cc0f72ef564cc67ff6f4c79d13dfeb56] crud.init.php (22) CrudController->router() : hi
+28/05/2023 20:45:38.489298|::1| [trace] [cc0f72ef564cc67ff6f4c79d13dfeb56] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='negtha' AND password='123'
+28/05/2023 20:45:38.718652|::1| [trace] [a3cc43048a0b167306d6ac8f2b0664c9] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:45:38.722404|::1| [trace] [a3cc43048a0b167306d6ac8f2b0664c9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'negtha', 'password' => '123', )
+28/05/2023 20:45:38.729151|::1| [trace] [a3cc43048a0b167306d6ac8f2b0664c9] crud.init.php (22) CrudController->router() : hi
+28/05/2023 20:45:38.731697|::1| [trace] [a3cc43048a0b167306d6ac8f2b0664c9] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='negtha' AND password='123'
+28/05/2023 20:45:52.966563|::1| [trace] [32cacc3709af65f3e695118450047de8] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:45:52.972881|::1| [trace] [32cacc3709af65f3e695118450047de8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+28/05/2023 20:45:52.982249|::1| [trace] [32cacc3709af65f3e695118450047de8] crud.init.php (22) CrudController->router() : hi
+28/05/2023 20:45:52.983263|::1| [trace] [32cacc3709af65f3e695118450047de8] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+28/05/2023 20:45:56.181440|::1| [trace] [995d591da27ade77f8dca29b572185fc] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:45:56.199297|::1| [trace] [995d591da27ade77f8dca29b572185fc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+28/05/2023 20:45:56.211728|::1| [trace] [995d591da27ade77f8dca29b572185fc] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+28/05/2023 20:45:58.079128|::1| [trace] [2d2c5c78fbfb384fe2a05692672c3ea1] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:45:58.088016|::1| [trace] [2d2c5c78fbfb384fe2a05692672c3ea1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+28/05/2023 20:45:58.099008|::1| [trace] [2d2c5c78fbfb384fe2a05692672c3ea1] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+28/05/2023 20:49:01.678829|::1| [trace] [bd709fb54be2c5a4156b8314a7534777] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:49:01.689054|::1| [trace] [bd709fb54be2c5a4156b8314a7534777] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'negtha', 'password' => '12', )
+28/05/2023 20:49:01.701828|::1| [trace] [bd709fb54be2c5a4156b8314a7534777] crud.init.php (22) CrudController->router() : hi
+28/05/2023 20:49:01.703174|::1| [trace] [bd709fb54be2c5a4156b8314a7534777] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='negtha' AND password='12'
+28/05/2023 20:49:45.907174|::1| [trace] [76f57bc17f305caa4a0037a8cad21dcd] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:49:45.913902|::1| [trace] [76f57bc17f305caa4a0037a8cad21dcd] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'negtha', 'password' => '123', )
+28/05/2023 20:49:45.921901|::1| [trace] [76f57bc17f305caa4a0037a8cad21dcd] crud.init.php (22) CrudController->router() : hi
+28/05/2023 20:49:45.923093|::1| [trace] [76f57bc17f305caa4a0037a8cad21dcd] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='negtha' AND password='123'
+28/05/2023 20:52:38.162756|::1| [trace] [e07769d84862ea4cd74ea6191cf4254f] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:52:38.171547|::1| [trace] [e07769d84862ea4cd74ea6191cf4254f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'negtha', 'password' => '12', )
+28/05/2023 20:52:38.179018|::1| [trace] [e07769d84862ea4cd74ea6191cf4254f] crud.init.php (22) CrudController->router() : hi
+28/05/2023 20:52:38.182555|::1| [trace] [e07769d84862ea4cd74ea6191cf4254f] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='negtha' AND password='12'
+28/05/2023 20:54:53.072186|::1| [trace] [38fefccea989688b14b4476fade1f906] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+28/05/2023 20:54:53.081815|::1| [trace] [38fefccea989688b14b4476fade1f906] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'negtha', 'password' => '12', )
+28/05/2023 20:54:53.092760|::1| [trace] [38fefccea989688b14b4476fade1f906] crud.init.php (22) CrudController->router() : hi
+28/05/2023 20:54:53.094044|::1| [trace] [38fefccea989688b14b4476fade1f906] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='negtha' AND password='12'

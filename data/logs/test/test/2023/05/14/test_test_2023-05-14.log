@@ -1,0 +1,259 @@
+#test/test/MAHII/::1/2023-05-14/12:27:23/
+14/05/2023 12:27:23.716716|::1| [trace] [085079d76fb64491bfeb31c5c0b58246] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 12:27:23.768372|::1| [trace] [085079d76fb64491bfeb31c5c0b58246] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 12:27:31.936007|::1| [trace] [a5dd26246df6eea95014c31d17a43291] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 12:27:31.942292|::1| [trace] [a5dd26246df6eea95014c31d17a43291] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahesh', 'password' => '123', )
+14/05/2023 12:27:31.949342|::1| [trace] [a5dd26246df6eea95014c31d17a43291] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahesh','123')
+14/05/2023 12:27:32.041181|::1| [trace] [85cdc7132965d9ecacf489ccc6d4061a] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 12:27:32.048351|::1| [trace] [85cdc7132965d9ecacf489ccc6d4061a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 13:00:01.198735|::1| [trace] [880134c1005d2c82b59eb77c01c95e75] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 13:00:01.220314|::1| [trace] [880134c1005d2c82b59eb77c01c95e75] action (115) include_once() : array ( 'agency-name' => '', 'agency-description' => '', 'flow' => 'web-ni', 'rule' => 'on', 'operator' => 'equals', 'master-point' => 'equals', 'via-sub' => '6222', 'click-id' => '', 'click-id-2' => '', 'publisher-id' => '', 'subscription-callback-url' => '', 'unsubscription-callback-url' => '', )
+14/05/2023 13:00:04.838530|::1| [trace] [7dc746fbc593bed14cef358c150b8cf2] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 13:00:04.849435|::1| [trace] [7dc746fbc593bed14cef358c150b8cf2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:24:27.793941|::1| [trace] [d9e8041bc9959dc8f37170d0103fa4be] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:24:28.222946|::1| [trace] [d9e8041bc9959dc8f37170d0103fa4be] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', )
+14/05/2023 15:24:28.537009|::1| [trace] [d9e8041bc9959dc8f37170d0103fa4be] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('','')
+14/05/2023 15:24:28.696644|::1| [trace] [b6e97f9e96f8e68402c1d93b2e211158] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:24:28.712106|::1| [trace] [b6e97f9e96f8e68402c1d93b2e211158] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:25:25.959544|::1| [trace] [607c131244af44c0f454e104061f882e] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:25:25.984955|::1| [trace] [607c131244af44c0f454e104061f882e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', )
+14/05/2023 15:25:26.006216|::1| [trace] [607c131244af44c0f454e104061f882e] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('','')
+14/05/2023 15:25:26.069519|::1| [trace] [4bf66e7b12f97bfcf3925daa6ba95769] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:25:26.082667|::1| [trace] [4bf66e7b12f97bfcf3925daa6ba95769] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:27:56.404130|::1| [trace] [823b741fd0a2ebad7f595109e2434f9f] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:27:56.417663|::1| [trace] [823b741fd0a2ebad7f595109e2434f9f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:28:01.346642|::1| [trace] [15e3f12d6b1d3919d74f2dc75fda5ac6] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:28:01.362010|::1| [trace] [15e3f12d6b1d3919d74f2dc75fda5ac6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:28:09.747067|::1| [trace] [2418071b0d5981bf87fed22cbd372841] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:28:09.756562|::1| [trace] [2418071b0d5981bf87fed22cbd372841] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahii', 'password' => '123', )
+14/05/2023 15:28:09.765511|::1| [trace] [2418071b0d5981bf87fed22cbd372841] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahii','123')
+14/05/2023 15:28:09.786253|::1| [trace] [5789a9913f68ea69f11cbd3bafe92037] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:28:09.793433|::1| [trace] [5789a9913f68ea69f11cbd3bafe92037] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahii', 'password' => '123', )
+14/05/2023 15:28:09.816984|::1| [trace] [807c60893ac867d4bb18c3e4b141176f] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:28:09.829361|::1| [trace] [807c60893ac867d4bb18c3e4b141176f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:31:11.494499|::1| [trace] [e2870fa4e2d6931af34bae53d3e6a607] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:31:11.505564|::1| [trace] [e2870fa4e2d6931af34bae53d3e6a607] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahii', 'password' => '123', )
+14/05/2023 15:31:11.520905|::1| [trace] [e2870fa4e2d6931af34bae53d3e6a607] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahii','123')
+14/05/2023 15:31:11.545531|::1| [trace] [80ed6234a1c8d4106f87b334f4156e25] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:31:11.551731|::1| [trace] [80ed6234a1c8d4106f87b334f4156e25] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahii', 'password' => '123', )
+14/05/2023 15:31:11.574178|::1| [trace] [af8977857e8b6e9107ea9ce2c982e3c5] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:31:11.587354|::1| [trace] [af8977857e8b6e9107ea9ce2c982e3c5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:31:25.621385|::1| [trace] [5838015302bb1ec3785096f6b690937a] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:31:25.630373|::1| [trace] [5838015302bb1ec3785096f6b690937a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahii', 'password' => '123', )
+14/05/2023 15:31:31.289695|::1| [trace] [4ddaee02936d2ab5833a3842b8d92879] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:31:31.295325|::1| [trace] [4ddaee02936d2ab5833a3842b8d92879] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => '21mcap16', 'password' => '7yhjm', )
+14/05/2023 15:31:31.303430|::1| [trace] [4ddaee02936d2ab5833a3842b8d92879] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('21mcap16','7yhjm')
+14/05/2023 15:31:31.323672|::1| [trace] [24c4521be73247f6ef0f34cb9ee47ef4] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:31:31.330318|::1| [trace] [24c4521be73247f6ef0f34cb9ee47ef4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => '21mcap16', 'password' => '7yhjm', )
+14/05/2023 15:31:31.350156|::1| [trace] [035776378b981519cf95d206e8422d1f] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:31:31.363162|::1| [trace] [035776378b981519cf95d206e8422d1f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:32:19.558273|::1| [trace] [5a95efecac497c9eecde4b7be75035d9] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:32:19.568433|::1| [trace] [5a95efecac497c9eecde4b7be75035d9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => '21mcap16', 'password' => '7yhjm', )
+14/05/2023 15:32:25.983355|::1| [trace] [61142ac69aef89100273003bab0cc732] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:32:25.994086|::1| [trace] [61142ac69aef89100273003bab0cc732] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahii', 'password' => 'jn ', )
+14/05/2023 15:32:26.006650|::1| [trace] [61142ac69aef89100273003bab0cc732] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahii','jn ')
+14/05/2023 15:32:26.023572|::1| [trace] [1b22edcc4546009b936c8b4e933c0491] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:32:26.028095|::1| [trace] [1b22edcc4546009b936c8b4e933c0491] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahii', 'password' => 'jn ', )
+14/05/2023 15:32:26.046801|::1| [trace] [b8e9beb24658ee8204c12f5ab5e38113] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:32:26.059705|::1| [trace] [b8e9beb24658ee8204c12f5ab5e38113] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:32:45.665575|::1| [trace] [5818fef640869b4eec19c0ec5e7ca8e6] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:32:45.672766|::1| [trace] [5818fef640869b4eec19c0ec5e7ca8e6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahii', 'password' => 'jn ', )
+14/05/2023 15:32:51.268579|::1| [trace] [c721be6c64ce3b17f81618c7d7c05149] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:32:51.276148|::1| [trace] [c721be6c64ce3b17f81618c7d7c05149] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahii', 'password' => 'kjn', )
+14/05/2023 15:32:51.285723|::1| [trace] [c721be6c64ce3b17f81618c7d7c05149] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahii','kjn')
+14/05/2023 15:32:51.309071|::1| [trace] [5c1c4e435a9dbf94e162f323853f07f0] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:32:51.321656|::1| [trace] [5c1c4e435a9dbf94e162f323853f07f0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:33:58.605382|::1| [trace] [3829385c68aede537e6602353296b25b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:33:58.622735|::1| [trace] [3829385c68aede537e6602353296b25b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:33:59.654268|::1| [trace] [296dfe03833bef59ff8344357a2e7006] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:33:59.669035|::1| [trace] [296dfe03833bef59ff8344357a2e7006] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:34:00.366708|::1| [trace] [1b62ff8219bbc141ed9d044e1e113bba] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:34:00.382707|::1| [trace] [1b62ff8219bbc141ed9d044e1e113bba] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:34:06.864398|::1| [trace] [a3bbf2f1936ebeb3906c8412a7639267] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:34:06.876585|::1| [trace] [a3bbf2f1936ebeb3906c8412a7639267] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:34:14.554188|::1| [trace] [4ab309e1047cc4ae09dc54229a956f29] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:34:14.581917|::1| [trace] [4ab309e1047cc4ae09dc54229a956f29] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahesh', 'password' => 'kjhgv', )
+14/05/2023 15:34:14.587546|::1| [trace] [4ab309e1047cc4ae09dc54229a956f29] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahesh','kjhgv')
+14/05/2023 15:34:14.642188|::1| [trace] [48c8dcdd359c09cd2abaa3d1b098e3df] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:34:14.647799|::1| [trace] [48c8dcdd359c09cd2abaa3d1b098e3df] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahesh', 'password' => 'kjhgv', )
+14/05/2023 15:34:14.664931|::1| [trace] [44885b1c3f484b2145e40e4cd63a51fa] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:34:14.678306|::1| [trace] [44885b1c3f484b2145e40e4cd63a51fa] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:34:24.624640|::1| [trace] [7dc5902007a9d44145164c6b9a3043c4] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:34:24.640413|::1| [trace] [7dc5902007a9d44145164c6b9a3043c4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:35:00.998501|::1| [trace] [83b4ff91f56791446341a541e6192b64] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:35:01.030456|::1| [trace] [83b4ff91f56791446341a541e6192b64] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:35:03.566195|::1| [trace] [7b58513068c0d1adc52350ffdeae9a1c] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:35:03.579786|::1| [trace] [7b58513068c0d1adc52350ffdeae9a1c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:35:04.589983|::1| [trace] [957428bea5b70c3366a715e232f1a293] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:35:04.601227|::1| [trace] [957428bea5b70c3366a715e232f1a293] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:35:10.641319|::1| [trace] [bf2187a4d316143811b464c4c6bda8f5] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:35:10.646908|::1| [trace] [bf2187a4d316143811b464c4c6bda8f5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahesh', 'password' => 'gfc ', )
+14/05/2023 15:35:10.653275|::1| [trace] [bf2187a4d316143811b464c4c6bda8f5] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahesh','gfc ')
+14/05/2023 15:35:10.678746|::1| [trace] [92c3a9f3ff1807056a5ab690751cbe52] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:35:10.683327|::1| [trace] [92c3a9f3ff1807056a5ab690751cbe52] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahesh', 'password' => 'gfc ', )
+14/05/2023 15:35:10.715461|::1| [trace] [b651b91d240cbf1be5e210fd81c920e2] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:35:10.739845|::1| [trace] [b651b91d240cbf1be5e210fd81c920e2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:35:48.510955|::1| [trace] [8293cdd3347f2363c3dcb412eff2ff29] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:35:48.516762|::1| [trace] [8293cdd3347f2363c3dcb412eff2ff29] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahesh', 'password' => 'gfc ', )
+14/05/2023 15:35:55.310682|::1| [trace] [5c6736172bac796577dc3f3783889264] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:35:55.316740|::1| [trace] [5c6736172bac796577dc3f3783889264] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahesh', 'password' => 'hgvhb', )
+14/05/2023 15:35:55.327163|::1| [trace] [5c6736172bac796577dc3f3783889264] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahesh','hgvhb')
+14/05/2023 15:35:55.347356|::1| [trace] [2eac61f59fcaf6359818f09dff88a216] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:35:55.352612|::1| [trace] [2eac61f59fcaf6359818f09dff88a216] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahesh', 'password' => 'hgvhb', )
+14/05/2023 15:36:28.997689|::1| [trace] [9eb7ee45918969b2b8b33f6448361215] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:36:29.012603|::1| [trace] [9eb7ee45918969b2b8b33f6448361215] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahesh', 'password' => 'hgvhb', )
+14/05/2023 15:36:38.646342|::1| [trace] [63b6ab20b87a6c0cf251ea9591634e33] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:36:38.656881|::1| [trace] [63b6ab20b87a6c0cf251ea9591634e33] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahesh', 'password' => 'hvhj', )
+14/05/2023 15:36:38.664372|::1| [trace] [63b6ab20b87a6c0cf251ea9591634e33] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahesh','hvhj')
+14/05/2023 15:36:38.681117|::1| [trace] [a4937ea00a0738e1dbbdd5fdd47165e6] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:36:38.686755|::1| [trace] [a4937ea00a0738e1dbbdd5fdd47165e6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahesh', 'password' => 'hvhj', )
+14/05/2023 15:36:38.704171|::1| [trace] [0f6fc0cdacd0a3c7947cb62c86176edc] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:36:38.720071|::1| [trace] [0f6fc0cdacd0a3c7947cb62c86176edc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:36:58.196176|::1| [trace] [219d1de57be6402301bd5e5602398eeb] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:36:58.204493|::1| [trace] [219d1de57be6402301bd5e5602398eeb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahesh', 'password' => 'hvhj', )
+14/05/2023 15:37:04.700570|::1| [trace] [964e02413ff83b698d8f4d909b26053a] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:37:04.710450|::1| [trace] [964e02413ff83b698d8f4d909b26053a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => '21mcap16', 'password' => 'kj', )
+14/05/2023 15:37:04.731106|::1| [trace] [949fc964ed35cc79140ab3719bf7ffc7] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:37:04.737577|::1| [trace] [949fc964ed35cc79140ab3719bf7ffc7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => '21mcap16', 'password' => 'kj', )
+14/05/2023 15:37:04.758213|::1| [trace] [c41a564bb2e00af3423a57e0ade379c1] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:37:04.771805|::1| [trace] [c41a564bb2e00af3423a57e0ade379c1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:37:16.213267|::1| [trace] [76406ab1be233804f0f00b645bd73145] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:37:16.223145|::1| [trace] [76406ab1be233804f0f00b645bd73145] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahii', 'password' => 'k', )
+14/05/2023 15:37:16.266551|::1| [trace] [75d271ebb419591af4fb839ced1ff7a0] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:37:16.281685|::1| [trace] [75d271ebb419591af4fb839ced1ff7a0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:37:16.309529|::1| [trace] [f73b652e691fa0bdcef66aa2d156acb7] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:37:16.315387|::1| [trace] [f73b652e691fa0bdcef66aa2d156acb7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahii', 'password' => 'k', )
+14/05/2023 15:37:45.477684|::1| [trace] [053100b5bae1bd4cb2595a42e0b65096] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:37:45.486768|::1| [trace] [053100b5bae1bd4cb2595a42e0b65096] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahii', 'password' => 'k', )
+14/05/2023 15:37:52.583298|::1| [trace] [05a4f93b3dbf492ade6fcb944eed6e3d] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:37:52.592425|::1| [trace] [05a4f93b3dbf492ade6fcb944eed6e3d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahesh1832001@gmail.com', 'password' => 'oihgv ', )
+14/05/2023 15:37:52.626630|::1| [trace] [4d7ed565654478bd1315dbe46e81f5ee] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:37:52.635109|::1| [trace] [4d7ed565654478bd1315dbe46e81f5ee] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahesh1832001@gmail.com', 'password' => 'oihgv ', )
+14/05/2023 15:38:08.806524|::1| [trace] [6d71bed337ef9a2752082c21d573aff1] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:38:08.815457|::1| [trace] [6d71bed337ef9a2752082c21d573aff1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahesh1832001@gmail.com', 'password' => 'oihgv ', )
+14/05/2023 15:38:14.780878|::1| [trace] [5d90ea3965ce27f802246a3ba08108dc] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:38:14.788638|::1| [trace] [5d90ea3965ce27f802246a3ba08108dc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahesh', 'password' => 'dfcgvhbjn', )
+14/05/2023 15:38:14.830280|::1| [trace] [f5b56b9d5a462e9e8e21b87b151e2984] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:38:14.851464|::1| [trace] [f5b56b9d5a462e9e8e21b87b151e2984] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:38:47.936721|::1| [trace] [1ed51af2c47d0cdd9aa3b8dda556d665] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:38:47.976969|::1| [trace] [1ed51af2c47d0cdd9aa3b8dda556d665] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:40:30.260365|::1| [trace] [9f19adee3a319de6d62b2d7310536bca] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:40:30.280082|::1| [trace] [9f19adee3a319de6d62b2d7310536bca] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:41:31.923134|::1| [trace] [0ec2e4d7bdfe4977063336f9775a1a4b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:41:31.941024|::1| [trace] [0ec2e4d7bdfe4977063336f9775a1a4b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:42:14.059036|::1| [trace] [e0e08ec224d10c65856def9c27a48bcb] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:42:14.073231|::1| [trace] [e0e08ec224d10c65856def9c27a48bcb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:42:37.166080|::1| [trace] [ec7aba7880c3807584b8485f3936d566] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:42:37.183475|::1| [trace] [ec7aba7880c3807584b8485f3936d566] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:43:02.019437|::1| [trace] [ba8633fc756c5932074ec88af75b166e] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:43:02.042617|::1| [trace] [ba8633fc756c5932074ec88af75b166e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:43:07.616712|::1| [trace] [a858ca8d1599a8cd2eee967fde0e8bb6] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:43:07.626353|::1| [trace] [a858ca8d1599a8cd2eee967fde0e8bb6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahesh', 'password' => 'ed', )
+14/05/2023 15:43:07.647804|::1| [trace] [a858ca8d1599a8cd2eee967fde0e8bb6] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahesh','ed')
+14/05/2023 15:43:07.653970|::1| [trace] [a858ca8d1599a8cd2eee967fde0e8bb6] crud.init.php (23) CrudController->router() : 1
+14/05/2023 15:43:07.686438|::1| [trace] [7bf27d9828f41e2e8b3b40294b8d17aa] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:43:07.699632|::1| [trace] [7bf27d9828f41e2e8b3b40294b8d17aa] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:43:57.377136|::1| [trace] [c3f6507bcbfe192712c32c5b370d99b1] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:43:57.394561|::1| [trace] [c3f6507bcbfe192712c32c5b370d99b1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:44:01.968594|::1| [trace] [99c8247a3d0c4d47108fc8577ede6c5f] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:44:01.982628|::1| [trace] [99c8247a3d0c4d47108fc8577ede6c5f] action (115) include_once() : array ( 'application' => 'crud', 'actioindex' => '', )
+14/05/2023 15:44:12.190088|::1| [trace] [34216466c9191faf3179734910661b40] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:44:12.205707|::1| [trace] [34216466c9191faf3179734910661b40] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:44:18.526231|::1| [trace] [b4a57436759f44df22ec206fbda48611] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:44:18.532737|::1| [trace] [b4a57436759f44df22ec206fbda48611] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahesh1832001@gmail.com', 'password' => 'jhb ', )
+14/05/2023 15:44:18.554481|::1| [trace] [b4a57436759f44df22ec206fbda48611] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahesh1832001@gmail.com','jhb ')
+14/05/2023 15:44:18.559335|::1| [trace] [b4a57436759f44df22ec206fbda48611] crud.init.php (23) CrudController->router() : 1
+14/05/2023 15:44:18.586723|::1| [trace] [73358324b6ac632e14dbe189191f5e9a] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:44:18.603832|::1| [trace] [73358324b6ac632e14dbe189191f5e9a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:44:54.447299|::1| [trace] [54a659b680c7a3d8041bf37411006dd8] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:44:54.467906|::1| [trace] [54a659b680c7a3d8041bf37411006dd8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:45:02.650944|::1| [trace] [695e63dd66f13b12017eb49d142ec777] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:45:02.657229|::1| [trace] [695e63dd66f13b12017eb49d142ec777] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahesh', 'password' => 'wdc', )
+14/05/2023 15:45:02.670996|::1| [trace] [695e63dd66f13b12017eb49d142ec777] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahesh','wdc')
+14/05/2023 15:45:02.676362|::1| [trace] [695e63dd66f13b12017eb49d142ec777] crud.init.php (23) CrudController->router() : 1
+14/05/2023 15:45:02.705128|::1| [trace] [d1726701766ead734cbd76c8be756dfe] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:45:02.710542|::1| [trace] [d1726701766ead734cbd76c8be756dfe] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahesh', 'password' => 'wdc', )
+14/05/2023 15:45:02.747359|::1| [trace] [5a7cd83ee5878aaa79e648d2609c3c52] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:45:02.762026|::1| [trace] [5a7cd83ee5878aaa79e648d2609c3c52] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:45:15.945647|::1| [trace] [99d974cf21ce14c1a3b0691d9d0f0b1e] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:45:15.957097|::1| [trace] [99d974cf21ce14c1a3b0691d9d0f0b1e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahesh', 'password' => 'wdc', )
+14/05/2023 15:45:23.490994|::1| [trace] [17f2c504087cb25ecf905fa76b1295c9] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:45:23.500078|::1| [trace] [17f2c504087cb25ecf905fa76b1295c9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahiiboy', 'password' => 'kjhbv ', )
+14/05/2023 15:45:23.520740|::1| [trace] [17f2c504087cb25ecf905fa76b1295c9] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahiiboy','kjhbv ')
+14/05/2023 15:45:23.563950|::1| [trace] [17f2c504087cb25ecf905fa76b1295c9] crud.init.php (23) CrudController->router() : 1
+14/05/2023 15:45:23.578743|::1| [trace] [9c90e07429a2ca237cc569a822642a6e] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:45:23.590203|::1| [trace] [9c90e07429a2ca237cc569a822642a6e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:46:26.783894|::1| [trace] [ee1752448fe64477f783ad6ce2648e53] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:46:26.794431|::1| [trace] [ee1752448fe64477f783ad6ce2648e53] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'username' => 'mahesh', 'password' => 'wdc', )
+14/05/2023 15:46:31.917567|::1| [trace] [c58901eec778a582e8e4034c44349120] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:46:31.928414|::1| [trace] [c58901eec778a582e8e4034c44349120] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahesh1832001@gmail.com', 'password' => 'ghnm', )
+14/05/2023 15:46:31.937184|::1| [trace] [c58901eec778a582e8e4034c44349120] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahesh1832001@gmail.com','ghnm')
+14/05/2023 15:46:31.941176|::1| [trace] [c58901eec778a582e8e4034c44349120] crud.init.php (23) CrudController->router() : 1
+14/05/2023 15:46:31.971107|::1| [trace] [0e8b5e90c5d84177c2d0562e97d7e4ae] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:46:32.003657|::1| [trace] [0e8b5e90c5d84177c2d0562e97d7e4ae] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:48:49.452805|::1| [trace] [894c1e82c62643c01cb721d328938088] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:48:49.476317|::1| [trace] [894c1e82c62643c01cb721d328938088] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:48:51.713629|::1| [trace] [887ede150a71d5b84d33adc556f9709d] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:48:51.728867|::1| [trace] [887ede150a71d5b84d33adc556f9709d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:48:58.096782|::1| [trace] [71d7f4ea758dfa355c313e54dd27049b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:48:58.103194|::1| [trace] [71d7f4ea758dfa355c313e54dd27049b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahii', 'password' => 'jhbv', )
+14/05/2023 15:48:58.110325|::1| [trace] [71d7f4ea758dfa355c313e54dd27049b] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahii','jhbv')
+14/05/2023 15:48:58.163091|::1| [trace] [71d7f4ea758dfa355c313e54dd27049b] crud.init.php (23) CrudController->router() : 1
+14/05/2023 15:48:58.567658|::1| [trace] [d7060ba0ae3a5a6fd9069811f9058197] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:48:58.581459|::1| [trace] [d7060ba0ae3a5a6fd9069811f9058197] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:49:15.079663|::1| [trace] [27cccf33b1be845c20bf19221273dfcc] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:49:15.101140|::1| [trace] [27cccf33b1be845c20bf19221273dfcc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:49:20.717298|::1| [trace] [36d427454d262474627c4eca9eb7663b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:49:20.726887|::1| [trace] [36d427454d262474627c4eca9eb7663b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahesh1832001@gmail.com', 'password' => 'kjhv ', )
+14/05/2023 15:49:20.738548|::1| [trace] [36d427454d262474627c4eca9eb7663b] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahesh1832001@gmail.com','kjhv ')
+14/05/2023 15:49:20.781336|::1| [trace] [36d427454d262474627c4eca9eb7663b] crud.init.php (23) CrudController->router() : 1
+14/05/2023 15:49:20.797766|::1| [trace] [bf4ea89b2743386d115706f402673c76] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:49:20.805603|::1| [trace] [bf4ea89b2743386d115706f402673c76] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:49:50.459415|::1| [trace] [6ed06434d07636a16980330c710d98d1] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:49:50.472042|::1| [trace] [6ed06434d07636a16980330c710d98d1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 15:49:56.303080|::1| [trace] [f6a43ee71c1772d241fe844021887c7c] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:49:56.311742|::1| [trace] [f6a43ee71c1772d241fe844021887c7c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahii', 'password' => 'jhgv ', )
+14/05/2023 15:49:56.330321|::1| [trace] [f6a43ee71c1772d241fe844021887c7c] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahii','jhgv ')
+14/05/2023 15:49:56.335908|::1| [trace] [f6a43ee71c1772d241fe844021887c7c] crud.init.php (23) CrudController->router() : 1
+14/05/2023 15:49:56.365886|::1| [trace] [cfd1a20a6cb7cf4d27bbb88ae891dd06] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:49:56.385324|::1| [trace] [cfd1a20a6cb7cf4d27bbb88ae891dd06] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:51:56.420088|::1| [trace] [b43c6ca2c211ba65c8178334fd00601f] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:51:56.470267|::1| [trace] [b43c6ca2c211ba65c8178334fd00601f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 15:52:24.957009|::1| [trace] [f46fd985601c0ab84c1cc631b2557046] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:52:24.961996|::1| [trace] [f46fd985601c0ab84c1cc631b2557046] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahii12', 'password' => 'ndk', )
+14/05/2023 15:52:24.969495|::1| [trace] [f46fd985601c0ab84c1cc631b2557046] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahii12','ndk')
+14/05/2023 15:52:24.973037|::1| [trace] [f46fd985601c0ab84c1cc631b2557046] crud.init.php (23) CrudController->router() : 1
+14/05/2023 15:52:24.992420|::1| [trace] [85990f99969f5226a2147d7b92c39a45] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 15:52:25.004292|::1| [trace] [85990f99969f5226a2147d7b92c39a45] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 22:00:26.480041|::1| [trace] [149b3d8e24ce0b801c52b8e6824500c3] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 22:00:26.527925|::1| [trace] [149b3d8e24ce0b801c52b8e6824500c3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+14/05/2023 22:00:42.317634|::1| [trace] [1d8199ffa74c4d596c4889f02e450cca] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 22:00:42.328505|::1| [trace] [1d8199ffa74c4d596c4889f02e450cca] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'mahii', 'password' => '123', )
+14/05/2023 22:00:42.340115|::1| [trace] [1d8199ffa74c4d596c4889f02e450cca] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('mahii','123')
+14/05/2023 22:00:42.364336|::1| [trace] [1d8199ffa74c4d596c4889f02e450cca] crud.init.php (23) CrudController->router() : 1
+14/05/2023 22:00:42.386250|::1| [trace] [d9cf76a2d86b0363e172d423cc129bd4] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 22:00:42.395719|::1| [trace] [d9cf76a2d86b0363e172d423cc129bd4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 22:05:48.972580|::1| [trace] [01cc8ce11476733ae66fdda78f6f4360] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 22:05:49.030050|::1| [trace] [01cc8ce11476733ae66fdda78f6f4360] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 22:06:31.185887|::1| [trace] [107d2da5ccc96bdd8261a136cd04b48b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 22:06:31.200798|::1| [trace] [107d2da5ccc96bdd8261a136cd04b48b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 22:18:14.927932|::1| [trace] [e12d15c6266fb391504e37806f7c7bf4] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 22:18:14.938462|::1| [trace] [e12d15c6266fb391504e37806f7c7bf4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => '21mcap16', 'password' => '123', )
+14/05/2023 22:18:14.951891|::1| [trace] [e12d15c6266fb391504e37806f7c7bf4] crud.class.inc (50) Database->query() : INSERT INTO user_detail(user_name,PASSWORD) VALUES('21mcap16','123')
+14/05/2023 22:18:14.955508|::1| [trace] [e12d15c6266fb391504e37806f7c7bf4] crud.init.php (23) CrudController->router() : 1
+14/05/2023 22:18:14.972026|::1| [trace] [a10df5ca4dcae0d781f3a0d8b528823f] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 22:18:14.985940|::1| [trace] [a10df5ca4dcae0d781f3a0d8b528823f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 22:23:29.693886|::1| [trace] [66f5f6df1a3d5c8917e73f2b9f667e3c] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 22:23:29.710427|::1| [trace] [66f5f6df1a3d5c8917e73f2b9f667e3c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 22:25:11.257662|::1| [trace] [006b983558528c30d8b66273eb38a0b9] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 22:25:11.272804|::1| [trace] [006b983558528c30d8b66273eb38a0b9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 22:25:11.285722|::1| [trace] [006b983558528c30d8b66273eb38a0b9] database.class.inc (50) Database->query() : SELECT operator_name FROM operator_list
+14/05/2023 22:28:49.560353|::1| [trace] [111d4a07a4086fca3a917a4a6c5d3237] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 22:28:49.575820|::1| [trace] [111d4a07a4086fca3a917a4a6c5d3237] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 22:28:49.612742|::1| [trace] [111d4a07a4086fca3a917a4a6c5d3237] database.class.inc (50) Database->query() : SELECT operator_name FROM operator_list
+14/05/2023 22:29:34.518801|::1| [trace] [0a9d9fea280c3e88113494c61b329041] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 22:29:34.534116|::1| [trace] [0a9d9fea280c3e88113494c61b329041] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 22:29:34.542824|::1| [trace] [0a9d9fea280c3e88113494c61b329041] database.class.inc (50) Database->query() : SELECT operator_name FROM operator_list
+14/05/2023 22:33:20.510307|::1| [trace] [b95baca32208436cca781afea76be634] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+14/05/2023 22:33:20.525361|::1| [trace] [b95baca32208436cca781afea76be634] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+14/05/2023 22:33:20.540669|::1| [trace] [b95baca32208436cca781afea76be634] database.class.inc (50) Database->query() : SELECT operator_name FROM operator_list

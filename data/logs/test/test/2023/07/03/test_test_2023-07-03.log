@@ -1,0 +1,12 @@
+#test/test/DESKTOP-JPEDOAG/::1/2023-07-03/18:16:32/
+03/07/2023 18:16:32.103739|::1| [trace] [a3bd2996f19145c69cfb8728a87d0808] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+03/07/2023 18:16:32.151880|::1| [trace] [a3bd2996f19145c69cfb8728a87d0808] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+03/07/2023 18:16:41.428472|::1| [trace] [6f7dd64dcd6f94313148953fef8a3644] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+03/07/2023 18:16:41.441709|::1| [trace] [6f7dd64dcd6f94313148953fef8a3644] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+03/07/2023 18:16:41.455872|::1| [trace] [6f7dd64dcd6f94313148953fef8a3644] database.class.inc (50) Database->query() : SELECT user_id FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+03/07/2023 18:16:44.643222|::1| [trace] [0377974a13518c95173f47570b9cd1d0] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+03/07/2023 18:16:44.662772|::1| [trace] [0377974a13518c95173f47570b9cd1d0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+03/07/2023 18:16:44.669034|::1| [trace] [0377974a13518c95173f47570b9cd1d0] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+03/07/2023 18:16:53.418865|::1| [trace] [e19a66f00b811d7b948e40f30dd83d66] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+03/07/2023 18:16:53.424212|::1| [trace] [e19a66f00b811d7b948e40f30dd83d66] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewfilter', 'filterdate' => '2023-05-16', )
+03/07/2023 18:16:53.431864|::1| [trace] [e19a66f00b811d7b948e40f30dd83d66] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date = '2023-05-16'

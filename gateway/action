@@ -1,0 +1,45 @@
+<?php
+/*
+ * @company: 	Symbiotic Infotech Pvt. Ltd.
+ * @copyright: 	� Symbiotic Infotech Pvt. Ltd. 2011
+ *				All rights reserved.Any redistribution or reproduction of part
+ * 				or all of the contents in any form is prohibited. You may not,
+ * 				except with express written permission, distribute or
+ * 				commercially exploit or personally use the content.
+ * 				Nor may you transmit it or store it in any other media or
+ * 				other form of electronic or physical retrieval system.
+ *
+ * @filename:	action
+ * @filetype:	PHP
+ * @filedesc:	This is the primary gateway to all web pages
+ * 				from the framework. It includes the default
+ * 				framework along with other platforms view classes
+ * 				to provide a launch pad for most web page rendering
+ *
+ */
+//ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
+session_start();
+//Initialise the gateway
+global $gateway,$request,$tsResponse;
+
+//echo 'test 1';
+//Set the gateway type
+$gateway = 'action';
+
+//Initialise the basic frameworkC:\xampp\htdocs\reports\framework\initialise
+
+include_once 'C:\xampp\htdocs\php\tools\framework\initialise\framework.init.php';
+include_once 'C:\xampp\htdocs\php\tools\framework\initialise\helper.php';
+
+if(isset($request['responsetype']))
+	$responseType = strtolower(trim($request['responsetype']));
+	
+else 
+	$responseType = strtolower(trim($request['responseType']));
+	
+
+//Initialise the services data
+
+require_check_abs('application/'.$request['application'].'/'.$request['application'].'.init.php');
+
+?>

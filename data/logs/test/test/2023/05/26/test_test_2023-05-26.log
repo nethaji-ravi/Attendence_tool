@@ -1,0 +1,919 @@
+26/05/2023 11:18:52.784398|::1| [trace] [a0af6215a92b4217a5f733194252ed5e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:18:52.800263|::1| [trace] [a0af6215a92b4217a5f733194252ed5e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:19:50.111830|::1| [trace] [265b434d3f949447bfe375d4ad450968] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:19:50.115578|::1| [trace] [265b434d3f949447bfe375d4ad450968] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:19:52.732346|::1| [trace] [ff0ab27a5cbc0c8c632495fef5e38227] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:19:52.735064|::1| [trace] [ff0ab27a5cbc0c8c632495fef5e38227] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => '', 'password' => '', )
+26/05/2023 11:19:52.737560|::1| [trace] [ff0ab27a5cbc0c8c632495fef5e38227] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:19:52.738604|::1| [trace] [ff0ab27a5cbc0c8c632495fef5e38227] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='' AND password=''
+26/05/2023 11:19:58.933212|::1| [trace] [9c845b263254912e06d20df6d515d63b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:19:58.935648|::1| [trace] [9c845b263254912e06d20df6d515d63b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:19:58.938111|::1| [trace] [9c845b263254912e06d20df6d515d63b] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:19:58.938713|::1| [trace] [9c845b263254912e06d20df6d515d63b] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:20:48.271240|::1| [trace] [1bdfb9a0fd1f59a7334940b1ca24bd60] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:20:48.276133|::1| [trace] [1bdfb9a0fd1f59a7334940b1ca24bd60] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:22:28.988110|::1| [trace] [02890918ee82db5b55e77ba307e456e9] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:22:28.995737|::1| [trace] [02890918ee82db5b55e77ba307e456e9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:22:33.697010|::1| [trace] [e7aa4650d5c8b3f01df6e38992c71b45] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:22:33.699325|::1| [trace] [e7aa4650d5c8b3f01df6e38992c71b45] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:22:33.701999|::1| [trace] [e7aa4650d5c8b3f01df6e38992c71b45] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:22:33.702451|::1| [trace] [e7aa4650d5c8b3f01df6e38992c71b45] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:23:36.801955|::1| [trace] [16f91be9cf820f878267def52d426931] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:23:36.807871|::1| [trace] [16f91be9cf820f878267def52d426931] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:23:42.677479|::1| [trace] [8fc740ee3447e2d0f0d40a57907bc3be] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:23:42.680114|::1| [trace] [8fc740ee3447e2d0f0d40a57907bc3be] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:23:42.682780|::1| [trace] [8fc740ee3447e2d0f0d40a57907bc3be] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:23:42.683545|::1| [trace] [8fc740ee3447e2d0f0d40a57907bc3be] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:25:07.293426|::1| [trace] [b4bc388c899df2bc4ec9832bd2f60191] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:25:07.318563|::1| [trace] [b4bc388c899df2bc4ec9832bd2f60191] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:25:13.439397|::1| [trace] [0a397777c96145d62d763e0f2e18d42a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:25:13.441597|::1| [trace] [0a397777c96145d62d763e0f2e18d42a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:25:13.443902|::1| [trace] [0a397777c96145d62d763e0f2e18d42a] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:25:13.444545|::1| [trace] [0a397777c96145d62d763e0f2e18d42a] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:26:03.099236|::1| [trace] [58829bc29bdb0ecd41e5cbbeb3a84510] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:26:03.103708|::1| [trace] [58829bc29bdb0ecd41e5cbbeb3a84510] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:26:08.871330|::1| [trace] [27c678f71e361446d3f6eb3cf23f958e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:26:08.891637|::1| [trace] [27c678f71e361446d3f6eb3cf23f958e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'sss', 'password' => '123', )
+26/05/2023 11:26:08.893861|::1| [trace] [27c678f71e361446d3f6eb3cf23f958e] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:26:08.894434|::1| [trace] [27c678f71e361446d3f6eb3cf23f958e] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='sss' AND password='123'
+26/05/2023 11:26:26.481528|::1| [trace] [055bbe2a148bc40a2e0c0bf125856f81] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:26:26.486444|::1| [trace] [055bbe2a148bc40a2e0c0bf125856f81] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:26:32.477428|::1| [trace] [87c9cee46410d428f5df30821b326b68] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:26:32.480911|::1| [trace] [87c9cee46410d428f5df30821b326b68] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:26:32.483653|::1| [trace] [87c9cee46410d428f5df30821b326b68] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:26:32.484616|::1| [trace] [87c9cee46410d428f5df30821b326b68] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:27:43.930432|::1| [trace] [4834a0c376da36ca1a5126324789be23] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:27:43.954078|::1| [trace] [4834a0c376da36ca1a5126324789be23] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:27:49.332993|::1| [trace] [2288967966a286e8ac53e098f91d2066] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:27:49.350233|::1| [trace] [2288967966a286e8ac53e098f91d2066] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'sss', 'password' => '123', )
+26/05/2023 11:27:49.352561|::1| [trace] [2288967966a286e8ac53e098f91d2066] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:27:49.352902|::1| [trace] [2288967966a286e8ac53e098f91d2066] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='sss' AND password='123'
+26/05/2023 11:27:56.987531|::1| [trace] [c8edebe0f32ea3eced663283e11d6445] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:27:56.993225|::1| [trace] [c8edebe0f32ea3eced663283e11d6445] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:28:03.677634|::1| [trace] [90855b98d07836ab5bdd411a27af180a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:28:03.680157|::1| [trace] [90855b98d07836ab5bdd411a27af180a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:28:03.682122|::1| [trace] [90855b98d07836ab5bdd411a27af180a] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:28:03.682466|::1| [trace] [90855b98d07836ab5bdd411a27af180a] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:28:24.047816|::1| [trace] [2a14d8676b21f115ebfd9bef2158f031] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:28:24.069761|::1| [trace] [2a14d8676b21f115ebfd9bef2158f031] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:28:29.360343|::1| [trace] [e1d410561528cb023c0f8c167b5e406f] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:28:29.363173|::1| [trace] [e1d410561528cb023c0f8c167b5e406f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:28:29.367264|::1| [trace] [e1d410561528cb023c0f8c167b5e406f] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:28:29.367633|::1| [trace] [e1d410561528cb023c0f8c167b5e406f] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:29:15.898799|::1| [trace] [38d025962882fb396a2582861cf3e252] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:29:15.903908|::1| [trace] [38d025962882fb396a2582861cf3e252] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:29:23.002536|::1| [trace] [defe47e596ebba945e54c09235bb3c10] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:29:23.005574|::1| [trace] [defe47e596ebba945e54c09235bb3c10] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:29:23.009603|::1| [trace] [defe47e596ebba945e54c09235bb3c10] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:29:23.010098|::1| [trace] [defe47e596ebba945e54c09235bb3c10] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:37:46.903902|::1| [trace] [0159e373a9cd77621e9cb8d90b94ff14] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:37:46.911339|::1| [trace] [0159e373a9cd77621e9cb8d90b94ff14] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:37:52.305780|::1| [trace] [f8f0f82a4059502a8af1b02554d03aa3] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:37:52.311530|::1| [trace] [f8f0f82a4059502a8af1b02554d03aa3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:37:52.314119|::1| [trace] [f8f0f82a4059502a8af1b02554d03aa3] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:37:52.314399|::1| [trace] [f8f0f82a4059502a8af1b02554d03aa3] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:38:21.902009|::1| [trace] [efa73f0a9e6f004e1edde590bc658c19] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:38:21.903789|::1| [trace] [efa73f0a9e6f004e1edde590bc658c19] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'sss', 'password' => '12w', )
+26/05/2023 11:38:21.905674|::1| [trace] [efa73f0a9e6f004e1edde590bc658c19] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:38:21.905931|::1| [trace] [efa73f0a9e6f004e1edde590bc658c19] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='sss' AND password='12w'
+26/05/2023 11:41:25.424289|::1| [trace] [fe782b0f3a89764e4b0c1023688433af] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:41:25.429285|::1| [trace] [fe782b0f3a89764e4b0c1023688433af] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:41:30.808114|::1| [trace] [20c20fbbe179e946f0b2487377836996] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:41:30.811105|::1| [trace] [20c20fbbe179e946f0b2487377836996] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:41:30.814424|::1| [trace] [20c20fbbe179e946f0b2487377836996] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:41:30.814769|::1| [trace] [20c20fbbe179e946f0b2487377836996] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:42:41.063788|::1| [trace] [62cb854f73862816909b894f4b35d144] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:42:41.068192|::1| [trace] [62cb854f73862816909b894f4b35d144] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:42:56.684793|::1| [trace] [0e67e59b68bb13c39a700ac0af6046b5] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:42:56.686851|::1| [trace] [0e67e59b68bb13c39a700ac0af6046b5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:42:56.690334|::1| [trace] [0e67e59b68bb13c39a700ac0af6046b5] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:42:56.690820|::1| [trace] [0e67e59b68bb13c39a700ac0af6046b5] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:43:22.858006|::1| [trace] [e3d552f85db1c07c39a567ab4f5be95e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:43:22.886333|::1| [trace] [e3d552f85db1c07c39a567ab4f5be95e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:43:31.313334|::1| [trace] [a71d290eed37e219f27aaf2e705d0ef5] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:43:31.315962|::1| [trace] [a71d290eed37e219f27aaf2e705d0ef5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:43:31.320210|::1| [trace] [a71d290eed37e219f27aaf2e705d0ef5] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:43:31.320503|::1| [trace] [a71d290eed37e219f27aaf2e705d0ef5] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:45:08.842950|::1| [trace] [f7191f2fc50d1dccd690d6d5c68cdd8f] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:45:08.871592|::1| [trace] [f7191f2fc50d1dccd690d6d5c68cdd8f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:45:19.770683|::1| [trace] [6ec852ae6b8555ddfa88d65287c0b686] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:45:19.773067|::1| [trace] [6ec852ae6b8555ddfa88d65287c0b686] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'sss', 'password' => '12w', )
+26/05/2023 11:45:19.775063|::1| [trace] [6ec852ae6b8555ddfa88d65287c0b686] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:45:19.775278|::1| [trace] [6ec852ae6b8555ddfa88d65287c0b686] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='sss' AND password='12w'
+26/05/2023 11:47:32.098711|::1| [trace] [b545357e83bd88cb22baee276c332fc5] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:47:32.102648|::1| [trace] [b545357e83bd88cb22baee276c332fc5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:48:13.112823|::1| [trace] [9f88020074e672c1fe05c5673febba73] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:48:13.117407|::1| [trace] [9f88020074e672c1fe05c5673febba73] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:48:15.240240|::1| [trace] [9252104d04b6fade657ffe3bcbdec826] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:48:15.246037|::1| [trace] [9252104d04b6fade657ffe3bcbdec826] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:48:54.394799|::1| [trace] [252ea926ea16a3ed7218d5f1a345f837] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:48:54.400346|::1| [trace] [252ea926ea16a3ed7218d5f1a345f837] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:51:25.310184|::1| [trace] [9a86a798cd55d6f0896e44cb102fc626] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:51:25.321583|::1| [trace] [9a86a798cd55d6f0896e44cb102fc626] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:51:31.384001|::1| [trace] [b441192b332c64eb82d0003bc65126de] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:51:31.405930|::1| [trace] [b441192b332c64eb82d0003bc65126de] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:51:31.409147|::1| [trace] [b441192b332c64eb82d0003bc65126de] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:51:31.409377|::1| [trace] [b441192b332c64eb82d0003bc65126de] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:51:34.340131|::1| [trace] [8c00dafd98590fcc868e0b9139ab73ad] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:51:34.355933|::1| [trace] [8c00dafd98590fcc868e0b9139ab73ad] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:51:34.357587|::1| [trace] [8c00dafd98590fcc868e0b9139ab73ad] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:51:34.357817|::1| [trace] [8c00dafd98590fcc868e0b9139ab73ad] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:53:05.942666|::1| [trace] [299444eb53df44e5d09687d48e213a8b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:53:05.945784|::1| [trace] [299444eb53df44e5d09687d48e213a8b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:53:11.925455|::1| [trace] [7e4a56310846fdf47b61e4ffff70841a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:53:11.928086|::1| [trace] [7e4a56310846fdf47b61e4ffff70841a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:53:11.929806|::1| [trace] [7e4a56310846fdf47b61e4ffff70841a] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:53:11.930061|::1| [trace] [7e4a56310846fdf47b61e4ffff70841a] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:54:26.426022|::1| [trace] [de5b06fda239629576a51b6b5bdec12f] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:54:26.437027|::1| [trace] [de5b06fda239629576a51b6b5bdec12f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:55:05.312429|::1| [trace] [38d5143a09f1575fc05455aa2556f8d5] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:55:05.321415|::1| [trace] [38d5143a09f1575fc05455aa2556f8d5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:55:10.235874|::1| [trace] [e0284891429870105cbe8402cad0da7c] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:55:10.239799|::1| [trace] [e0284891429870105cbe8402cad0da7c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:55:10.242772|::1| [trace] [e0284891429870105cbe8402cad0da7c] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:55:10.243158|::1| [trace] [e0284891429870105cbe8402cad0da7c] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 11:59:38.419439|::1| [trace] [8e4abfc32e8ce3d0c8099673bdef4ed3] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:59:38.423742|::1| [trace] [8e4abfc32e8ce3d0c8099673bdef4ed3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 11:59:46.434576|::1| [trace] [b631f97d72bc583e5730a1e1af9fb0f6] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 11:59:46.463923|::1| [trace] [b631f97d72bc583e5730a1e1af9fb0f6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 11:59:46.466049|::1| [trace] [b631f97d72bc583e5730a1e1af9fb0f6] crud.init.php (23) CrudController->router() : hi
+26/05/2023 11:59:46.466272|::1| [trace] [b631f97d72bc583e5730a1e1af9fb0f6] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 12:00:03.541836|::1| [trace] [8d3cd95e85f2b89dc156ff481e00262e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:00:03.544794|::1| [trace] [8d3cd95e85f2b89dc156ff481e00262e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'sss', 'password' => '12hk', )
+26/05/2023 12:00:03.547235|::1| [trace] [8d3cd95e85f2b89dc156ff481e00262e] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:00:03.547626|::1| [trace] [8d3cd95e85f2b89dc156ff481e00262e] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='sss' AND password='12hk'
+26/05/2023 12:00:14.612282|::1| [trace] [e7c1fce1f2825fb72e67bfa0f5ffcd01] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:00:14.614151|::1| [trace] [e7c1fce1f2825fb72e67bfa0f5ffcd01] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'sss', 'password' => '12hk', )
+26/05/2023 12:00:14.616014|::1| [trace] [e7c1fce1f2825fb72e67bfa0f5ffcd01] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:00:14.616384|::1| [trace] [e7c1fce1f2825fb72e67bfa0f5ffcd01] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='sss' AND password='12hk'
+26/05/2023 12:00:44.260245|::1| [trace] [453f0829ffb5633af7cce610b5c28403] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:00:44.263777|::1| [trace] [453f0829ffb5633af7cce610b5c28403] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'sss', 'password' => '123d', )
+26/05/2023 12:00:44.266541|::1| [trace] [453f0829ffb5633af7cce610b5c28403] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:00:44.267106|::1| [trace] [453f0829ffb5633af7cce610b5c28403] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='sss' AND password='123d'
+26/05/2023 12:00:52.561470|::1| [trace] [1fb6e7d50c8c614b9e69fdc2f7c8232a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:00:52.574791|::1| [trace] [1fb6e7d50c8c614b9e69fdc2f7c8232a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123d', )
+26/05/2023 12:00:52.581168|::1| [trace] [1fb6e7d50c8c614b9e69fdc2f7c8232a] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:00:52.581767|::1| [trace] [1fb6e7d50c8c614b9e69fdc2f7c8232a] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123d'
+26/05/2023 12:01:00.741980|::1| [trace] [d96e5f879b6433dfaa00fcdf346a2895] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:01:00.745390|::1| [trace] [d96e5f879b6433dfaa00fcdf346a2895] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 12:01:00.748806|::1| [trace] [d96e5f879b6433dfaa00fcdf346a2895] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:01:00.749563|::1| [trace] [d96e5f879b6433dfaa00fcdf346a2895] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 12:01:09.283235|::1| [trace] [2ad59ada6e9e12e89f3cbbc9a8dd7bb2] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:01:09.305941|::1| [trace] [2ad59ada6e9e12e89f3cbbc9a8dd7bb2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 12:01:09.311063|::1| [trace] [2ad59ada6e9e12e89f3cbbc9a8dd7bb2] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:01:09.312136|::1| [trace] [2ad59ada6e9e12e89f3cbbc9a8dd7bb2] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 12:01:39.936577|::1| [trace] [81593d6af0d64bcdcd3d6e19165ec29a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:01:39.939811|::1| [trace] [81593d6af0d64bcdcd3d6e19165ec29a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 12:01:39.941736|::1| [trace] [81593d6af0d64bcdcd3d6e19165ec29a] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:01:39.942027|::1| [trace] [81593d6af0d64bcdcd3d6e19165ec29a] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 12:01:48.992898|::1| [trace] [8b5b3c24e17bcdb9b0b9fda00a943ba3] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:01:48.995356|::1| [trace] [8b5b3c24e17bcdb9b0b9fda00a943ba3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'sss', 'password' => '1ws', )
+26/05/2023 12:01:48.997554|::1| [trace] [8b5b3c24e17bcdb9b0b9fda00a943ba3] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:01:48.997796|::1| [trace] [8b5b3c24e17bcdb9b0b9fda00a943ba3] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='sss' AND password='1ws'
+26/05/2023 12:03:29.007915|::1| [trace] [f97e57d45b822eee28b0f59f1f12b9ca] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:03:29.010770|::1| [trace] [f97e57d45b822eee28b0f59f1f12b9ca] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 12:03:29.014131|::1| [trace] [f97e57d45b822eee28b0f59f1f12b9ca] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:03:29.014373|::1| [trace] [f97e57d45b822eee28b0f59f1f12b9ca] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 12:03:35.869966|::1| [trace] [5fa5678867c6242665fc4392359fdeab] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:03:35.872256|::1| [trace] [5fa5678867c6242665fc4392359fdeab] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'sss', 'password' => '12', )
+26/05/2023 12:03:35.873909|::1| [trace] [5fa5678867c6242665fc4392359fdeab] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:03:35.874386|::1| [trace] [5fa5678867c6242665fc4392359fdeab] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='sss' AND password='12'
+26/05/2023 12:47:06.921643|::1| [trace] [02bf0ab84e233f5ee7c979c6c565e654] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:47:06.928637|::1| [trace] [02bf0ab84e233f5ee7c979c6c565e654] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'sss', 'password' => '12', )
+26/05/2023 12:47:06.932336|::1| [trace] [02bf0ab84e233f5ee7c979c6c565e654] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:47:06.932677|::1| [trace] [02bf0ab84e233f5ee7c979c6c565e654] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='sss' AND password='12'
+26/05/2023 12:47:22.032613|::1| [trace] [3285760838d0112846bb1d0294675a81] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:47:22.035907|::1| [trace] [3285760838d0112846bb1d0294675a81] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+26/05/2023 12:47:22.038757|::1| [trace] [3285760838d0112846bb1d0294675a81] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:47:22.039165|::1| [trace] [3285760838d0112846bb1d0294675a81] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+26/05/2023 12:47:29.456743|::1| [trace] [31fbeefd7010f8a5727c5768deeb696e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:47:29.460151|::1| [trace] [31fbeefd7010f8a5727c5768deeb696e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'sss', 'password' => 'asd', )
+26/05/2023 12:47:29.464174|::1| [trace] [31fbeefd7010f8a5727c5768deeb696e] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:47:29.464493|::1| [trace] [31fbeefd7010f8a5727c5768deeb696e] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='sss' AND password='asd'
+26/05/2023 12:49:26.021857|::1| [trace] [321e23274071c3db08215813c734a267] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:49:26.024168|::1| [trace] [321e23274071c3db08215813c734a267] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 12:49:26.027200|::1| [trace] [321e23274071c3db08215813c734a267] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:49:26.027707|::1| [trace] [321e23274071c3db08215813c734a267] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 12:52:30.675647|::1| [trace] [e03f03e695894056000c20ead54470d7] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:52:30.692395|::1| [trace] [e03f03e695894056000c20ead54470d7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 12:52:38.604371|::1| [trace] [42795ac8ae7cc7cdc509005affaa54ed] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:52:38.610696|::1| [trace] [42795ac8ae7cc7cdc509005affaa54ed] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 12:52:38.620748|::1| [trace] [42795ac8ae7cc7cdc509005affaa54ed] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:52:38.621530|::1| [trace] [42795ac8ae7cc7cdc509005affaa54ed] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 12:53:07.234767|::1| [trace] [63e44ab940bc4878a5c3d46d5dc0cffb] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:53:07.252474|::1| [trace] [63e44ab940bc4878a5c3d46d5dc0cffb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'mahesh', 'password' => '123', )
+26/05/2023 12:53:07.258368|::1| [trace] [63e44ab940bc4878a5c3d46d5dc0cffb] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:53:07.259234|::1| [trace] [63e44ab940bc4878a5c3d46d5dc0cffb] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='mahesh' AND password='123'
+26/05/2023 12:53:08.386504|::1| [trace] [3c7a91f58bfc4693d0dc174c2e02a017] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:53:08.389729|::1| [trace] [3c7a91f58bfc4693d0dc174c2e02a017] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'mahesh', 'password' => '123', )
+26/05/2023 12:53:08.396220|::1| [trace] [3c7a91f58bfc4693d0dc174c2e02a017] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:53:08.396986|::1| [trace] [3c7a91f58bfc4693d0dc174c2e02a017] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='mahesh' AND password='123'
+26/05/2023 12:53:09.547933|::1| [trace] [f3827bde58c73821079369ef1deedae6] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:53:09.550277|::1| [trace] [f3827bde58c73821079369ef1deedae6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'mahesh', 'password' => '123', )
+26/05/2023 12:53:09.553407|::1| [trace] [f3827bde58c73821079369ef1deedae6] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:53:09.554016|::1| [trace] [f3827bde58c73821079369ef1deedae6] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='mahesh' AND password='123'
+26/05/2023 12:53:09.869680|::1| [trace] [e8f9aeebbfff02e814a70f8e491c8aaf] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:53:09.898266|::1| [trace] [e8f9aeebbfff02e814a70f8e491c8aaf] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'mahesh', 'password' => '123', )
+26/05/2023 12:53:09.965759|::1| [trace] [e8f9aeebbfff02e814a70f8e491c8aaf] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:53:09.979501|::1| [trace] [e8f9aeebbfff02e814a70f8e491c8aaf] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='mahesh' AND password='123'
+26/05/2023 12:53:24.985316|::1| [trace] [2e5e20c55b4997ba2e0a839acba8a638] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:53:24.988250|::1| [trace] [2e5e20c55b4997ba2e0a839acba8a638] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 12:53:24.993666|::1| [trace] [2e5e20c55b4997ba2e0a839acba8a638] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:53:24.994236|::1| [trace] [2e5e20c55b4997ba2e0a839acba8a638] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 12:57:12.150991|::1| [trace] [5f3829c4b4a915bb1f414caaecbf71c8] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:57:12.155879|::1| [trace] [5f3829c4b4a915bb1f414caaecbf71c8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'mahesh', 'password' => '123', )
+26/05/2023 12:57:12.163912|::1| [trace] [5f3829c4b4a915bb1f414caaecbf71c8] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:57:12.164494|::1| [trace] [5f3829c4b4a915bb1f414caaecbf71c8] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='mahesh' AND password='123'
+26/05/2023 12:57:13.299134|::1| [trace] [05d6a5540b900e8323160435303d93d5] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:57:13.302072|::1| [trace] [05d6a5540b900e8323160435303d93d5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'mahesh', 'password' => '123', )
+26/05/2023 12:57:13.305608|::1| [trace] [05d6a5540b900e8323160435303d93d5] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:57:13.306109|::1| [trace] [05d6a5540b900e8323160435303d93d5] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='mahesh' AND password='123'
+26/05/2023 12:57:15.461586|::1| [trace] [cabbe6ade47c4c0dfb679aebc1fe165d] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:57:15.466980|::1| [trace] [cabbe6ade47c4c0dfb679aebc1fe165d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'mahesh', 'password' => '123', )
+26/05/2023 12:57:15.475753|::1| [trace] [cabbe6ade47c4c0dfb679aebc1fe165d] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:57:15.477075|::1| [trace] [cabbe6ade47c4c0dfb679aebc1fe165d] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='mahesh' AND password='123'
+26/05/2023 12:57:22.938816|::1| [trace] [617b741c6d2e414323266ec0c5444d7a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:57:22.944379|::1| [trace] [617b741c6d2e414323266ec0c5444d7a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 12:57:22.950894|::1| [trace] [617b741c6d2e414323266ec0c5444d7a] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:57:22.951713|::1| [trace] [617b741c6d2e414323266ec0c5444d7a] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 12:58:52.974051|::1| [trace] [d4e1b801ec9d5e969048e3910c5d399a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 12:58:52.977551|::1| [trace] [d4e1b801ec9d5e969048e3910c5d399a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'mahesh', 'password' => '123', )
+26/05/2023 12:58:52.982599|::1| [trace] [d4e1b801ec9d5e969048e3910c5d399a] crud.init.php (23) CrudController->router() : hi
+26/05/2023 12:58:52.983736|::1| [trace] [d4e1b801ec9d5e969048e3910c5d399a] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='mahesh' AND password='123'
+26/05/2023 13:01:26.767420|::1| [trace] [b2a23c0573525c97672edd7855f8915b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 13:01:26.771758|::1| [trace] [b2a23c0573525c97672edd7855f8915b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 13:01:26.779093|::1| [trace] [b2a23c0573525c97672edd7855f8915b] crud.init.php (23) CrudController->router() : hi
+26/05/2023 13:01:26.779659|::1| [trace] [b2a23c0573525c97672edd7855f8915b] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 13:02:05.114393|::1| [trace] [e3e0efd5986c9e3dbd7f9a4d840b4ceb] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 13:02:05.118141|::1| [trace] [e3e0efd5986c9e3dbd7f9a4d840b4ceb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 13:02:05.123115|::1| [trace] [e3e0efd5986c9e3dbd7f9a4d840b4ceb] crud.init.php (23) CrudController->router() : hi
+26/05/2023 13:02:05.123967|::1| [trace] [e3e0efd5986c9e3dbd7f9a4d840b4ceb] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 13:02:58.588654|::1| [trace] [627d5bd0d86d1ff5145fad793162b34d] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 13:02:58.594423|::1| [trace] [627d5bd0d86d1ff5145fad793162b34d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 13:02:58.607441|::1| [trace] [627d5bd0d86d1ff5145fad793162b34d] crud.init.php (23) CrudController->router() : hi
+26/05/2023 13:02:58.608145|::1| [trace] [627d5bd0d86d1ff5145fad793162b34d] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 13:04:38.316621|::1| [trace] [a4ec84dafa04dbb1b9483b63c27f9e1d] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 13:04:38.322459|::1| [trace] [a4ec84dafa04dbb1b9483b63c27f9e1d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'mahesh', 'password' => '123', )
+26/05/2023 13:04:38.328995|::1| [trace] [a4ec84dafa04dbb1b9483b63c27f9e1d] crud.init.php (23) CrudController->router() : hi
+26/05/2023 13:04:38.330090|::1| [trace] [a4ec84dafa04dbb1b9483b63c27f9e1d] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='mahesh' AND password='123'
+26/05/2023 13:10:00.583549|::1| [trace] [7ef75e70269abeac4ccd0ca9657ca545] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 13:10:00.606800|::1| [trace] [7ef75e70269abeac4ccd0ca9657ca545] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '1234', )
+26/05/2023 13:10:00.612060|::1| [trace] [7ef75e70269abeac4ccd0ca9657ca545] crud.init.php (23) CrudController->router() : hi
+26/05/2023 13:10:00.612580|::1| [trace] [7ef75e70269abeac4ccd0ca9657ca545] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='1234'
+26/05/2023 13:12:28.255821|::1| [trace] [f7735af96907f7ff46555fc554c2a369] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 13:12:28.302340|::1| [trace] [f7735af96907f7ff46555fc554c2a369] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '1234', )
+26/05/2023 13:12:28.352436|::1| [trace] [f7735af96907f7ff46555fc554c2a369] crud.init.php (23) CrudController->router() : hi
+26/05/2023 13:12:28.356106|::1| [trace] [f7735af96907f7ff46555fc554c2a369] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='1234'
+26/05/2023 13:14:31.993428|::1| [trace] [d5305380d40949358adc83c27e3a8ade] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 13:14:32.000060|::1| [trace] [d5305380d40949358adc83c27e3a8ade] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'negtha', 'password' => '12', )
+26/05/2023 13:14:32.006989|::1| [trace] [d5305380d40949358adc83c27e3a8ade] crud.init.php (23) CrudController->router() : hi
+26/05/2023 13:14:32.007572|::1| [trace] [d5305380d40949358adc83c27e3a8ade] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='negtha' AND password='12'
+26/05/2023 13:14:43.363014|::1| [trace] [16a51169995f8aef9dd90121a795ee2d] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 13:14:43.389247|::1| [trace] [16a51169995f8aef9dd90121a795ee2d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 13:14:43.425257|::1| [trace] [16a51169995f8aef9dd90121a795ee2d] crud.init.php (23) CrudController->router() : hi
+26/05/2023 13:14:43.437608|::1| [trace] [16a51169995f8aef9dd90121a795ee2d] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 13:23:55.565100|::1| [trace] [96e452ded84fbc553db97c1b3537942b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 13:23:55.576145|::1| [trace] [96e452ded84fbc553db97c1b3537942b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 13:24:05.377787|::1| [trace] [4efea712a0220c771b45746636bc82bc] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 13:24:05.400109|::1| [trace] [4efea712a0220c771b45746636bc82bc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 13:24:05.435264|::1| [trace] [4efea712a0220c771b45746636bc82bc] crud.init.php (23) CrudController->router() : hi
+26/05/2023 13:24:05.439568|::1| [trace] [4efea712a0220c771b45746636bc82bc] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 14:43:47.749574|::1| [trace] [ccf0a40fe5e7142fe1b2987ffef1a4b9] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 14:43:47.976675|::1| [trace] [ccf0a40fe5e7142fe1b2987ffef1a4b9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 14:43:59.652137|::1| [trace] [a619cdeab63f72f36b57a9eaa91040ea] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 14:43:59.664659|::1| [trace] [a619cdeab63f72f36b57a9eaa91040ea] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barathh', 'password' => '123', )
+26/05/2023 14:43:59.680584|::1| [trace] [a619cdeab63f72f36b57a9eaa91040ea] crud.init.php (23) CrudController->router() : hi
+26/05/2023 14:43:59.682624|::1| [trace] [a619cdeab63f72f36b57a9eaa91040ea] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barathh' AND password='123'
+26/05/2023 14:44:01.827023|::1| [trace] [7ba602d6755bdc6c71f08871188c44e9] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 14:44:01.880002|::1| [trace] [7ba602d6755bdc6c71f08871188c44e9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 14:44:10.221120|::1| [trace] [b229ea436d9f5a6241c6e75f7d8f008d] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 14:44:10.224284|::1| [trace] [b229ea436d9f5a6241c6e75f7d8f008d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 14:44:10.228532|::1| [trace] [b229ea436d9f5a6241c6e75f7d8f008d] crud.init.php (23) CrudController->router() : hi
+26/05/2023 14:44:10.229165|::1| [trace] [b229ea436d9f5a6241c6e75f7d8f008d] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 14:59:40.817081|::1| [trace] [e841aaf8b38af6a8a65e6819475f9068] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 14:59:40.827425|::1| [trace] [e841aaf8b38af6a8a65e6819475f9068] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+26/05/2023 14:59:47.863095|::1| [trace] [6e0f4ba151faea4f1f28716b4f398e05] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 14:59:47.868128|::1| [trace] [6e0f4ba151faea4f1f28716b4f398e05] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 14:59:47.873418|::1| [trace] [6e0f4ba151faea4f1f28716b4f398e05] crud.init.php (23) CrudController->router() : hi
+26/05/2023 14:59:47.874191|::1| [trace] [6e0f4ba151faea4f1f28716b4f398e05] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 15:26:02.922667|::1| [trace] [0df5324d6c2c0b90900ea41a34d693c2] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 15:26:03.031809|::1| [trace] [0df5324d6c2c0b90900ea41a34d693c2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 15:26:03.122503|::1| [trace] [0df5324d6c2c0b90900ea41a34d693c2] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 15:30:01.397370|::1| [trace] [02f1bdfb083463a0bbeca4243e2bfcd4] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 15:30:01.407526|::1| [trace] [02f1bdfb083463a0bbeca4243e2bfcd4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 15:30:01.425456|::1| [trace] [02f1bdfb083463a0bbeca4243e2bfcd4] crud.init.php (23) CrudController->router() : hi
+26/05/2023 15:30:01.427576|::1| [trace] [02f1bdfb083463a0bbeca4243e2bfcd4] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 15:37:29.969760|::1| [trace] [ff08cea779c45eb8ad1648d3eac3ec86] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 15:37:29.980986|::1| [trace] [ff08cea779c45eb8ad1648d3eac3ec86] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 15:37:29.987457|::1| [trace] [ff08cea779c45eb8ad1648d3eac3ec86] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 15:39:42.575293|::1| [trace] [d32b457c8d80588d036bdc7ba697225c] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 15:39:42.620349|::1| [trace] [d32b457c8d80588d036bdc7ba697225c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 15:39:42.644640|::1| [trace] [d32b457c8d80588d036bdc7ba697225c] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 15:41:45.399360|::1| [trace] [23bf1eb9f8e5af78e9847676a97ade40] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 15:41:45.421066|::1| [trace] [23bf1eb9f8e5af78e9847676a97ade40] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 15:41:45.435136|::1| [trace] [23bf1eb9f8e5af78e9847676a97ade40] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 15:45:30.852308|::1| [trace] [24b18cac4aca646349a732ee30b4c9d6] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 15:45:30.864171|::1| [trace] [24b18cac4aca646349a732ee30b4c9d6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 15:45:30.870088|::1| [trace] [24b18cac4aca646349a732ee30b4c9d6] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 15:48:48.722667|::1| [trace] [453dfb81753b25964de486645ba2d10e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 15:48:48.738207|::1| [trace] [453dfb81753b25964de486645ba2d10e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 15:48:48.751061|::1| [trace] [453dfb81753b25964de486645ba2d10e] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 15:53:20.919245|::1| [trace] [9c03c8473f66446e847cdeb3385867fe] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 15:53:20.951325|::1| [trace] [9c03c8473f66446e847cdeb3385867fe] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 15:53:21.054802|::1| [trace] [9c03c8473f66446e847cdeb3385867fe] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 15:59:08.087290|::1| [trace] [a25e8a8e4904189bd168439e29697a9e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 15:59:08.119657|::1| [trace] [a25e8a8e4904189bd168439e29697a9e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+26/05/2023 15:59:08.131768|::1| [trace] [a25e8a8e4904189bd168439e29697a9e] crud.init.php (23) CrudController->router() : hi
+26/05/2023 15:59:08.132731|::1| [trace] [a25e8a8e4904189bd168439e29697a9e] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+26/05/2023 15:59:12.095231|::1| [trace] [20983118ef082d157eb3e54f814317c6] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 15:59:12.108072|::1| [trace] [20983118ef082d157eb3e54f814317c6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 15:59:12.115895|::1| [trace] [20983118ef082d157eb3e54f814317c6] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:06:38.002809|::1| [trace] [cc465ab7f4c6438863f891b8704c7792] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:06:38.013386|::1| [trace] [cc465ab7f4c6438863f891b8704c7792] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:06:38.020908|::1| [trace] [cc465ab7f4c6438863f891b8704c7792] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:06:49.722737|::1| [trace] [2625fc56f23c0a10304c9b339453197c] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:06:49.733810|::1| [trace] [2625fc56f23c0a10304c9b339453197c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:06:49.742192|::1| [trace] [2625fc56f23c0a10304c9b339453197c] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:16:00.425246|::1| [trace] [ef464856090933b6f0b9c1135846911a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:16:00.474900|::1| [trace] [ef464856090933b6f0b9c1135846911a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:16:00.487612|::1| [trace] [ef464856090933b6f0b9c1135846911a] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:24:49.320779|::1| [trace] [49e1a7e75b6c7c31b39667f1f07fc9fc] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:24:49.346317|::1| [trace] [49e1a7e75b6c7c31b39667f1f07fc9fc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:24:49.360158|::1| [trace] [49e1a7e75b6c7c31b39667f1f07fc9fc] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:24:59.400074|::1| [trace] [abda58a315314de45d05761cfdefba13] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:24:59.418631|::1| [trace] [abda58a315314de45d05761cfdefba13] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-16', )
+26/05/2023 16:24:59.447597|::1| [trace] [abda58a315314de45d05761cfdefba13] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' and punching_date =< '2023-05-16'
+26/05/2023 16:24:59.453634|::1| [trace] [abda58a315314de45d05761cfdefba13] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 16:24:59.458821|::1| [error] [abda58a315314de45d05761cfdefba13] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '2023-05-16'' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 16:24:59.814699|::1| [trace] [72f64061380b0dea02e8da63bd59bd1e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:24:59.821984|::1| [trace] [72f64061380b0dea02e8da63bd59bd1e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:24:59.826739|::1| [trace] [72f64061380b0dea02e8da63bd59bd1e] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:25:09.289552|::1| [trace] [b16bebc849e91c9f66ea877cd2fe0728] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:25:09.299356|::1| [trace] [b16bebc849e91c9f66ea877cd2fe0728] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 16:25:09.307411|::1| [trace] [b16bebc849e91c9f66ea877cd2fe0728] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' and punching_date =< '2023-05-15'
+26/05/2023 16:25:09.309540|::1| [trace] [b16bebc849e91c9f66ea877cd2fe0728] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 16:25:09.311393|::1| [error] [b16bebc849e91c9f66ea877cd2fe0728] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '2023-05-15'' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 16:25:10.516151|::1| [trace] [e546650cb7581066078b587b139d8247] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:25:10.535552|::1| [trace] [e546650cb7581066078b587b139d8247] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:25:10.548808|::1| [trace] [e546650cb7581066078b587b139d8247] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:25:54.757812|::1| [trace] [45a87fcf01f3834556a93daa55b487fa] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:25:54.770703|::1| [trace] [45a87fcf01f3834556a93daa55b487fa] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:25:54.780028|::1| [trace] [45a87fcf01f3834556a93daa55b487fa] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:26:06.116588|::1| [trace] [39d2253c18f1cdd958999639aa3e595f] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:26:06.120217|::1| [trace] [39d2253c18f1cdd958999639aa3e595f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 16:26:06.127002|::1| [trace] [39d2253c18f1cdd958999639aa3e595f] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' and punching_date =< '2023-05-15'
+26/05/2023 16:26:06.128314|::1| [trace] [39d2253c18f1cdd958999639aa3e595f] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 16:26:06.129714|::1| [error] [39d2253c18f1cdd958999639aa3e595f] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '< '2023-05-15'' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 16:26:07.313241|::1| [trace] [e455dc7aa20c4a9979b9189a9c146d6a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:26:07.332021|::1| [trace] [e455dc7aa20c4a9979b9189a9c146d6a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:26:07.346285|::1| [trace] [e455dc7aa20c4a9979b9189a9c146d6a] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:31:57.285382|::1| [trace] [4ee5259c973ea571b2c901d2d8751cf9] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:31:57.302737|::1| [trace] [4ee5259c973ea571b2c901d2d8751cf9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:31:57.319587|::1| [trace] [4ee5259c973ea571b2c901d2d8751cf9] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:32:08.550251|::1| [trace] [c4aa6b2c2e39bca94e6178ef7aab9f31] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:32:08.554200|::1| [trace] [c4aa6b2c2e39bca94e6178ef7aab9f31] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 16:32:08.558234|::1| [trace] [c4aa6b2c2e39bca94e6178ef7aab9f31] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 16:32:08.895586|::1| [trace] [364f689dcff5eaf3596e740931f60696] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:32:08.912897|::1| [trace] [364f689dcff5eaf3596e740931f60696] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:32:08.926749|::1| [trace] [364f689dcff5eaf3596e740931f60696] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:34:04.096674|::1| [trace] [d6bc3a108a267430f4b3254b76e93688] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:34:04.107002|::1| [trace] [d6bc3a108a267430f4b3254b76e93688] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:34:04.117727|::1| [trace] [d6bc3a108a267430f4b3254b76e93688] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:34:14.149565|::1| [trace] [171586dee13b1e35ea2f82fb42a0bb00] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:34:14.187226|::1| [trace] [171586dee13b1e35ea2f82fb42a0bb00] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 16:34:14.245708|::1| [trace] [171586dee13b1e35ea2f82fb42a0bb00] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 16:34:14.811415|::1| [trace] [1b5fb5e998f37579bdd108479907e415] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:34:14.818974|::1| [trace] [1b5fb5e998f37579bdd108479907e415] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:34:14.824867|::1| [trace] [1b5fb5e998f37579bdd108479907e415] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:34:53.160038|::1| [trace] [8a61a78ef5abbbc324c0a34d5cd02074] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:34:53.171262|::1| [trace] [8a61a78ef5abbbc324c0a34d5cd02074] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:34:53.179331|::1| [trace] [8a61a78ef5abbbc324c0a34d5cd02074] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:35:03.885740|::1| [trace] [11d084a89a4e99114ef40ff2459eb4c5] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:35:03.891174|::1| [trace] [11d084a89a4e99114ef40ff2459eb4c5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 16:35:03.896419|::1| [trace] [11d084a89a4e99114ef40ff2459eb4c5] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 16:35:04.156439|::1| [trace] [bdd8407f3523411c455036a77cbb63db] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:35:04.162828|::1| [trace] [bdd8407f3523411c455036a77cbb63db] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:35:04.167203|::1| [trace] [bdd8407f3523411c455036a77cbb63db] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:36:33.402801|::1| [trace] [a5fa0aaa6251bbca85823e8681b8faed] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:36:33.422208|::1| [trace] [a5fa0aaa6251bbca85823e8681b8faed] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:36:33.432682|::1| [trace] [a5fa0aaa6251bbca85823e8681b8faed] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:36:42.825416|::1| [trace] [7941d58ab21ef88c91f8315756d23a64] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:36:42.830554|::1| [trace] [7941d58ab21ef88c91f8315756d23a64] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 16:36:42.835606|::1| [trace] [7941d58ab21ef88c91f8315756d23a64] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 16:36:42.837266|::1| [trace] [7941d58ab21ef88c91f8315756d23a64] crud.init.php (36) CrudController->router() : Array
+26/05/2023 16:36:43.081867|::1| [trace] [df3b1e25bcda840b758d5576e98ef860] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:36:43.090801|::1| [trace] [df3b1e25bcda840b758d5576e98ef860] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:36:43.097156|::1| [trace] [df3b1e25bcda840b758d5576e98ef860] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:37:41.974841|::1| [trace] [02ccdabefe8c7055be8517956a80e99c] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:37:41.988332|::1| [trace] [02ccdabefe8c7055be8517956a80e99c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:37:41.998641|::1| [trace] [02ccdabefe8c7055be8517956a80e99c] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:37:43.747240|::1| [trace] [5e83e7708f5c73f57b74b11990adc6fb] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:37:43.750224|::1| [trace] [5e83e7708f5c73f57b74b11990adc6fb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '', 'maxidate' => '', )
+26/05/2023 16:37:43.756298|::1| [trace] [5e83e7708f5c73f57b74b11990adc6fb] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '' AND punching_date <= ''
+26/05/2023 16:37:43.758788|::1| [trace] [5e83e7708f5c73f57b74b11990adc6fb] crud.init.php (36) CrudController->router() : Array
+26/05/2023 16:38:01.357146|::1| [trace] [9448dcd57a0ed60da3d1a2810cd739c6] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:38:01.362977|::1| [trace] [9448dcd57a0ed60da3d1a2810cd739c6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 16:38:01.371392|::1| [trace] [9448dcd57a0ed60da3d1a2810cd739c6] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 16:38:01.377166|::1| [trace] [9448dcd57a0ed60da3d1a2810cd739c6] crud.init.php (36) CrudController->router() : Array
+26/05/2023 16:38:01.621609|::1| [trace] [aebac6331dbbd2484f52327a187150f0] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:38:01.628669|::1| [trace] [aebac6331dbbd2484f52327a187150f0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:38:01.633311|::1| [trace] [aebac6331dbbd2484f52327a187150f0] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:43:24.364387|::1| [trace] [28a82f0f9f6f8895c82ca84e02244f08] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:43:24.410964|::1| [trace] [28a82f0f9f6f8895c82ca84e02244f08] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:43:24.442555|::1| [trace] [28a82f0f9f6f8895c82ca84e02244f08] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:43:39.526171|::1| [trace] [18912533f440f89be397b553a832eb20] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:43:39.536793|::1| [trace] [18912533f440f89be397b553a832eb20] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 16:43:39.553292|::1| [trace] [18912533f440f89be397b553a832eb20] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 16:43:39.557363|::1| [trace] [18912533f440f89be397b553a832eb20] crud.init.php (36) CrudController->router() : Array
+26/05/2023 16:44:55.368818|::1| [trace] [8c273d2c3445a7c88235b20830cca96c] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:44:55.382426|::1| [trace] [8c273d2c3445a7c88235b20830cca96c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:44:55.391411|::1| [trace] [8c273d2c3445a7c88235b20830cca96c] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:45:21.128293|::1| [trace] [affe0bd47b44eb4bc38d97898eafd5e5] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:45:21.136390|::1| [trace] [affe0bd47b44eb4bc38d97898eafd5e5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:45:21.140835|::1| [trace] [affe0bd47b44eb4bc38d97898eafd5e5] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:52:13.376292|::1| [trace] [0fe0ca346d9b2a59f27b5b7cbe9e0ce3] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:52:13.396421|::1| [trace] [0fe0ca346d9b2a59f27b5b7cbe9e0ce3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:52:13.409317|::1| [trace] [0fe0ca346d9b2a59f27b5b7cbe9e0ce3] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:52:52.308469|::1| [trace] [2c8b3f669ed1e677933fb5e060b96ef1] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:52:52.380045|::1| [trace] [2c8b3f669ed1e677933fb5e060b96ef1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:52:52.441790|::1| [trace] [2c8b3f669ed1e677933fb5e060b96ef1] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:53:55.104509|::1| [trace] [67cb422ea4cd1ba7df5cdeef53729249] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:53:55.116417|::1| [trace] [67cb422ea4cd1ba7df5cdeef53729249] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:53:55.124119|::1| [trace] [67cb422ea4cd1ba7df5cdeef53729249] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:54:22.219737|::1| [trace] [687453679d356acbea4514fa6972885f] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:54:22.223128|::1| [trace] [687453679d356acbea4514fa6972885f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 16:54:22.229165|::1| [trace] [687453679d356acbea4514fa6972885f] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 16:54:22.230654|::1| [trace] [687453679d356acbea4514fa6972885f] crud.init.php (36) CrudController->router() : Array
+26/05/2023 16:54:47.856023|::1| [trace] [f78450255a2b7854ac56461bfc718a67] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:54:47.866743|::1| [trace] [f78450255a2b7854ac56461bfc718a67] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:54:47.875006|::1| [trace] [f78450255a2b7854ac56461bfc718a67] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:57:43.121548|::1| [trace] [591a03bf3f2172302728698985dba1a1] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:57:43.133990|::1| [trace] [591a03bf3f2172302728698985dba1a1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:57:43.139017|::1| [trace] [591a03bf3f2172302728698985dba1a1] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:57:54.816622|::1| [trace] [35b2e837a4fafb4ffe0b0e08e75412c9] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:57:54.824587|::1| [trace] [35b2e837a4fafb4ffe0b0e08e75412c9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 16:57:54.842024|::1| [trace] [35b2e837a4fafb4ffe0b0e08e75412c9] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 16:57:54.849181|::1| [trace] [35b2e837a4fafb4ffe0b0e08e75412c9] crud.init.php (36) CrudController->router() : Array
+26/05/2023 16:57:54.955683|::1| [trace] [48964bc7a0a50924f30ddcf2442803e2] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:57:54.995826|::1| [trace] [48964bc7a0a50924f30ddcf2442803e2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:57:55.023936|::1| [trace] [48964bc7a0a50924f30ddcf2442803e2] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:57:58.045819|::1| [trace] [af56a4b336dfdbbe992595658a3c506d] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:57:58.048321|::1| [trace] [af56a4b336dfdbbe992595658a3c506d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 16:57:58.051235|::1| [trace] [af56a4b336dfdbbe992595658a3c506d] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 16:57:58.052716|::1| [trace] [af56a4b336dfdbbe992595658a3c506d] crud.init.php (36) CrudController->router() : Array
+26/05/2023 16:57:58.065618|::1| [trace] [7a684779429b2da0a399ea7a4000f6ca] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:57:58.073786|::1| [trace] [7a684779429b2da0a399ea7a4000f6ca] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:57:58.080305|::1| [trace] [7a684779429b2da0a399ea7a4000f6ca] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:59:04.304228|::1| [trace] [0cb04b1675ef0d2ddd22a7fcc15b490a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:59:04.314373|::1| [trace] [0cb04b1675ef0d2ddd22a7fcc15b490a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:59:04.321275|::1| [trace] [0cb04b1675ef0d2ddd22a7fcc15b490a] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 16:59:37.746618|::1| [trace] [0cc1ca3aeacfbb11ca185197142f8013] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 16:59:37.754069|::1| [trace] [0cc1ca3aeacfbb11ca185197142f8013] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 16:59:37.758891|::1| [trace] [0cc1ca3aeacfbb11ca185197142f8013] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 17:01:36.246175|::1| [trace] [b5db6f5a293aadea12d910970b458550] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:01:36.264802|::1| [trace] [b5db6f5a293aadea12d910970b458550] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:01:36.277106|::1| [trace] [b5db6f5a293aadea12d910970b458550] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 17:01:47.207355|::1| [trace] [03e32cf4a4752aae3c15a3a37b48e05e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:01:47.234492|::1| [trace] [03e32cf4a4752aae3c15a3a37b48e05e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:01:47.241691|::1| [trace] [03e32cf4a4752aae3c15a3a37b48e05e] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:01:47.243657|::1| [trace] [03e32cf4a4752aae3c15a3a37b48e05e] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:01:47.264065|::1| [trace] [6e45df349eb4b321b2bf76480f6f4bff] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:01:47.270653|::1| [trace] [6e45df349eb4b321b2bf76480f6f4bff] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:01:47.274722|::1| [trace] [6e45df349eb4b321b2bf76480f6f4bff] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 17:01:50.336137|::1| [trace] [8f16b6e2ab04ecc5c6b6cecd22ba132e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:01:50.339618|::1| [trace] [8f16b6e2ab04ecc5c6b6cecd22ba132e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:01:50.344979|::1| [trace] [8f16b6e2ab04ecc5c6b6cecd22ba132e] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:01:50.346646|::1| [trace] [8f16b6e2ab04ecc5c6b6cecd22ba132e] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:01:50.355926|::1| [trace] [c98f44aea1e5fb6901cff6a6fd0e99ef] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:01:50.363106|::1| [trace] [c98f44aea1e5fb6901cff6a6fd0e99ef] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:01:50.366664|::1| [trace] [c98f44aea1e5fb6901cff6a6fd0e99ef] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 17:01:51.073945|::1| [trace] [e783e5173a07a6cbd326fd7ba991ecf8] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:01:51.079571|::1| [trace] [e783e5173a07a6cbd326fd7ba991ecf8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:01:51.087084|::1| [trace] [e783e5173a07a6cbd326fd7ba991ecf8] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:01:51.089726|::1| [trace] [e783e5173a07a6cbd326fd7ba991ecf8] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:01:51.106631|::1| [trace] [c65595407b38764b6ec2c987cc9f2dbf] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:01:51.115263|::1| [trace] [c65595407b38764b6ec2c987cc9f2dbf] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:01:51.120898|::1| [trace] [c65595407b38764b6ec2c987cc9f2dbf] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 17:01:51.286552|::1| [trace] [a11e23dc802dbe9bc02f31333e7d9839] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:01:51.289199|::1| [trace] [a11e23dc802dbe9bc02f31333e7d9839] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:01:51.293000|::1| [trace] [a11e23dc802dbe9bc02f31333e7d9839] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:01:51.295280|::1| [trace] [a11e23dc802dbe9bc02f31333e7d9839] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:01:51.306238|::1| [trace] [940155d525d753d116987a423a897e00] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:01:51.313558|::1| [trace] [940155d525d753d116987a423a897e00] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:01:51.318059|::1| [trace] [940155d525d753d116987a423a897e00] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 17:01:53.109769|::1| [trace] [0b1a8be17b870cedb52ad4bc8dfb1550] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:01:53.118283|::1| [trace] [0b1a8be17b870cedb52ad4bc8dfb1550] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:01:53.123326|::1| [trace] [0b1a8be17b870cedb52ad4bc8dfb1550] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 17:01:56.664365|::1| [trace] [33e8a8b3f58fff05b27739097ad5b81b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:01:56.667546|::1| [trace] [33e8a8b3f58fff05b27739097ad5b81b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '', 'maxidate' => '', )
+26/05/2023 17:01:56.672077|::1| [trace] [33e8a8b3f58fff05b27739097ad5b81b] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '' AND punching_date <= ''
+26/05/2023 17:01:56.673417|::1| [trace] [33e8a8b3f58fff05b27739097ad5b81b] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:01:56.697357|::1| [trace] [b24f14ffb75a6d014b92a5530a158047] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:01:56.704447|::1| [trace] [b24f14ffb75a6d014b92a5530a158047] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:01:56.708570|::1| [trace] [b24f14ffb75a6d014b92a5530a158047] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 17:02:18.324388|::1| [trace] [04f4768eabb2d6c8c3e2f736cbcfcf91] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:02:18.332482|::1| [trace] [04f4768eabb2d6c8c3e2f736cbcfcf91] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:02:18.336524|::1| [trace] [04f4768eabb2d6c8c3e2f736cbcfcf91] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 17:05:20.556101|::1| [trace] [39eb178499c9296b755b9fa7b62d52e6] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:05:20.572545|::1| [trace] [39eb178499c9296b755b9fa7b62d52e6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:05:20.585767|::1| [trace] [39eb178499c9296b755b9fa7b62d52e6] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 17:05:31.987191|::1| [trace] [8b9a7c7e0de618d62f3688d5abec491b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:05:31.991611|::1| [trace] [8b9a7c7e0de618d62f3688d5abec491b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:05:31.998476|::1| [trace] [8b9a7c7e0de618d62f3688d5abec491b] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:05:32.000083|::1| [trace] [8b9a7c7e0de618d62f3688d5abec491b] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:05:34.531306|::1| [trace] [7383152c065b26640a4bed017e80ec86] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:05:34.548537|::1| [trace] [7383152c065b26640a4bed017e80ec86] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:05:34.575627|::1| [trace] [7383152c065b26640a4bed017e80ec86] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:05:34.586111|::1| [trace] [7383152c065b26640a4bed017e80ec86] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:05:35.634304|::1| [trace] [6b5bae58bd160419c55121c5abe8ccb5] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:05:35.638550|::1| [trace] [6b5bae58bd160419c55121c5abe8ccb5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:05:35.644097|::1| [trace] [6b5bae58bd160419c55121c5abe8ccb5] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:05:35.647413|::1| [trace] [6b5bae58bd160419c55121c5abe8ccb5] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:05:35.925668|::1| [trace] [51ad016ed6394fbdef02f55437353907] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:05:35.929546|::1| [trace] [51ad016ed6394fbdef02f55437353907] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:05:35.934174|::1| [trace] [51ad016ed6394fbdef02f55437353907] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:05:35.936016|::1| [trace] [51ad016ed6394fbdef02f55437353907] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:05:48.722981|::1| [trace] [f98f16b0101ef31e3c4ffa825ad3fc88] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:05:48.740881|::1| [trace] [f98f16b0101ef31e3c4ffa825ad3fc88] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-16', )
+26/05/2023 17:05:48.767425|::1| [trace] [f98f16b0101ef31e3c4ffa825ad3fc88] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-16'
+26/05/2023 17:05:48.777838|::1| [trace] [f98f16b0101ef31e3c4ffa825ad3fc88] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:05:56.895241|::1| [trace] [4b10e45536f53bbdb24d3c6f4a9bd308] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:05:56.911900|::1| [trace] [4b10e45536f53bbdb24d3c6f4a9bd308] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:05:56.916172|::1| [trace] [4b10e45536f53bbdb24d3c6f4a9bd308] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:05:56.917999|::1| [trace] [4b10e45536f53bbdb24d3c6f4a9bd308] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:06:04.489012|::1| [trace] [ef7a5ca610487760c690387796c15dca] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:06:04.507411|::1| [trace] [ef7a5ca610487760c690387796c15dca] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:06:04.535336|::1| [trace] [ef7a5ca610487760c690387796c15dca] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:06:04.544877|::1| [trace] [ef7a5ca610487760c690387796c15dca] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:06:06.406811|::1| [trace] [ae4d2e363bf6836d82f9fb01232ecae7] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:06:06.410325|::1| [trace] [ae4d2e363bf6836d82f9fb01232ecae7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:06:06.414725|::1| [trace] [ae4d2e363bf6836d82f9fb01232ecae7] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:06:06.416454|::1| [trace] [ae4d2e363bf6836d82f9fb01232ecae7] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:06:08.996861|::1| [trace] [fa8dfebe4bc9f22b481f801917f151e4] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:06:09.000231|::1| [trace] [fa8dfebe4bc9f22b481f801917f151e4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:06:09.004611|::1| [trace] [fa8dfebe4bc9f22b481f801917f151e4] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:06:09.006558|::1| [trace] [fa8dfebe4bc9f22b481f801917f151e4] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:06:15.472208|::1| [trace] [cd4d0128a6962aab0aafdba43907fc55] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:06:15.487240|::1| [trace] [cd4d0128a6962aab0aafdba43907fc55] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-16', )
+26/05/2023 17:06:15.508641|::1| [trace] [cd4d0128a6962aab0aafdba43907fc55] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-16'
+26/05/2023 17:06:15.520292|::1| [trace] [cd4d0128a6962aab0aafdba43907fc55] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:06:46.308160|::1| [trace] [efa6135c85e0c1c00d70d356735785b6] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:06:46.314512|::1| [trace] [efa6135c85e0c1c00d70d356735785b6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:06:46.322917|::1| [trace] [efa6135c85e0c1c00d70d356735785b6] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:06:46.325794|::1| [trace] [efa6135c85e0c1c00d70d356735785b6] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:06:52.728805|::1| [trace] [91e22b7d9204318ac355a3f30c2c3fd1] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:06:52.741524|::1| [trace] [91e22b7d9204318ac355a3f30c2c3fd1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-16', )
+26/05/2023 17:06:52.759964|::1| [trace] [91e22b7d9204318ac355a3f30c2c3fd1] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-16'
+26/05/2023 17:06:52.768069|::1| [trace] [91e22b7d9204318ac355a3f30c2c3fd1] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:06:55.749298|::1| [trace] [aa47f6cf65a8372d3712833ad31a1a35] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:06:55.753853|::1| [trace] [aa47f6cf65a8372d3712833ad31a1a35] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-16', )
+26/05/2023 17:06:55.760915|::1| [trace] [aa47f6cf65a8372d3712833ad31a1a35] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-16'
+26/05/2023 17:06:55.763791|::1| [trace] [aa47f6cf65a8372d3712833ad31a1a35] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:07:04.624990|::1| [trace] [03862ef648bb1af01ce9dffa49927a61] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:07:04.641901|::1| [trace] [03862ef648bb1af01ce9dffa49927a61] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:07:04.665683|::1| [trace] [03862ef648bb1af01ce9dffa49927a61] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:07:04.675468|::1| [trace] [03862ef648bb1af01ce9dffa49927a61] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:07:13.656609|::1| [trace] [9e1555e4524e2800c212a075356912f6] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:07:13.659259|::1| [trace] [9e1555e4524e2800c212a075356912f6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-16', )
+26/05/2023 17:07:13.662379|::1| [trace] [9e1555e4524e2800c212a075356912f6] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-16'
+26/05/2023 17:07:13.664177|::1| [trace] [9e1555e4524e2800c212a075356912f6] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:07:33.485105|::1| [trace] [eb3b45d2b06e5215470841eb5d659366] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:07:33.494404|::1| [trace] [eb3b45d2b06e5215470841eb5d659366] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:07:33.501477|::1| [trace] [eb3b45d2b06e5215470841eb5d659366] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 17:07:44.595742|::1| [trace] [390b73ca8c860966728754ce4997a8fe] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:07:44.611325|::1| [trace] [390b73ca8c860966728754ce4997a8fe] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:07:44.634176|::1| [trace] [390b73ca8c860966728754ce4997a8fe] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15'
+26/05/2023 17:07:44.639971|::1| [trace] [390b73ca8c860966728754ce4997a8fe] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:07:56.136715|::1| [trace] [36a6a10ff1869ec7c8b35d767dc0dbed] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:07:56.142318|::1| [trace] [36a6a10ff1869ec7c8b35d767dc0dbed] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-16', )
+26/05/2023 17:07:56.149913|::1| [trace] [36a6a10ff1869ec7c8b35d767dc0dbed] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-16'
+26/05/2023 17:07:56.153593|::1| [trace] [36a6a10ff1869ec7c8b35d767dc0dbed] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:09:37.839370|::1| [trace] [8337683b5273a890dec648fe82bf4cba] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:09:37.847620|::1| [trace] [8337683b5273a890dec648fe82bf4cba] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:09:37.854751|::1| [trace] [8337683b5273a890dec648fe82bf4cba] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:09:37.855875|::1| [trace] [8337683b5273a890dec648fe82bf4cba] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:09:37.856977|::1| [error] [8337683b5273a890dec648fe82bf4cba] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:28:38.963520|::1| [trace] [d595aae1100003eff9693c0d4abe97df] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:28:39.014655|::1| [trace] [d595aae1100003eff9693c0d4abe97df] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '', )
+26/05/2023 17:28:39.061045|::1| [trace] [d595aae1100003eff9693c0d4abe97df] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '' ORDER BY punching_date DESC
+26/05/2023 17:28:39.068718|::1| [trace] [d595aae1100003eff9693c0d4abe97df] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:28:45.179749|::1| [trace] [0dbe8c826d833387aa487c9c76824e0a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:28:45.182142|::1| [trace] [0dbe8c826d833387aa487c9c76824e0a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:28:45.185761|::1| [trace] [0dbe8c826d833387aa487c9c76824e0a] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15' ORDER BY punching_date DESC
+26/05/2023 17:28:45.188127|::1| [trace] [0dbe8c826d833387aa487c9c76824e0a] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:32:16.287218|::1| [trace] [516a0ccf798a6abcfac89b3c9b015324] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:32:16.297574|::1| [trace] [516a0ccf798a6abcfac89b3c9b015324] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:32:16.303858|::1| [trace] [516a0ccf798a6abcfac89b3c9b015324] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:32:16.304924|::1| [trace] [516a0ccf798a6abcfac89b3c9b015324] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:32:16.308052|::1| [error] [516a0ccf798a6abcfac89b3c9b015324] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:32:25.091943|::1| [trace] [926d5801eefa6ec20470ff70aa7d9717] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:32:25.095247|::1| [trace] [926d5801eefa6ec20470ff70aa7d9717] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:32:25.099102|::1| [trace] [926d5801eefa6ec20470ff70aa7d9717] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15' ORDER BY punching_date DESC
+26/05/2023 17:32:25.100744|::1| [trace] [926d5801eefa6ec20470ff70aa7d9717] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:32:50.741790|::1| [trace] [6e9fb4da8790ddb137dbe5f05e3f030e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:32:50.774209|::1| [trace] [6e9fb4da8790ddb137dbe5f05e3f030e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:32:50.796420|::1| [trace] [6e9fb4da8790ddb137dbe5f05e3f030e] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:32:50.798432|::1| [trace] [6e9fb4da8790ddb137dbe5f05e3f030e] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:32:50.803198|::1| [error] [6e9fb4da8790ddb137dbe5f05e3f030e] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:33:00.366004|::1| [trace] [3f0633859784d4efec268dee40f7450d] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:33:00.382770|::1| [trace] [3f0633859784d4efec268dee40f7450d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:33:00.409547|::1| [trace] [3f0633859784d4efec268dee40f7450d] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15' ORDER BY punching_date DESC
+26/05/2023 17:33:00.421052|::1| [trace] [3f0633859784d4efec268dee40f7450d] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:37:27.357391|::1| [trace] [75ec3a655f9334c634d487222279181c] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:37:27.376003|::1| [trace] [75ec3a655f9334c634d487222279181c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:37:27.383804|::1| [trace] [75ec3a655f9334c634d487222279181c] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:37:27.386414|::1| [trace] [75ec3a655f9334c634d487222279181c] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:37:27.388495|::1| [error] [75ec3a655f9334c634d487222279181c] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:37:35.969451|::1| [trace] [6e27d72ce753b20bfb9ea29e2c410b5e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:37:35.975156|::1| [trace] [6e27d72ce753b20bfb9ea29e2c410b5e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:37:35.982578|::1| [trace] [6e27d72ce753b20bfb9ea29e2c410b5e] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15' ORDER BY punching_date DESC
+26/05/2023 17:37:35.984992|::1| [trace] [6e27d72ce753b20bfb9ea29e2c410b5e] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:37:46.013293|::1| [trace] [a22decfd89bf053b944ab94febba7529] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:37:46.033226|::1| [trace] [a22decfd89bf053b944ab94febba7529] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:37:46.047458|::1| [trace] [a22decfd89bf053b944ab94febba7529] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:37:46.050100|::1| [trace] [a22decfd89bf053b944ab94febba7529] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:37:46.058031|::1| [error] [a22decfd89bf053b944ab94febba7529] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:38:51.006046|::1| [trace] [5bc58b3b812d37f3339c38b0e1c5da08] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:38:51.017585|::1| [trace] [5bc58b3b812d37f3339c38b0e1c5da08] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:38:51.025038|::1| [trace] [5bc58b3b812d37f3339c38b0e1c5da08] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:38:51.026520|::1| [trace] [5bc58b3b812d37f3339c38b0e1c5da08] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:38:51.027903|::1| [error] [5bc58b3b812d37f3339c38b0e1c5da08] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:39:04.571044|::1| [trace] [516eae7364b2293f4cd52c3d22e8e102] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:39:04.574110|::1| [trace] [516eae7364b2293f4cd52c3d22e8e102] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:39:04.577457|::1| [trace] [516eae7364b2293f4cd52c3d22e8e102] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15' ORDER BY punching_date DESC
+26/05/2023 17:39:04.579544|::1| [trace] [516eae7364b2293f4cd52c3d22e8e102] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:39:21.233059|::1| [trace] [06c3e8dc8727f4950bd66d3770a332e1] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:39:21.242737|::1| [trace] [06c3e8dc8727f4950bd66d3770a332e1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:39:21.250067|::1| [trace] [06c3e8dc8727f4950bd66d3770a332e1] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:39:21.251331|::1| [trace] [06c3e8dc8727f4950bd66d3770a332e1] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:39:21.252651|::1| [error] [06c3e8dc8727f4950bd66d3770a332e1] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:39:51.402056|::1| [trace] [47ef0d2aa3c22e76c44520c87eb6d1a9] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:39:51.423101|::1| [trace] [47ef0d2aa3c22e76c44520c87eb6d1a9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:39:51.436530|::1| [trace] [47ef0d2aa3c22e76c44520c87eb6d1a9] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:39:51.438610|::1| [trace] [47ef0d2aa3c22e76c44520c87eb6d1a9] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:39:51.441279|::1| [error] [47ef0d2aa3c22e76c44520c87eb6d1a9] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:40:13.186028|::1| [trace] [dbce2b9177b3e3b6a564035874d93e09] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:40:13.228954|::1| [trace] [dbce2b9177b3e3b6a564035874d93e09] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:40:13.312370|::1| [trace] [dbce2b9177b3e3b6a564035874d93e09] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:40:13.318344|::1| [trace] [dbce2b9177b3e3b6a564035874d93e09] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:40:13.325582|::1| [error] [dbce2b9177b3e3b6a564035874d93e09] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:40:35.641392|::1| [trace] [a18ab36511f4362ba2b6e5e6f4f79218] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:40:35.663182|::1| [trace] [a18ab36511f4362ba2b6e5e6f4f79218] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:40:35.678236|::1| [trace] [a18ab36511f4362ba2b6e5e6f4f79218] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:40:35.680032|::1| [trace] [a18ab36511f4362ba2b6e5e6f4f79218] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:40:35.682799|::1| [error] [a18ab36511f4362ba2b6e5e6f4f79218] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:40:51.993277|::1| [trace] [40fe1d0887e8ade52df7ba46fb026f99] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:40:52.007242|::1| [trace] [40fe1d0887e8ade52df7ba46fb026f99] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:40:52.015830|::1| [trace] [40fe1d0887e8ade52df7ba46fb026f99] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:40:52.017204|::1| [trace] [40fe1d0887e8ade52df7ba46fb026f99] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:40:52.018774|::1| [error] [40fe1d0887e8ade52df7ba46fb026f99] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:41:20.077723|::1| [trace] [828365309503f92f86430c69922bb6ef] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:41:20.090059|::1| [trace] [828365309503f92f86430c69922bb6ef] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:41:20.097731|::1| [trace] [828365309503f92f86430c69922bb6ef] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:41:20.099672|::1| [trace] [828365309503f92f86430c69922bb6ef] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:41:20.101203|::1| [error] [828365309503f92f86430c69922bb6ef] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:42:51.201719|::1| [trace] [a4eac9817edce7634f4c0da912aac9bf] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:42:51.209686|::1| [trace] [a4eac9817edce7634f4c0da912aac9bf] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 17:42:51.220129|::1| [trace] [a4eac9817edce7634f4c0da912aac9bf] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15' ORDER BY punching_date DESC
+26/05/2023 17:42:51.223129|::1| [trace] [a4eac9817edce7634f4c0da912aac9bf] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:47:43.807837|::1| [trace] [92cfdda020360b91d7b17f110eb2aa77] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:47:43.829039|::1| [trace] [92cfdda020360b91d7b17f110eb2aa77] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:47:43.838699|::1| [trace] [92cfdda020360b91d7b17f110eb2aa77] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:47:43.843179|::1| [trace] [92cfdda020360b91d7b17f110eb2aa77] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:47:43.846621|::1| [error] [92cfdda020360b91d7b17f110eb2aa77] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:47:53.245441|::1| [trace] [597f391483900f0e26f7f6e86648ee03] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:47:53.266604|::1| [trace] [597f391483900f0e26f7f6e86648ee03] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:47:53.286824|::1| [trace] [597f391483900f0e26f7f6e86648ee03] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:47:53.291110|::1| [trace] [597f391483900f0e26f7f6e86648ee03] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:47:53.296230|::1| [error] [597f391483900f0e26f7f6e86648ee03] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:48:12.202090|::1| [trace] [a4aa76454122049df6f2a930683b47fb] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:48:12.207108|::1| [trace] [a4aa76454122049df6f2a930683b47fb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-16', )
+26/05/2023 17:48:12.215389|::1| [trace] [a4aa76454122049df6f2a930683b47fb] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-16' ORDER BY punching_date DESC
+26/05/2023 17:48:12.218991|::1| [trace] [a4aa76454122049df6f2a930683b47fb] crud.init.php (36) CrudController->router() : Array
+26/05/2023 17:50:18.370390|::1| [trace] [234b57860dc3c01d8ab12f9b62c77ecd] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:50:18.387837|::1| [trace] [234b57860dc3c01d8ab12f9b62c77ecd] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:50:18.401177|::1| [trace] [234b57860dc3c01d8ab12f9b62c77ecd] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:50:18.403522|::1| [trace] [234b57860dc3c01d8ab12f9b62c77ecd] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:50:18.406199|::1| [error] [234b57860dc3c01d8ab12f9b62c77ecd] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:52:12.733566|::1| [trace] [f0e178a27dbcaf8035e5156717c958be] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:52:12.747359|::1| [trace] [f0e178a27dbcaf8035e5156717c958be] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:52:12.754612|::1| [trace] [f0e178a27dbcaf8035e5156717c958be] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:52:12.757572|::1| [trace] [f0e178a27dbcaf8035e5156717c958be] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:52:12.760947|::1| [error] [f0e178a27dbcaf8035e5156717c958be] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:52:46.171823|::1| [trace] [b9310fb3a13babf0b37a6497adad34b1] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:52:46.193310|::1| [trace] [b9310fb3a13babf0b37a6497adad34b1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:52:46.210674|::1| [trace] [b9310fb3a13babf0b37a6497adad34b1] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:52:46.212407|::1| [trace] [b9310fb3a13babf0b37a6497adad34b1] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:52:46.214179|::1| [error] [b9310fb3a13babf0b37a6497adad34b1] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:53:31.383265|::1| [trace] [a9f20657dbc38664a55f9a7b1bb2afac] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:53:31.394964|::1| [trace] [a9f20657dbc38664a55f9a7b1bb2afac] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:53:31.404130|::1| [trace] [a9f20657dbc38664a55f9a7b1bb2afac] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:53:31.406157|::1| [trace] [a9f20657dbc38664a55f9a7b1bb2afac] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:53:31.408133|::1| [error] [a9f20657dbc38664a55f9a7b1bb2afac] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:53:36.261002|::1| [trace] [f29304cc48c35f5f2ace756491731c11] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:53:36.276063|::1| [trace] [f29304cc48c35f5f2ace756491731c11] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:53:36.283864|::1| [trace] [f29304cc48c35f5f2ace756491731c11] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:53:36.289815|::1| [trace] [f29304cc48c35f5f2ace756491731c11] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:53:36.291979|::1| [error] [f29304cc48c35f5f2ace756491731c11] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:53:42.989274|::1| [trace] [f17e774ea5d41da0c3d6b151609ab34b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:53:43.008795|::1| [trace] [f17e774ea5d41da0c3d6b151609ab34b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:53:43.022587|::1| [trace] [f17e774ea5d41da0c3d6b151609ab34b] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:53:43.024079|::1| [trace] [f17e774ea5d41da0c3d6b151609ab34b] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:53:43.027561|::1| [error] [f17e774ea5d41da0c3d6b151609ab34b] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:54:08.273211|::1| [trace] [ca8543013e545b1811a2856c92f64245] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:54:08.284676|::1| [trace] [ca8543013e545b1811a2856c92f64245] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:54:08.292469|::1| [trace] [ca8543013e545b1811a2856c92f64245] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:54:08.294120|::1| [trace] [ca8543013e545b1811a2856c92f64245] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:54:08.296931|::1| [error] [ca8543013e545b1811a2856c92f64245] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:54:10.937624|::1| [trace] [cd30e1e8f7e2c49e574c6d5b286199ef] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:54:10.948996|::1| [trace] [cd30e1e8f7e2c49e574c6d5b286199ef] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:54:10.957093|::1| [trace] [cd30e1e8f7e2c49e574c6d5b286199ef] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:54:10.958906|::1| [trace] [cd30e1e8f7e2c49e574c6d5b286199ef] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:54:10.960807|::1| [error] [cd30e1e8f7e2c49e574c6d5b286199ef] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:54:33.169576|::1| [trace] [47b423859d151d091833eddd1a26e1b1] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:54:33.182127|::1| [trace] [47b423859d151d091833eddd1a26e1b1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:54:33.191270|::1| [trace] [47b423859d151d091833eddd1a26e1b1] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:54:33.193017|::1| [trace] [47b423859d151d091833eddd1a26e1b1] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:54:33.198613|::1| [error] [47b423859d151d091833eddd1a26e1b1] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:54:55.141871|::1| [trace] [0ae44e412af2d12c7b2ecf465af265ea] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:54:55.159683|::1| [trace] [0ae44e412af2d12c7b2ecf465af265ea] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:54:55.173774|::1| [trace] [0ae44e412af2d12c7b2ecf465af265ea] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:54:55.175584|::1| [trace] [0ae44e412af2d12c7b2ecf465af265ea] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:54:55.177611|::1| [error] [0ae44e412af2d12c7b2ecf465af265ea] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:56:06.624797|::1| [trace] [0a585f63e2c947c5271ca9538f7dfbcf] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:56:06.646147|::1| [trace] [0a585f63e2c947c5271ca9538f7dfbcf] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:56:06.660283|::1| [trace] [0a585f63e2c947c5271ca9538f7dfbcf] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:56:06.663086|::1| [trace] [0a585f63e2c947c5271ca9538f7dfbcf] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:56:06.665590|::1| [error] [0a585f63e2c947c5271ca9538f7dfbcf] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 17:56:31.053881|::1| [trace] [3c37613689107c6025cf39fa2b664361] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 17:56:31.068267|::1| [trace] [3c37613689107c6025cf39fa2b664361] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 17:56:31.079085|::1| [trace] [3c37613689107c6025cf39fa2b664361] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 17:56:31.080732|::1| [trace] [3c37613689107c6025cf39fa2b664361] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 17:56:31.082252|::1| [error] [3c37613689107c6025cf39fa2b664361] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 18:24:50.709245|::1| [trace] [53a27667df0e99673a62d18b63d41e25] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 18:24:50.729541|::1| [trace] [53a27667df0e99673a62d18b63d41e25] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 18:24:50.738769|::1| [trace] [53a27667df0e99673a62d18b63d41e25] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 18:24:50.740943|::1| [trace] [53a27667df0e99673a62d18b63d41e25] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 18:24:50.743268|::1| [error] [53a27667df0e99673a62d18b63d41e25] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 18:24:53.500400|::1| [trace] [b0dc160c6f14dd28ac37c45232bcb0dc] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 18:24:53.515026|::1| [trace] [b0dc160c6f14dd28ac37c45232bcb0dc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 18:24:53.522639|::1| [trace] [b0dc160c6f14dd28ac37c45232bcb0dc] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 18:24:53.527554|::1| [trace] [b0dc160c6f14dd28ac37c45232bcb0dc] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 18:24:53.530056|::1| [error] [b0dc160c6f14dd28ac37c45232bcb0dc] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 18:24:55.512022|::1| [trace] [b57571d3ff9e0ae2cde1c95145fbab16] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 18:24:55.559489|::1| [trace] [b57571d3ff9e0ae2cde1c95145fbab16] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 18:35:38.685551|::1| [trace] [a470695d1fb57e71d9c23e0bc6f78a31] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 18:35:38.694781|::1| [trace] [a470695d1fb57e71d9c23e0bc6f78a31] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 18:35:38.703286|::1| [trace] [a470695d1fb57e71d9c23e0bc6f78a31] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 18:35:38.705100|::1| [trace] [a470695d1fb57e71d9c23e0bc6f78a31] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 18:35:38.709428|::1| [error] [a470695d1fb57e71d9c23e0bc6f78a31] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 18:53:32.052438|::1| [trace] [ffc10119dcb7863f5c60c3d414ccf4fe] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 18:53:32.062567|::1| [trace] [ffc10119dcb7863f5c60c3d414ccf4fe] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 18:53:32.071722|::1| [trace] [ffc10119dcb7863f5c60c3d414ccf4fe] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 18:53:32.077255|::1| [trace] [ffc10119dcb7863f5c60c3d414ccf4fe] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 18:53:32.081552|::1| [error] [ffc10119dcb7863f5c60c3d414ccf4fe] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 18:58:42.543750|::1| [trace] [330452ac0fd380e7aafcc20c89241154] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 18:58:42.554122|::1| [trace] [330452ac0fd380e7aafcc20c89241154] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 18:58:42.561980|::1| [trace] [330452ac0fd380e7aafcc20c89241154] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 18:58:42.563178|::1| [trace] [330452ac0fd380e7aafcc20c89241154] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 18:58:42.564291|::1| [error] [330452ac0fd380e7aafcc20c89241154] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 18:58:52.963074|::1| [trace] [592d0577ea4c5a37dd4f5a85674d4cdf] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 18:58:52.966557|::1| [trace] [592d0577ea4c5a37dd4f5a85674d4cdf] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 18:58:52.971443|::1| [trace] [592d0577ea4c5a37dd4f5a85674d4cdf] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15' ORDER BY punching_date DESC
+26/05/2023 18:58:52.973126|::1| [trace] [592d0577ea4c5a37dd4f5a85674d4cdf] crud.init.php (36) CrudController->router() : Array
+26/05/2023 18:59:24.322783|::1| [trace] [99c3d344e78e767d0b09997c8b4b2da5] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 18:59:24.333924|::1| [trace] [99c3d344e78e767d0b09997c8b4b2da5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 18:59:24.340882|::1| [trace] [99c3d344e78e767d0b09997c8b4b2da5] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 18:59:24.341912|::1| [trace] [99c3d344e78e767d0b09997c8b4b2da5] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 18:59:24.342968|::1| [error] [99c3d344e78e767d0b09997c8b4b2da5] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 18:59:33.998358|::1| [trace] [971112d702dac8a365c915f0a1c13eef] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 18:59:34.001606|::1| [trace] [971112d702dac8a365c915f0a1c13eef] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 18:59:34.005223|::1| [trace] [971112d702dac8a365c915f0a1c13eef] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15' ORDER BY punching_date DESC
+26/05/2023 18:59:34.007147|::1| [trace] [971112d702dac8a365c915f0a1c13eef] crud.init.php (36) CrudController->router() : Array
+26/05/2023 19:02:37.836910|::1| [trace] [c954a8447c9b0b28d69cd21df5f1bf2a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:02:37.847421|::1| [trace] [c954a8447c9b0b28d69cd21df5f1bf2a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 19:02:37.855510|::1| [trace] [c954a8447c9b0b28d69cd21df5f1bf2a] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 19:02:37.856914|::1| [trace] [c954a8447c9b0b28d69cd21df5f1bf2a] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 19:02:37.858798|::1| [error] [c954a8447c9b0b28d69cd21df5f1bf2a] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 19:03:02.800803|::1| [trace] [ac51b9274c226b995b01570331b5b718] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:03:02.819811|::1| [trace] [ac51b9274c226b995b01570331b5b718] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 19:03:02.823486|::1| [trace] [ac51b9274c226b995b01570331b5b718] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15' ORDER BY punching_date DESC
+26/05/2023 19:03:02.825422|::1| [trace] [ac51b9274c226b995b01570331b5b718] crud.init.php (36) CrudController->router() : Array
+26/05/2023 19:11:46.867821|::1| [trace] [208a5d1f1991e51559beeb375d71602f] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:11:46.881699|::1| [trace] [208a5d1f1991e51559beeb375d71602f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 19:11:46.889758|::1| [trace] [208a5d1f1991e51559beeb375d71602f] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 19:11:46.891129|::1| [trace] [208a5d1f1991e51559beeb375d71602f] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 19:11:46.892306|::1| [error] [208a5d1f1991e51559beeb375d71602f] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 19:11:57.524936|::1| [trace] [0c33ff38bc4f61e47eaf1cd1c39a45e2] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:11:57.528500|::1| [trace] [0c33ff38bc4f61e47eaf1cd1c39a45e2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-15', 'maxidate' => '2023-05-15', )
+26/05/2023 19:11:57.533757|::1| [trace] [0c33ff38bc4f61e47eaf1cd1c39a45e2] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-15' AND punching_date <= '2023-05-15' ORDER BY punching_date DESC
+26/05/2023 19:11:57.535409|::1| [trace] [0c33ff38bc4f61e47eaf1cd1c39a45e2] crud.init.php (36) CrudController->router() : Array
+26/05/2023 19:21:55.597704|::1| [trace] [ebfdbd8c5addacae191ffb07c74ce967] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:21:55.618186|::1| [trace] [ebfdbd8c5addacae191ffb07c74ce967] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:21:55.628262|::1| [trace] [ebfdbd8c5addacae191ffb07c74ce967] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 19:21:55.633475|::1| [trace] [ebfdbd8c5addacae191ffb07c74ce967] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 19:21:55.636729|::1| [error] [ebfdbd8c5addacae191ffb07c74ce967] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 19:21:59.043699|::1| [trace] [e6b54ec9c5fc54dd6a428c1790595b04] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:21:59.052244|::1| [trace] [e6b54ec9c5fc54dd6a428c1790595b04] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:21:59.057080|::1| [trace] [e6b54ec9c5fc54dd6a428c1790595b04] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 19:21:59.058064|::1| [trace] [e6b54ec9c5fc54dd6a428c1790595b04] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 19:21:59.059135|::1| [error] [e6b54ec9c5fc54dd6a428c1790595b04] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 19:22:32.710372|::1| [trace] [9aa2451385ebfa73b66d462a7e73474b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:22:32.744081|::1| [trace] [9aa2451385ebfa73b66d462a7e73474b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:22:32.767976|::1| [trace] [9aa2451385ebfa73b66d462a7e73474b] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 19:22:32.771426|::1| [trace] [9aa2451385ebfa73b66d462a7e73474b] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 19:22:32.778512|::1| [error] [9aa2451385ebfa73b66d462a7e73474b] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 19:22:34.787741|::1| [trace] [43c728eac7dee6738bd444c05f5d9591] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:22:34.793232|::1| [trace] [43c728eac7dee6738bd444c05f5d9591] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:22:34.797749|::1| [trace] [43c728eac7dee6738bd444c05f5d9591] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 19:22:34.798683|::1| [trace] [43c728eac7dee6738bd444c05f5d9591] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 19:22:34.799474|::1| [error] [43c728eac7dee6738bd444c05f5d9591] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 19:23:53.695877|::1| [trace] [2d8d2a3e2adc55cd2bafd85e721f300a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:23:53.707036|::1| [trace] [2d8d2a3e2adc55cd2bafd85e721f300a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:23:53.715049|::1| [trace] [2d8d2a3e2adc55cd2bafd85e721f300a] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 19:23:53.716582|::1| [trace] [2d8d2a3e2adc55cd2bafd85e721f300a] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 19:23:53.718054|::1| [error] [2d8d2a3e2adc55cd2bafd85e721f300a] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 19:24:05.309511|::1| [trace] [89459fda05ae6a23725e9fc67b9499f6] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:24:05.329582|::1| [trace] [89459fda05ae6a23725e9fc67b9499f6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:24:05.342225|::1| [trace] [89459fda05ae6a23725e9fc67b9499f6] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 19:24:05.344088|::1| [trace] [89459fda05ae6a23725e9fc67b9499f6] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 19:24:05.345556|::1| [error] [89459fda05ae6a23725e9fc67b9499f6] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 19:26:10.054716|::1| [trace] [6e50af755fac24965f0f6d269c6ef6be] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:26:10.077157|::1| [trace] [6e50af755fac24965f0f6d269c6ef6be] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:26:10.101306|::1| [trace] [6e50af755fac24965f0f6d269c6ef6be] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/05/2023 19:31:42.408394|::1| [trace] [f597446228766518b75d790791d7319d] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:31:42.434936|::1| [trace] [f597446228766518b75d790791d7319d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:31:42.450067|::1| [trace] [f597446228766518b75d790791d7319d] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/05/2023 19:39:59.000616|::1| [trace] [81251f79c51d6583fda150d1a58d30b0] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:39:59.011789|::1| [trace] [81251f79c51d6583fda150d1a58d30b0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:39:59.018455|::1| [trace] [81251f79c51d6583fda150d1a58d30b0] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/05/2023 19:40:09.099539|::1| [trace] [0342830adc2add3be02fddce176251fb] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:40:09.107177|::1| [trace] [0342830adc2add3be02fddce176251fb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'updateReasons', 'id' => '1', 'value' => 'not_punched_in', )
+26/05/2023 19:40:16.120071|::1| [trace] [67bf9070945d0d15358ba870cfe974ce] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:40:16.126749|::1| [trace] [67bf9070945d0d15358ba870cfe974ce] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'updateConsider', 'id' => '1', 'value' => 'No', )
+26/05/2023 19:48:59.607002|::1| [trace] [e1d0bf58e7274eeaa064c681b081d0f9] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:48:59.627573|::1| [trace] [e1d0bf58e7274eeaa064c681b081d0f9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:48:59.639575|::1| [trace] [e1d0bf58e7274eeaa064c681b081d0f9] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/05/2023 19:49:01.425507|::1| [trace] [3f76c3edb03ddf292154e3904cb56459] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:49:01.431554|::1| [trace] [3f76c3edb03ddf292154e3904cb56459] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 19:49:01.437972|::1| [trace] [3f76c3edb03ddf292154e3904cb56459] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 19:49:01.439265|::1| [trace] [3f76c3edb03ddf292154e3904cb56459] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 19:49:01.440594|::1| [error] [3f76c3edb03ddf292154e3904cb56459] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 19:49:11.582825|::1| [trace] [cce10f6f52081e22f29c2100853613af] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:49:11.600438|::1| [trace] [cce10f6f52081e22f29c2100853613af] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:49:11.613981|::1| [trace] [cce10f6f52081e22f29c2100853613af] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/05/2023 19:49:14.251189|::1| [trace] [37cddfc3c4b669d1020a46d837ee5fd5] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:49:14.257891|::1| [trace] [37cddfc3c4b669d1020a46d837ee5fd5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 19:49:14.262665|::1| [trace] [37cddfc3c4b669d1020a46d837ee5fd5] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 19:49:14.263833|::1| [trace] [37cddfc3c4b669d1020a46d837ee5fd5] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 19:49:14.264842|::1| [error] [37cddfc3c4b669d1020a46d837ee5fd5] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 19:49:20.372157|::1| [trace] [db8f5fc23407964961f2727bc7c0fca7] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:49:20.379479|::1| [trace] [db8f5fc23407964961f2727bc7c0fca7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:49:20.384737|::1| [trace] [db8f5fc23407964961f2727bc7c0fca7] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/05/2023 19:49:25.676206|::1| [trace] [f3c531d2098d4483e64967bf4b84349f] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:49:25.688225|::1| [trace] [f3c531d2098d4483e64967bf4b84349f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 19:49:25.696022|::1| [trace] [f3c531d2098d4483e64967bf4b84349f] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 19:49:25.697757|::1| [trace] [f3c531d2098d4483e64967bf4b84349f] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 19:49:25.699192|::1| [error] [f3c531d2098d4483e64967bf4b84349f] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 19:49:34.561808|::1| [trace] [e8532ca1a0bcc8107cdf811fe1bcef5e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:49:34.565979|::1| [trace] [e8532ca1a0bcc8107cdf811fe1bcef5e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-25', 'maxidate' => '2023-05-27', )
+26/05/2023 19:49:34.573592|::1| [trace] [e8532ca1a0bcc8107cdf811fe1bcef5e] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-25' AND punching_date <= '2023-05-27' ORDER BY punching_date DESC
+26/05/2023 19:49:34.575594|::1| [trace] [e8532ca1a0bcc8107cdf811fe1bcef5e] crud.init.php (36) CrudController->router() : Array
+26/05/2023 19:49:41.056370|::1| [trace] [61d2bd0f2e218ae3f13a05abd162009b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:49:41.068092|::1| [trace] [61d2bd0f2e218ae3f13a05abd162009b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:49:41.076267|::1| [trace] [61d2bd0f2e218ae3f13a05abd162009b] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/05/2023 19:49:45.418273|::1| [trace] [27b1626ec4b5089b12f8abcb35f6d9f5] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:49:45.435046|::1| [trace] [27b1626ec4b5089b12f8abcb35f6d9f5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'updateConsider', 'id' => '1', 'value' => 'Yes', )
+26/05/2023 19:49:48.158895|::1| [trace] [f63745e73f745ecb13cb209c28903000] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:49:48.163392|::1| [trace] [f63745e73f745ecb13cb209c28903000] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'updateReasons', 'id' => '1', 'value' => 'not_punched_in', )
+26/05/2023 19:49:53.231724|::1| [trace] [c9b7ccf216df0ce2e1ac4b0ce2d04583] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:49:53.247025|::1| [trace] [c9b7ccf216df0ce2e1ac4b0ce2d04583] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 19:49:53.257708|::1| [trace] [c9b7ccf216df0ce2e1ac4b0ce2d04583] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK
+26/05/2023 19:49:53.259531|::1| [trace] [c9b7ccf216df0ce2e1ac4b0ce2d04583] database.class.inc (50) Database->query() : SHOW FULL PROCESSLIST
+26/05/2023 19:49:53.261020|::1| [error] [c9b7ccf216df0ce2e1ac4b0ce2d04583] database.class.inc (60) Database->query() : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 Catch Error at the time of issue array ( 'Id' => '1', 'User' => 'system user', 'Host' => '', 'db' => NULL, 'Command' => 'Daemon', 'Time' => NULL, 'State' => 'InnoDB purge coordinator', 'Info' => NULL, 'Progress' => '0.000', )
+26/05/2023 19:50:02.582544|::1| [trace] [f16ba0ce8096e6a0479acf03d2f7333e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:50:02.584964|::1| [trace] [f16ba0ce8096e6a0479acf03d2f7333e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportdate', 'minidate' => '2023-05-25', 'maxidate' => '2023-05-25', )
+26/05/2023 19:50:02.588355|::1| [trace] [f16ba0ce8096e6a0479acf03d2f7333e] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= '2023-05-25' AND punching_date <= '2023-05-25' ORDER BY punching_date DESC
+26/05/2023 19:50:02.589590|::1| [trace] [f16ba0ce8096e6a0479acf03d2f7333e] crud.init.php (36) CrudController->router() : Array
+26/05/2023 19:50:07.771294|::1| [trace] [723ae93686be9550ef61b88554c4bb0d] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:50:07.784326|::1| [trace] [723ae93686be9550ef61b88554c4bb0d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:50:07.792555|::1| [trace] [723ae93686be9550ef61b88554c4bb0d] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/05/2023 19:51:13.396423|::1| [trace] [9ff61973352d9d1ea70baa31aa9a6547] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:51:13.447073|::1| [trace] [9ff61973352d9d1ea70baa31aa9a6547] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:51:13.528881|::1| [trace] [9ff61973352d9d1ea70baa31aa9a6547] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/05/2023 19:51:16.445943|::1| [trace] [134f5c0e2a9c272208db6d69b243839e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:51:16.453239|::1| [trace] [134f5c0e2a9c272208db6d69b243839e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 19:51:16.458601|::1| [trace] [134f5c0e2a9c272208db6d69b243839e] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail
+26/05/2023 19:52:02.614469|::1| [trace] [b3afa7f313ed86680366cc40dbcb15ed] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:52:02.632807|::1| [trace] [b3afa7f313ed86680366cc40dbcb15ed] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'reportlist', )
+26/05/2023 19:52:02.648351|::1| [trace] [b3afa7f313ed86680366cc40dbcb15ed] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/05/2023 19:52:05.523345|::1| [trace] [ec939a0ad9904db37652c2988e8dac43] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:52:05.531215|::1| [trace] [ec939a0ad9904db37652c2988e8dac43] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:52:05.535985|::1| [trace] [ec939a0ad9904db37652c2988e8dac43] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/05/2023 19:52:11.027931|::1| [trace] [2014e01be2f63e60b46b6c4983b1f845] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:52:11.038677|::1| [trace] [2014e01be2f63e60b46b6c4983b1f845] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'updateConsider', 'id' => '1', 'value' => 'No', )
+26/05/2023 19:53:52.556919|::1| [trace] [29f565e99b8cbbb950fac84c4ea7b0aa] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:53:52.571589|::1| [trace] [29f565e99b8cbbb950fac84c4ea7b0aa] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'viewreport', )
+26/05/2023 19:53:52.587016|::1| [trace] [29f565e99b8cbbb950fac84c4ea7b0aa] database.class.inc (50) Database->query() : SELECT * FROM employee_punching_detail WHERE punching_date >= DATE_SUB(NOW(), INTERVAL 1 WEEK)
+26/05/2023 19:53:55.541132|::1| [trace] [04496083bae8b528bbf8dfa923ab7a90] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+26/05/2023 19:53:55.544919|::1| [trace] [04496083bae8b528bbf8dfa923ab7a90] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'updateConsider', 'id' => '1', 'value' => 'No', )

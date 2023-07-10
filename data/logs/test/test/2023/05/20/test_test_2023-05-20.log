@@ -1,0 +1,417 @@
+#test/test/DESKTOP-JPEDOAG/::1/2023-05-20/14:57:51/
+20/05/2023 14:57:51.743858|::1| [trace] [75c40c4689ec462a514bff14dfe2841c] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 14:57:51.789530|::1| [trace] [75c40c4689ec462a514bff14dfe2841c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/05/2023 14:58:00.163418|::1| [trace] [ba23ecebc3790d5e0ab538f48b5900fc] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 14:58:00.167114|::1| [trace] [ba23ecebc3790d5e0ab538f48b5900fc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'nethaji', 'password' => '123', )
+20/05/2023 14:58:00.173412|::1| [trace] [ba23ecebc3790d5e0ab538f48b5900fc] database.class.inc (50) Database->query() : SELECT * FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+20/05/2023 14:58:00.212724|::1| [trace] [be9ea80cadcecc1ca6e8de060b99f554] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 14:58:00.217705|::1| [trace] [be9ea80cadcecc1ca6e8de060b99f554] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+20/05/2023 14:58:00.581069|::1| [trace] [16d74ed0d8b4a98e182a65715d5e00a7] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 14:58:00.589286|::1| [trace] [16d74ed0d8b4a98e182a65715d5e00a7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'operator', )
+20/05/2023 14:58:00.594305|::1| [trace] [16d74ed0d8b4a98e182a65715d5e00a7] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 14:58:00.606178|::1| [trace] [d93547da1d267ec85b0386e3e5ced8f7] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 14:58:00.612482|::1| [trace] [d93547da1d267ec85b0386e3e5ced8f7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'via_sub', )
+20/05/2023 14:58:00.616986|::1| [trace] [d93547da1d267ec85b0386e3e5ced8f7] database.class.inc (50) Database->query() : SELECT via_sub FROM agency_list GROUP BY via_sub DESC
+20/05/2023 14:58:07.610718|::1| [trace] [b71ed7e068e5d2b20f4cf665c95d353e] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 14:58:07.635402|::1| [trace] [b71ed7e068e5d2b20f4cf665c95d353e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 14:58:07.638959|::1| [trace] [b71ed7e068e5d2b20f4cf665c95d353e] crud.init.php (98) CrudController->router() : hey
+20/05/2023 14:58:07.825568|::1| [trace] [a50c1a12130d8218cbd842e8c4241941] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 14:58:07.832112|::1| [trace] [a50c1a12130d8218cbd842e8c4241941] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 14:58:07.836536|::1| [trace] [a50c1a12130d8218cbd842e8c4241941] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 14:58:07.842283|::1| [trace] [72f47cbe9086030fe3d84e606c5b321a] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 14:58:07.849941|::1| [trace] [72f47cbe9086030fe3d84e606c5b321a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 14:58:07.853763|::1| [trace] [72f47cbe9086030fe3d84e606c5b321a] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 14:58:10.064512|::1| [trace] [74106af6dab817af14f2a22cd7f435bd] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 14:58:10.071942|::1| [trace] [74106af6dab817af14f2a22cd7f435bd] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '287', )
+20/05/2023 14:58:10.074522|::1| [trace] [74106af6dab817af14f2a22cd7f435bd] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='287'
+20/05/2023 15:03:49.724430|::1| [trace] [7b6844eed74c96964a8ee6b962847f1d] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:03:49.736973|::1| [trace] [7b6844eed74c96964a8ee6b962847f1d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:03:49.746860|::1| [trace] [7b6844eed74c96964a8ee6b962847f1d] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:03:50.067075|::1| [trace] [67ebc88846cbe327f463e69f13dcd2e2] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:03:50.073580|::1| [trace] [67ebc88846cbe327f463e69f13dcd2e2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:03:50.078202|::1| [trace] [67ebc88846cbe327f463e69f13dcd2e2] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:03:50.088114|::1| [trace] [24c035c087b1215c36f20235bbb23d60] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:03:50.101183|::1| [trace] [24c035c087b1215c36f20235bbb23d60] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:03:50.107920|::1| [trace] [24c035c087b1215c36f20235bbb23d60] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:03:52.018565|::1| [trace] [28f8ee785d85f076a994b2f5cbcb496b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:03:52.021343|::1| [trace] [28f8ee785d85f076a994b2f5cbcb496b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '287', )
+20/05/2023 15:03:52.025424|::1| [trace] [28f8ee785d85f076a994b2f5cbcb496b] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='287'
+20/05/2023 15:04:06.836668|::1| [trace] [3a68bfc0b4d1615d35bc72ba12e9d6cf] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:04:06.842242|::1| [trace] [3a68bfc0b4d1615d35bc72ba12e9d6cf] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:04:06.846040|::1| [trace] [3a68bfc0b4d1615d35bc72ba12e9d6cf] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:04:07.036140|::1| [trace] [5069feafc273fc30facd09d4d97f47ef] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:04:07.040445|::1| [trace] [5069feafc273fc30facd09d4d97f47ef] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:04:07.043128|::1| [trace] [5069feafc273fc30facd09d4d97f47ef] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:04:07.048798|::1| [trace] [2ab4a336e3a2e6975d247c3406bce26a] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:04:07.053348|::1| [trace] [2ab4a336e3a2e6975d247c3406bce26a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:04:07.056969|::1| [trace] [2ab4a336e3a2e6975d247c3406bce26a] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:04:08.906529|::1| [trace] [67fd033b25d05e6ddd684534dc507dff] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:04:08.909106|::1| [trace] [67fd033b25d05e6ddd684534dc507dff] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '287', )
+20/05/2023 15:04:08.911787|::1| [trace] [67fd033b25d05e6ddd684534dc507dff] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='287'
+20/05/2023 15:04:37.381880|::1| [trace] [4a6eae7522e0282e08f4c7670f928184] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:04:37.386492|::1| [trace] [4a6eae7522e0282e08f4c7670f928184] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:04:37.392162|::1| [trace] [4a6eae7522e0282e08f4c7670f928184] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:04:37.696449|::1| [trace] [7c2dc2b3d52facf4cdc1dd8bec8eecd7] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:04:37.700467|::1| [trace] [7c2dc2b3d52facf4cdc1dd8bec8eecd7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:04:37.703191|::1| [trace] [7c2dc2b3d52facf4cdc1dd8bec8eecd7] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:04:37.707845|::1| [trace] [3233fd6f9e60ec1f477d2467b7f04db4] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:04:37.713078|::1| [trace] [3233fd6f9e60ec1f477d2467b7f04db4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:04:37.715889|::1| [trace] [3233fd6f9e60ec1f477d2467b7f04db4] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:04:39.218602|::1| [trace] [2d906ad68458fdb3302849ec44f040d6] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:04:39.221719|::1| [trace] [2d906ad68458fdb3302849ec44f040d6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '287', )
+20/05/2023 15:04:39.224514|::1| [trace] [2d906ad68458fdb3302849ec44f040d6] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='287'
+20/05/2023 15:06:38.363868|::1| [trace] [9877f186dc33b29a7138bcaf7d3ccfa2] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:06:38.383985|::1| [trace] [9877f186dc33b29a7138bcaf7d3ccfa2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:06:38.393954|::1| [trace] [9877f186dc33b29a7138bcaf7d3ccfa2] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:06:38.743527|::1| [trace] [d160f726961230715c290755d0e283fc] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:06:38.747922|::1| [trace] [d160f726961230715c290755d0e283fc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:06:38.751657|::1| [trace] [d160f726961230715c290755d0e283fc] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:06:38.763361|::1| [trace] [2a18cea9155f3a37814d42a0f134b9a7] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:06:38.769718|::1| [trace] [2a18cea9155f3a37814d42a0f134b9a7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:06:38.774893|::1| [trace] [2a18cea9155f3a37814d42a0f134b9a7] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:06:42.023978|::1| [trace] [c331e775c15db5f76011d4136511ab71] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:06:42.039175|::1| [trace] [c331e775c15db5f76011d4136511ab71] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '286', )
+20/05/2023 15:06:42.043054|::1| [trace] [c331e775c15db5f76011d4136511ab71] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='286'
+20/05/2023 15:09:13.192147|::1| [trace] [ede97d5d8cc8c363c628a8d7f8bfc8bc] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:09:13.199095|::1| [trace] [ede97d5d8cc8c363c628a8d7f8bfc8bc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:09:13.205053|::1| [trace] [ede97d5d8cc8c363c628a8d7f8bfc8bc] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:09:13.560945|::1| [trace] [efea30abbac1d90e698dd98197ffdb05] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:09:13.569371|::1| [trace] [efea30abbac1d90e698dd98197ffdb05] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:09:13.573093|::1| [trace] [efea30abbac1d90e698dd98197ffdb05] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:09:13.582391|::1| [trace] [5269db2bd39cc0e31bf60fb0220cb1db] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:09:13.609355|::1| [trace] [5269db2bd39cc0e31bf60fb0220cb1db] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:09:13.612368|::1| [trace] [5269db2bd39cc0e31bf60fb0220cb1db] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:09:15.414678|::1| [trace] [f1ce05c85888e7aff5c43a14e9840223] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:09:15.417284|::1| [trace] [f1ce05c85888e7aff5c43a14e9840223] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '287', )
+20/05/2023 15:09:15.420289|::1| [trace] [f1ce05c85888e7aff5c43a14e9840223] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='287'
+20/05/2023 15:09:28.336293|::1| [trace] [301368508ffc5995fc06036f30312c37] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:09:28.341365|::1| [trace] [301368508ffc5995fc06036f30312c37] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+20/05/2023 15:09:28.544971|::1| [trace] [8ea526e4aaa1a620bf8dc474027f5f75] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:09:28.551292|::1| [trace] [8ea526e4aaa1a620bf8dc474027f5f75] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'operator', )
+20/05/2023 15:09:28.554140|::1| [trace] [8ea526e4aaa1a620bf8dc474027f5f75] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:09:28.560246|::1| [trace] [1ba7702edb1692af7daaa8464bb4ee4b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:09:28.566333|::1| [trace] [1ba7702edb1692af7daaa8464bb4ee4b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'via_sub', )
+20/05/2023 15:09:28.571794|::1| [trace] [1ba7702edb1692af7daaa8464bb4ee4b] database.class.inc (50) Database->query() : SELECT via_sub FROM agency_list GROUP BY via_sub DESC
+20/05/2023 15:09:31.502038|::1| [trace] [83f8c459b3d9715a55bb6c9e912a032c] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:09:31.523528|::1| [trace] [83f8c459b3d9715a55bb6c9e912a032c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'pro_result', '{"productid":null,"operator_id":"","click":"","click_2":"","publish_id":"","master_point":""}' => '', 'productid' => '', 'operator_id' => '', 'click' => '', 'click_2' => '', 'publish_id' => '', 'master_point' => '', )
+20/05/2023 15:09:31.526278|::1| [trace] [83f8c459b3d9715a55bb6c9e912a032c] database.class.inc (50) Database->query() : SELECT pd_lst.product_id,pd_lst.product_url FROM product_list pd_lst JOIN master_price_point ms_price ON ms_price.product_id=pd_lst.product_id WHERE pd_lst.operator_id='' AND ms_price.price=''
+20/05/2023 15:09:31.535665|::1| [trace] [83f8c459b3d9715a55bb6c9e912a032c] crud.service.class.inc (112) CrudmModel->pro_result() : Array
+20/05/2023 15:09:44.463259|::1| [trace] [40f82565d23463c04b5f74910f3daacc] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:09:44.467781|::1| [trace] [40f82565d23463c04b5f74910f3daacc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'price_point', '{"operatorid":"1"}' => '', 'operatorid' => '1', )
+20/05/2023 15:09:44.470515|::1| [trace] [40f82565d23463c04b5f74910f3daacc] database.class.inc (50) Database->query() : SELECT DISTINCT ms_price.price FROM operator_list op_lst JOIN product_list pd_lst ON pd_lst.operator_id=op_lst.operator_id JOIN master_price_point ms_price ON ms_price.product_id=pd_lst.product_id WHERE op_lst.operator_id='1'
+20/05/2023 15:09:44.472450|::1| [trace] [40f82565d23463c04b5f74910f3daacc] crud.service.class.inc (57) CrudmModel->price_point() : Array
+20/05/2023 15:09:58.909887|::1| [trace] [186b25830fbcd8b29d9ed12bdfbbb7d9] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:09:58.914405|::1| [trace] [186b25830fbcd8b29d9ed12bdfbbb7d9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'price_point', '{"operatorid":"2"}' => '', 'operatorid' => '2', )
+20/05/2023 15:09:58.917042|::1| [trace] [186b25830fbcd8b29d9ed12bdfbbb7d9] database.class.inc (50) Database->query() : SELECT DISTINCT ms_price.price FROM operator_list op_lst JOIN product_list pd_lst ON pd_lst.operator_id=op_lst.operator_id JOIN master_price_point ms_price ON ms_price.product_id=pd_lst.product_id WHERE op_lst.operator_id='2'
+20/05/2023 15:09:58.917881|::1| [trace] [186b25830fbcd8b29d9ed12bdfbbb7d9] crud.service.class.inc (57) CrudmModel->price_point() : Array
+20/05/2023 15:10:14.918914|::1| [trace] [857444e5349093804bc523913c3dbbe3] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:10:14.922888|::1| [trace] [857444e5349093804bc523913c3dbbe3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'agency_name', '{"agency_namee":"afghasdfgh","agency_description":"qwe","flowselect":"web_ni","ruleselect":"charging","operator_respond":"yes","operator_id":"2","master_point":"14","via_sub":"3015","click":"ASERT","click_2":"ASDFGH","publish_id":"ASDF","call_url":"OIJHGCX","unsub_call_url":"POIHG","block_calldate_from":"2023-05-20T15:15","block_calldate_till":"2023-05-20T15:13"}' => '', 'agency_namee' => 'afghasdfgh', 'agency_description' => 'qwe', 'flowselect' => 'web ni', 'ruleselect' => 'charging', 'operator_respond' => 'yes', 'operator_id' => '2', 'master_point' => '14', 'via_sub' => '3015', 'click' => 'ASERT', 'click_2' => 'ASDFGH', 'publish_id' => 'ASDF', 'call_url' => 'OIJHGCX', 'unsub_call_url' => 'POIHG', 'block_calldate_from' => '2023-05-20T15:15', 'block_calldate_till' => '2023-05-20T15:13', )
+20/05/2023 15:10:14.925323|::1| [trace] [857444e5349093804bc523913c3dbbe3] crud.class.inc (50) Database->query() : INSERT INTO `agency_list`( `agency_name`, `description`, `flow`, `send_postback_on`,`send_only_operator_response`, `operator_id`,`master_price_point`,`via_sub`,`click_id`,`click_id2`,`publisher_id`,`callback_url`,`unsub_callback_url`,`block_callback_from`,`block_callback_till`,`added_on`,`updated_on`) VALUES ('afghasdfgh','qwe','web ni','charging','yes','2','14','3015','ASERT','ASDFGH','ASDF','OIJHGCX','POIHG','2023-05-20T15:15','2023-05-20T15:13','2023-05-20 15:10:14','2023-05-20 15:10:14')
+20/05/2023 15:10:14.936568|::1| [trace] [b8c735a2eb93dbcf755f2826751c89d7] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:10:14.964899|::1| [trace] [b8c735a2eb93dbcf755f2826751c89d7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'pro_result', '{"productid":null,"operator_id":"2","click":"ASERT","click_2":"ASDFGH","publish_id":"ASDF","master_point":"14"}' => '', 'productid' => '', 'operator_id' => '2', 'click' => 'ASERT', 'click_2' => 'ASDFGH', 'publish_id' => 'ASDF', 'master_point' => '14', )
+20/05/2023 15:10:14.968585|::1| [trace] [b8c735a2eb93dbcf755f2826751c89d7] database.class.inc (50) Database->query() : SELECT pd_lst.product_id,pd_lst.product_url FROM product_list pd_lst JOIN master_price_point ms_price ON ms_price.product_id=pd_lst.product_id WHERE pd_lst.operator_id='2' AND ms_price.price='14'
+20/05/2023 15:10:14.969638|::1| [trace] [b8c735a2eb93dbcf755f2826751c89d7] crud.service.class.inc (112) CrudmModel->pro_result() : Array
+20/05/2023 15:10:14.970276|::1| [trace] [b8c735a2eb93dbcf755f2826751c89d7] database.class.inc (50) Database->query() : SELECT agency_id FROM agency_list GROUP BY agency_id DESC
+20/05/2023 15:10:14.970916|::1| [trace] [b8c735a2eb93dbcf755f2826751c89d7] crud.class.inc (50) Database->query() : INSERT INTO promotion_urls(agency_id,operator_id,product_id,promotion_url,added_on,updated_on) VALUES('289','2','4','http://safari.newstate&ASERT&ASDFGH&ASDF','2023-05-20 15:10:14','2023-05-20 15:10:14')
+20/05/2023 15:10:18.662853|::1| [trace] [28ff7030d4ecef757a325b32ca87f3b8] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:10:18.670193|::1| [trace] [28ff7030d4ecef757a325b32ca87f3b8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'product', '{"operator_id":"2"}' => '', 'operator_id' => '2', )
+20/05/2023 15:10:18.674720|::1| [trace] [28ff7030d4ecef757a325b32ca87f3b8] database.class.inc (50) Database->query() : SELECT product_id,product_name FROM product_list WHERE operator_id='2'
+20/05/2023 15:10:18.676841|::1| [trace] [28ff7030d4ecef757a325b32ca87f3b8] crud.init.php (158) CrudController->router() : Array
+20/05/2023 15:10:45.140455|::1| [trace] [e4462fa579c81a6f0fe55f318bf98b87] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:10:45.144649|::1| [trace] [e4462fa579c81a6f0fe55f318bf98b87] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:10:45.148551|::1| [trace] [e4462fa579c81a6f0fe55f318bf98b87] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:10:45.322047|::1| [trace] [2a92f41384e185522f306c3e9a2cf2ea] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:10:45.327050|::1| [trace] [2a92f41384e185522f306c3e9a2cf2ea] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:10:45.334805|::1| [trace] [2a92f41384e185522f306c3e9a2cf2ea] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:10:45.339382|::1| [trace] [81d6460a0984d046e434d7fcf2131489] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:10:45.345483|::1| [trace] [81d6460a0984d046e434d7fcf2131489] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:10:45.350014|::1| [trace] [81d6460a0984d046e434d7fcf2131489] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:10:50.712713|::1| [trace] [13e6aab692b1a18b9f5353d3d43075ff] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:10:50.717298|::1| [trace] [13e6aab692b1a18b9f5353d3d43075ff] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:10:50.720285|::1| [trace] [13e6aab692b1a18b9f5353d3d43075ff] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:10:51.079227|::1| [trace] [75b4deac606baa269fab0c472e9f0344] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:10:51.083115|::1| [trace] [75b4deac606baa269fab0c472e9f0344] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:10:51.085716|::1| [trace] [75b4deac606baa269fab0c472e9f0344] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:10:51.091231|::1| [trace] [d885d361d9523f092bbef3d076ed67df] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:10:51.096240|::1| [trace] [d885d361d9523f092bbef3d076ed67df] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:10:51.099713|::1| [trace] [d885d361d9523f092bbef3d076ed67df] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:11:54.250313|::1| [trace] [24e2cdcdfbe1e8895c264bf6e4e24424] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:11:54.255899|::1| [trace] [24e2cdcdfbe1e8895c264bf6e4e24424] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:11:54.261015|::1| [trace] [24e2cdcdfbe1e8895c264bf6e4e24424] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:11:54.579257|::1| [trace] [06dd02d02e30b1d2fca25f81642e9fc6] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:11:54.590183|::1| [trace] [06dd02d02e30b1d2fca25f81642e9fc6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:11:54.595067|::1| [trace] [06dd02d02e30b1d2fca25f81642e9fc6] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:11:54.608583|::1| [trace] [2d27495a8610a21ecd2c0324d0d2d9c0] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:11:54.613205|::1| [trace] [2d27495a8610a21ecd2c0324d0d2d9c0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:11:54.615885|::1| [trace] [2d27495a8610a21ecd2c0324d0d2d9c0] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:11:56.691209|::1| [trace] [9008fbc660fd8a23e1882379c82a55e8] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:11:56.693873|::1| [trace] [9008fbc660fd8a23e1882379c82a55e8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '289', )
+20/05/2023 15:11:56.697197|::1| [trace] [9008fbc660fd8a23e1882379c82a55e8] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='289'
+20/05/2023 15:12:37.344469|::1| [trace] [7ed5696412c2ad1264bc86351630fa21] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:12:37.355036|::1| [trace] [7ed5696412c2ad1264bc86351630fa21] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:12:37.357775|::1| [trace] [7ed5696412c2ad1264bc86351630fa21] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:12:37.750686|::1| [trace] [44a4f94b11c5c545ead1dee113c0be0e] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:12:37.754909|::1| [trace] [44a4f94b11c5c545ead1dee113c0be0e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:12:37.758661|::1| [trace] [44a4f94b11c5c545ead1dee113c0be0e] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:12:37.763858|::1| [trace] [5abbd641e52e7761b78aa7e20e033613] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:12:37.768732|::1| [trace] [5abbd641e52e7761b78aa7e20e033613] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:12:37.773999|::1| [trace] [5abbd641e52e7761b78aa7e20e033613] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:12:40.119610|::1| [trace] [007a9268db2c1546c15c13519efe4e64] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:12:40.122545|::1| [trace] [007a9268db2c1546c15c13519efe4e64] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '285', )
+20/05/2023 15:12:40.127003|::1| [trace] [007a9268db2c1546c15c13519efe4e64] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='285'
+20/05/2023 15:12:58.117463|::1| [trace] [5a6bb4ec4ebf466b0f2f772f045c60bb] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:12:58.122814|::1| [trace] [5a6bb4ec4ebf466b0f2f772f045c60bb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:12:58.129056|::1| [trace] [5a6bb4ec4ebf466b0f2f772f045c60bb] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:12:58.488015|::1| [trace] [80961a7832f52a3b6e75379e8858fda6] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:12:58.497539|::1| [trace] [80961a7832f52a3b6e75379e8858fda6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:12:58.501854|::1| [trace] [80961a7832f52a3b6e75379e8858fda6] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:12:58.508837|::1| [trace] [f50e7ed50ddb348b4324b3104b3bce51] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:12:58.513981|::1| [trace] [f50e7ed50ddb348b4324b3104b3bce51] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:12:58.516171|::1| [trace] [f50e7ed50ddb348b4324b3104b3bce51] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:13:02.189704|::1| [trace] [0a767562e20bbce52042b2f0691886f8] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:13:02.192723|::1| [trace] [0a767562e20bbce52042b2f0691886f8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '265', )
+20/05/2023 15:13:02.195115|::1| [trace] [0a767562e20bbce52042b2f0691886f8] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='265'
+20/05/2023 15:15:18.448755|::1| [trace] [cc5ae34b4aff8debb28e8eb4e0538451] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:15:18.454025|::1| [trace] [cc5ae34b4aff8debb28e8eb4e0538451] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:15:18.460041|::1| [trace] [cc5ae34b4aff8debb28e8eb4e0538451] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:15:18.798765|::1| [trace] [ed6eb76d2cda7a49345f7859e92a7081] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:15:18.802508|::1| [trace] [ed6eb76d2cda7a49345f7859e92a7081] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:15:18.804944|::1| [trace] [ed6eb76d2cda7a49345f7859e92a7081] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:15:18.814174|::1| [trace] [be1b7d4ee38fdcb98e7fc91f8a45bac1] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:15:18.817717|::1| [trace] [be1b7d4ee38fdcb98e7fc91f8a45bac1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:15:18.820633|::1| [trace] [be1b7d4ee38fdcb98e7fc91f8a45bac1] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:15:22.082040|::1| [trace] [97ecb87e72620163ace024b08f5eef8e] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:15:22.084624|::1| [trace] [97ecb87e72620163ace024b08f5eef8e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '288', )
+20/05/2023 15:15:22.088373|::1| [trace] [97ecb87e72620163ace024b08f5eef8e] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='288'
+20/05/2023 15:21:20.313182|::1| [trace] [3074869b8e0653c4c0a71d563c354d65] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:21:20.318083|::1| [trace] [3074869b8e0653c4c0a71d563c354d65] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '265', )
+20/05/2023 15:21:20.323021|::1| [trace] [3074869b8e0653c4c0a71d563c354d65] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='265'
+20/05/2023 15:34:26.793773|::1| [trace] [62539674fb51737d5fb2914826437067] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:34:26.802625|::1| [trace] [62539674fb51737d5fb2914826437067] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:34:26.809313|::1| [trace] [62539674fb51737d5fb2914826437067] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:34:27.049870|::1| [trace] [107c5dc2c99da9c3ace9b018652bd59e] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:34:27.053597|::1| [trace] [107c5dc2c99da9c3ace9b018652bd59e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:34:27.055507|::1| [trace] [107c5dc2c99da9c3ace9b018652bd59e] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:34:27.063332|::1| [trace] [64eb5ab18c4473b4b46cb6703685f9c5] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:34:27.068979|::1| [trace] [64eb5ab18c4473b4b46cb6703685f9c5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:34:27.072472|::1| [trace] [64eb5ab18c4473b4b46cb6703685f9c5] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:34:28.537674|::1| [trace] [f6e2381997086c168578d19144f7a12f] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:34:28.553610|::1| [trace] [f6e2381997086c168578d19144f7a12f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '289', )
+20/05/2023 15:34:28.556334|::1| [trace] [f6e2381997086c168578d19144f7a12f] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='289'
+20/05/2023 15:36:07.839143|::1| [trace] [8d31bcaf3b754c240232587eca6ad31a] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:36:07.847383|::1| [trace] [8d31bcaf3b754c240232587eca6ad31a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:36:07.849591|::1| [trace] [8d31bcaf3b754c240232587eca6ad31a] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:36:07.967900|::1| [trace] [9c1e251dcbc3349e514e3e33918b77eb] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:36:07.995390|::1| [trace] [9c1e251dcbc3349e514e3e33918b77eb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:36:07.998306|::1| [trace] [9c1e251dcbc3349e514e3e33918b77eb] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:36:08.002142|::1| [trace] [a7b416053e0b5e50e3d0ce02187a859f] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:36:08.028423|::1| [trace] [a7b416053e0b5e50e3d0ce02187a859f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:36:08.030589|::1| [trace] [a7b416053e0b5e50e3d0ce02187a859f] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:36:09.771116|::1| [trace] [8a18b7b141c797a48298be4c936900f3] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:36:09.801512|::1| [trace] [8a18b7b141c797a48298be4c936900f3] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '289', )
+20/05/2023 15:36:09.805088|::1| [trace] [8a18b7b141c797a48298be4c936900f3] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='289'
+20/05/2023 15:36:19.479223|::1| [trace] [2a5f1b918a3476fb87a6d0d6dfc55e54] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:36:19.497587|::1| [trace] [2a5f1b918a3476fb87a6d0d6dfc55e54] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'block_callback', 'agency_id' => '289', )
+20/05/2023 15:36:19.500176|::1| [trace] [2a5f1b918a3476fb87a6d0d6dfc55e54] crud.class.inc (50) Database->query() : UPDATE agency_list SET status='block' WHERE agency_id='289'
+20/05/2023 15:36:20.914424|::1| [trace] [34e83be3511b905d75d13ca3fc92b86b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:36:20.920295|::1| [trace] [34e83be3511b905d75d13ca3fc92b86b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:36:20.924911|::1| [trace] [34e83be3511b905d75d13ca3fc92b86b] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:36:21.120151|::1| [trace] [b5f210e9bcd6a79d7aa3721a9f3e55f8] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:36:21.123707|::1| [trace] [b5f210e9bcd6a79d7aa3721a9f3e55f8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:36:21.127561|::1| [trace] [b5f210e9bcd6a79d7aa3721a9f3e55f8] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:36:21.131901|::1| [trace] [dcd00a4d13d8f65b5208f6fedb59b489] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:36:21.135564|::1| [trace] [dcd00a4d13d8f65b5208f6fedb59b489] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:36:21.138158|::1| [trace] [dcd00a4d13d8f65b5208f6fedb59b489] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:37:35.260484|::1| [trace] [689294d066460cc3b073541bbc1bbd76] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:37:35.264199|::1| [trace] [689294d066460cc3b073541bbc1bbd76] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual', 'agency_id' => '289', )
+20/05/2023 15:37:35.266760|::1| [trace] [689294d066460cc3b073541bbc1bbd76] database.class.inc (50) Database->query() : SELECT ag.agency_name,ag.via_sub,opl.operator_name FROM agency_list ag JOIN operator_list opl ON ag.operator_id = opl.operator_id WHERE ag.agency_id = '289'
+20/05/2023 15:37:48.616753|::1| [trace] [d23d0c80bd803a7345d9492d07b3f932] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:37:48.637649|::1| [trace] [d23d0c80bd803a7345d9492d07b3f932] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:37:48.642067|::1| [trace] [d23d0c80bd803a7345d9492d07b3f932] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:37:48.876182|::1| [trace] [433c799d6b82fd986a7897f7222a3761] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:37:48.893104|::1| [trace] [433c799d6b82fd986a7897f7222a3761] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:37:48.895080|::1| [trace] [433c799d6b82fd986a7897f7222a3761] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:37:48.901529|::1| [trace] [2f014b87098f4c0507146851cba030aa] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:37:48.910429|::1| [trace] [2f014b87098f4c0507146851cba030aa] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:37:48.913918|::1| [trace] [2f014b87098f4c0507146851cba030aa] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:37:58.634315|::1| [trace] [310ff54cce6f90f05b3f325e130618fe] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:37:58.637480|::1| [trace] [310ff54cce6f90f05b3f325e130618fe] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual', 'agency_id' => '289', )
+20/05/2023 15:37:58.641200|::1| [trace] [310ff54cce6f90f05b3f325e130618fe] database.class.inc (50) Database->query() : SELECT ag.agency_name,ag.via_sub,opl.operator_name FROM agency_list ag JOIN operator_list opl ON ag.operator_id = opl.operator_id WHERE ag.agency_id = '289'
+20/05/2023 15:38:02.199053|::1| [trace] [cd5045b641217d94e356ac841ec8560f] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:38:02.205096|::1| [trace] [cd5045b641217d94e356ac841ec8560f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:38:02.207716|::1| [trace] [cd5045b641217d94e356ac841ec8560f] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:38:02.361084|::1| [trace] [bce189609b4a45881a29231e35b49d56] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:38:02.379582|::1| [trace] [bce189609b4a45881a29231e35b49d56] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:38:02.382797|::1| [trace] [bce189609b4a45881a29231e35b49d56] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:38:02.387137|::1| [trace] [6202a33adbff7eb126afe272566cfc7b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:38:02.392348|::1| [trace] [6202a33adbff7eb126afe272566cfc7b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:38:02.394332|::1| [trace] [6202a33adbff7eb126afe272566cfc7b] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:41:20.666374|::1| [trace] [2fa6032ec817373b4f672d30e42849bc] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:41:20.670515|::1| [trace] [2fa6032ec817373b4f672d30e42849bc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '289', )
+20/05/2023 15:41:20.674009|::1| [trace] [2fa6032ec817373b4f672d30e42849bc] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='289'
+20/05/2023 15:45:01.809262|::1| [trace] [8a1fc40040cde3687a4e7d9ae4de271d] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:45:01.813750|::1| [trace] [8a1fc40040cde3687a4e7d9ae4de271d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual', 'agency_id' => '289', )
+20/05/2023 15:45:01.817445|::1| [trace] [8a1fc40040cde3687a4e7d9ae4de271d] database.class.inc (50) Database->query() : SELECT ag.agency_name,ag.via_sub,opl.operator_name FROM agency_list ag JOIN operator_list opl ON ag.operator_id = opl.operator_id WHERE ag.agency_id = '289'
+20/05/2023 15:45:07.638299|::1| [trace] [8162e59012c4b1f5202cccdbb9de129d] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:45:07.652834|::1| [trace] [8162e59012c4b1f5202cccdbb9de129d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:45:07.658989|::1| [trace] [8162e59012c4b1f5202cccdbb9de129d] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:45:07.887764|::1| [trace] [7ed65c48eef8f2ac558817c3e7ba3b87] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:45:07.900721|::1| [trace] [7ed65c48eef8f2ac558817c3e7ba3b87] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:45:07.903234|::1| [trace] [7ed65c48eef8f2ac558817c3e7ba3b87] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:45:07.910862|::1| [trace] [f6ba7bb27aac548e2c8413419b363237] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:45:07.917737|::1| [trace] [f6ba7bb27aac548e2c8413419b363237] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:45:07.921370|::1| [trace] [f6ba7bb27aac548e2c8413419b363237] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:45:10.774775|::1| [trace] [35e0798debf93799389541d586856bed] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:45:10.792367|::1| [trace] [35e0798debf93799389541d586856bed] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual', 'agency_id' => '289', )
+20/05/2023 15:45:10.794738|::1| [trace] [35e0798debf93799389541d586856bed] database.class.inc (50) Database->query() : SELECT ag.agency_name,ag.via_sub,opl.operator_name FROM agency_list ag JOIN operator_list opl ON ag.operator_id = opl.operator_id WHERE ag.agency_id = '289'
+20/05/2023 15:45:14.362174|::1| [trace] [cab3e4ed68d2b3e69c65d34091e7ebf6] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:45:14.370385|::1| [trace] [cab3e4ed68d2b3e69c65d34091e7ebf6] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:45:14.373558|::1| [trace] [cab3e4ed68d2b3e69c65d34091e7ebf6] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:45:14.522887|::1| [trace] [f90d31bb78d5bc12df1763dd1eba8c0d] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:45:14.527117|::1| [trace] [f90d31bb78d5bc12df1763dd1eba8c0d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:45:14.531443|::1| [trace] [f90d31bb78d5bc12df1763dd1eba8c0d] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:45:14.535326|::1| [trace] [271a499990487c5f4f5ad3e13726dfba] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:45:14.539423|::1| [trace] [271a499990487c5f4f5ad3e13726dfba] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:45:14.541753|::1| [trace] [271a499990487c5f4f5ad3e13726dfba] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:50:39.355138|::1| [trace] [ffeb156284239fd371eb949853339c95] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:50:39.359159|::1| [trace] [ffeb156284239fd371eb949853339c95] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual', 'agency_id' => '289', )
+20/05/2023 15:50:39.361978|::1| [trace] [ffeb156284239fd371eb949853339c95] database.class.inc (50) Database->query() : SELECT ag.agency_name,ag.via_sub,opl.operator_name FROM agency_list ag JOIN operator_list opl ON ag.operator_id = opl.operator_id WHERE ag.agency_id = '289'
+20/05/2023 15:51:15.979018|::1| [trace] [bc55bae0c406ed44a91e4e6f358fe0e8] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:15.996265|::1| [trace] [bc55bae0c406ed44a91e4e6f358fe0e8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:51:15.999545|::1| [trace] [bc55bae0c406ed44a91e4e6f358fe0e8] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:51:16.239624|::1| [trace] [dc9ccc0e7630ce9be93570c18228b76c] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:16.243181|::1| [trace] [dc9ccc0e7630ce9be93570c18228b76c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:51:16.245819|::1| [trace] [dc9ccc0e7630ce9be93570c18228b76c] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:51:16.250070|::1| [trace] [8cb5925a0f21fc85d8ff5383288b86d4] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:16.270332|::1| [trace] [8cb5925a0f21fc85d8ff5383288b86d4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:51:16.273230|::1| [trace] [8cb5925a0f21fc85d8ff5383288b86d4] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:51:18.115312|::1| [trace] [8668f617e433179344602d5f7b67225a] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:18.136219|::1| [trace] [8668f617e433179344602d5f7b67225a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'unblock_callback', 'agency_id' => '289', )
+20/05/2023 15:51:18.140203|::1| [trace] [8668f617e433179344602d5f7b67225a] crud.class.inc (50) Database->query() : UPDATE agency_list SET status='active' WHERE agency_id='289'
+20/05/2023 15:51:19.813692|::1| [trace] [d8870200675032735e90d5829deccb42] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:19.846963|::1| [trace] [d8870200675032735e90d5829deccb42] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:51:19.849140|::1| [trace] [d8870200675032735e90d5829deccb42] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:51:20.107907|::1| [trace] [e24da78e245bef69d50618e7b83548d9] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:20.124818|::1| [trace] [e24da78e245bef69d50618e7b83548d9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:51:20.126658|::1| [trace] [e24da78e245bef69d50618e7b83548d9] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:51:20.130331|::1| [trace] [138f59d862c4ad8d7475f0cd862e947d] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:20.134257|::1| [trace] [138f59d862c4ad8d7475f0cd862e947d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:51:20.137104|::1| [trace] [138f59d862c4ad8d7475f0cd862e947d] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:51:26.733292|::1| [trace] [03154a4d6b8a2e584afa068f29628a5c] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:26.736491|::1| [trace] [03154a4d6b8a2e584afa068f29628a5c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'delete', 'agency_id' => '284', )
+20/05/2023 15:51:26.738840|::1| [trace] [03154a4d6b8a2e584afa068f29628a5c] crud.class.inc (50) Database->query() : DELETE from agency_list where agency_id ='284'
+20/05/2023 15:51:28.055408|::1| [trace] [63a11a8cec3c318eb1e7eb92d90af462] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:28.071624|::1| [trace] [63a11a8cec3c318eb1e7eb92d90af462] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:51:28.077373|::1| [trace] [63a11a8cec3c318eb1e7eb92d90af462] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:51:28.269855|::1| [trace] [e687741ea655210e04f5e289032d2dab] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:28.272975|::1| [trace] [e687741ea655210e04f5e289032d2dab] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:51:28.274863|::1| [trace] [e687741ea655210e04f5e289032d2dab] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:51:28.278237|::1| [trace] [554d6c0b1db25d7e599c429f89603e33] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:28.281236|::1| [trace] [554d6c0b1db25d7e599c429f89603e33] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:51:28.283382|::1| [trace] [554d6c0b1db25d7e599c429f89603e33] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 15:51:34.541380|::1| [trace] [124d4b8b90349c30693d8669ce34afad] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:34.552112|::1| [trace] [124d4b8b90349c30693d8669ce34afad] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'delete', 'agency_id' => '289', )
+20/05/2023 15:51:34.554738|::1| [trace] [124d4b8b90349c30693d8669ce34afad] crud.class.inc (50) Database->query() : DELETE from agency_list where agency_id ='289'
+20/05/2023 15:51:35.682835|::1| [trace] [1bd058bfb2d24b7fe8abe980c4d558bc] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:35.689527|::1| [trace] [1bd058bfb2d24b7fe8abe980c4d558bc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 15:51:35.699980|::1| [trace] [1bd058bfb2d24b7fe8abe980c4d558bc] crud.init.php (98) CrudController->router() : hey
+20/05/2023 15:51:35.896147|::1| [trace] [1c98c3e169c27814a56d9ce31750d881] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:35.899166|::1| [trace] [1c98c3e169c27814a56d9ce31750d881] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 15:51:35.901549|::1| [trace] [1c98c3e169c27814a56d9ce31750d881] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 15:51:35.904301|::1| [trace] [02a6244feffcef3b3afb4cfb1111ba6d] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 15:51:35.907279|::1| [trace] [02a6244feffcef3b3afb4cfb1111ba6d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 15:51:35.909754|::1| [trace] [02a6244feffcef3b3afb4cfb1111ba6d] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 16:02:42.074614|::1| [trace] [0fbabc1ce316046cd50c7615b8b70df5] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 16:02:42.081273|::1| [trace] [0fbabc1ce316046cd50c7615b8b70df5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual', 'agency_id' => '287', )
+20/05/2023 16:02:42.086638|::1| [trace] [0fbabc1ce316046cd50c7615b8b70df5] database.class.inc (50) Database->query() : SELECT ag.agency_name,ag.via_sub,opl.operator_name FROM agency_list ag JOIN operator_list opl ON ag.operator_id = opl.operator_id WHERE ag.agency_id = '287'
+20/05/2023 22:16:42.403800|::1| [trace] [edf434da04a1c26c69c38855a39a886c] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:16:42.458940|::1| [trace] [edf434da04a1c26c69c38855a39a886c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+20/05/2023 22:16:50.853123|::1| [trace] [c5490ec67cbf5962ebb945fedda7a5d7] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:16:50.859368|::1| [trace] [c5490ec67cbf5962ebb945fedda7a5d7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'login_submit', 'username' => 'nethaji', 'password' => '123', )
+20/05/2023 22:16:50.868261|::1| [trace] [c5490ec67cbf5962ebb945fedda7a5d7] database.class.inc (50) Database->query() : SELECT * FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+20/05/2023 22:16:50.914212|::1| [trace] [2562c3f148ba4343ecd1c385c8245523] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:16:50.934690|::1| [trace] [2562c3f148ba4343ecd1c385c8245523] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'dash', )
+20/05/2023 22:16:51.287273|::1| [trace] [f741a0fceadd70c5721c879f6bce7f82] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:16:51.298337|::1| [trace] [f741a0fceadd70c5721c879f6bce7f82] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'operator', )
+20/05/2023 22:16:51.308182|::1| [trace] [f741a0fceadd70c5721c879f6bce7f82] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 22:16:51.329005|::1| [trace] [32f1dd0589b0b07d4072337a48bd741b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:16:51.342099|::1| [trace] [32f1dd0589b0b07d4072337a48bd741b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'via_sub', )
+20/05/2023 22:16:51.348345|::1| [trace] [32f1dd0589b0b07d4072337a48bd741b] database.class.inc (50) Database->query() : SELECT via_sub FROM agency_list GROUP BY via_sub DESC
+20/05/2023 22:16:53.861598|::1| [trace] [a9ace41b49b2b0d5658f7c61f00a4b7b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:16:53.871707|::1| [trace] [a9ace41b49b2b0d5658f7c61f00a4b7b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 22:16:53.878952|::1| [trace] [a9ace41b49b2b0d5658f7c61f00a4b7b] crud.init.php (98) CrudController->router() : hey
+20/05/2023 22:16:54.219907|::1| [trace] [04a0becf425388637e6fc84b569f6125] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:16:54.229612|::1| [trace] [04a0becf425388637e6fc84b569f6125] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 22:16:54.236073|::1| [trace] [04a0becf425388637e6fc84b569f6125] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 22:16:54.244497|::1| [trace] [4d60b80513a35ee133cb7e0a04fa0dc1] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:16:54.252931|::1| [trace] [4d60b80513a35ee133cb7e0a04fa0dc1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 22:16:54.260000|::1| [trace] [4d60b80513a35ee133cb7e0a04fa0dc1] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 22:16:56.623578|::1| [trace] [e62ba4043ecfe59e647113db9b19a9cb] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:16:56.627954|::1| [trace] [e62ba4043ecfe59e647113db9b19a9cb] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual', 'agency_id' => '282', )
+20/05/2023 22:16:56.632777|::1| [trace] [e62ba4043ecfe59e647113db9b19a9cb] database.class.inc (50) Database->query() : SELECT ag.agency_name,ag.via_sub,opl.operator_name FROM agency_list ag JOIN operator_list opl ON ag.operator_id = opl.operator_id WHERE ag.agency_id = '282'
+20/05/2023 22:17:00.471210|::1| [trace] [28771ccb650423bf955536a54a234c9f] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:17:00.475991|::1| [trace] [28771ccb650423bf955536a54a234c9f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '287', )
+20/05/2023 22:17:00.483675|::1| [trace] [28771ccb650423bf955536a54a234c9f] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='287'
+20/05/2023 22:26:49.340847|::1| [trace] [361e2deefe8af02a15b21575eb491ca2] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:26:49.358253|::1| [trace] [361e2deefe8af02a15b21575eb491ca2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 22:26:49.373239|::1| [trace] [361e2deefe8af02a15b21575eb491ca2] crud.init.php (98) CrudController->router() : hey
+20/05/2023 22:26:49.739314|::1| [trace] [0eefebdf878422335c76d1a4e2f06c70] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:26:49.762499|::1| [trace] [0eefebdf878422335c76d1a4e2f06c70] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 22:26:49.768485|::1| [trace] [0eefebdf878422335c76d1a4e2f06c70] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 22:26:49.784293|::1| [trace] [f11d7eb768d3b1bff778b94d499ea9c9] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:26:49.795728|::1| [trace] [f11d7eb768d3b1bff778b94d499ea9c9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 22:26:49.802911|::1| [trace] [f11d7eb768d3b1bff778b94d499ea9c9] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 22:26:51.034784|::1| [trace] [2cd9346cafe21ee6502b05d2396ae889] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:26:51.040513|::1| [trace] [2cd9346cafe21ee6502b05d2396ae889] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '282', )
+20/05/2023 22:26:51.049252|::1| [trace] [2cd9346cafe21ee6502b05d2396ae889] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='282'
+20/05/2023 22:27:21.941108|::1| [trace] [7d4e705fed30c79a2361d5029f8db6af] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:27:21.972193|::1| [trace] [7d4e705fed30c79a2361d5029f8db6af] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 22:27:21.981628|::1| [trace] [7d4e705fed30c79a2361d5029f8db6af] crud.init.php (98) CrudController->router() : hey
+20/05/2023 22:27:22.230801|::1| [trace] [9cdda8952f6abec10cfe6e22f50dafdc] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:27:22.242995|::1| [trace] [9cdda8952f6abec10cfe6e22f50dafdc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 22:27:22.255280|::1| [trace] [9cdda8952f6abec10cfe6e22f50dafdc] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 22:27:22.264884|::1| [trace] [74e04bc76b9be4881e97416f6d570274] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:27:22.284034|::1| [trace] [74e04bc76b9be4881e97416f6d570274] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 22:27:22.293401|::1| [trace] [74e04bc76b9be4881e97416f6d570274] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 22:27:24.582961|::1| [trace] [46a09e30094613164d59afa06925c305] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:27:24.588403|::1| [trace] [46a09e30094613164d59afa06925c305] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '282', )
+20/05/2023 22:27:24.598784|::1| [trace] [46a09e30094613164d59afa06925c305] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='282'
+20/05/2023 22:27:43.170357|::1| [trace] [41824521def8eab77011ce417ef39af4] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:27:43.206346|::1| [trace] [41824521def8eab77011ce417ef39af4] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 22:27:43.215665|::1| [trace] [41824521def8eab77011ce417ef39af4] crud.init.php (98) CrudController->router() : hey
+20/05/2023 22:27:43.447043|::1| [trace] [b3c861d5c55cf56760d0f1885b5ce96b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:27:43.458290|::1| [trace] [b3c861d5c55cf56760d0f1885b5ce96b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 22:27:43.465104|::1| [trace] [b3c861d5c55cf56760d0f1885b5ce96b] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 22:27:43.474942|::1| [trace] [e682912b897bc80655f1421a3c5373d5] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:27:43.482857|::1| [trace] [e682912b897bc80655f1421a3c5373d5] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 22:27:43.488944|::1| [trace] [e682912b897bc80655f1421a3c5373d5] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 22:27:45.033200|::1| [trace] [5313c640bbe6fce9d69b637f655068a7] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:27:45.051532|::1| [trace] [5313c640bbe6fce9d69b637f655068a7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '282', )
+20/05/2023 22:27:45.059478|::1| [trace] [5313c640bbe6fce9d69b637f655068a7] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='282'
+20/05/2023 22:28:26.904258|::1| [trace] [4dd4e8c3d516f76cdf2f860f9b92c328] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:28:26.913835|::1| [trace] [4dd4e8c3d516f76cdf2f860f9b92c328] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 22:28:26.922192|::1| [trace] [4dd4e8c3d516f76cdf2f860f9b92c328] crud.init.php (98) CrudController->router() : hey
+20/05/2023 22:28:27.106798|::1| [trace] [8219da4a420daf10a57ff80751b2687b] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:28:27.116275|::1| [trace] [8219da4a420daf10a57ff80751b2687b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 22:28:27.126382|::1| [trace] [8219da4a420daf10a57ff80751b2687b] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 22:28:27.136358|::1| [trace] [d24b07b1dd3a1279c79aec1cf573b372] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:28:27.144756|::1| [trace] [d24b07b1dd3a1279c79aec1cf573b372] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 22:28:27.151554|::1| [trace] [d24b07b1dd3a1279c79aec1cf573b372] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 22:28:28.969609|::1| [trace] [3939ceeb6a9bf38578bdc9ee5aee3141] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:28:29.002909|::1| [trace] [3939ceeb6a9bf38578bdc9ee5aee3141] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '282', )
+20/05/2023 22:28:29.009083|::1| [trace] [3939ceeb6a9bf38578bdc9ee5aee3141] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='282'
+20/05/2023 22:28:45.265989|::1| [trace] [a167856e156b09eea813581237580f52] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:28:45.291501|::1| [trace] [a167856e156b09eea813581237580f52] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'listagency', )
+20/05/2023 22:28:45.303534|::1| [trace] [a167856e156b09eea813581237580f52] crud.init.php (98) CrudController->router() : hey
+20/05/2023 22:28:45.491255|::1| [trace] [44eec32f060cd4c412b990b6500d03b8] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:28:45.516038|::1| [trace] [44eec32f060cd4c412b990b6500d03b8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual_op', )
+20/05/2023 22:28:45.523399|::1| [trace] [44eec32f060cd4c412b990b6500d03b8] database.class.inc (50) Database->query() : SELECT operator_name,operator_id FROM operator_list
+20/05/2023 22:28:45.532330|::1| [trace] [ca266a2502765e3df5a815923b380b46] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:28:45.542941|::1| [trace] [ca266a2502765e3df5a815923b380b46] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'lagency', )
+20/05/2023 22:28:45.552412|::1| [trace] [ca266a2502765e3df5a815923b380b46] database.class.inc (50) Database->query() : SELECT * from agency_list
+20/05/2023 22:28:46.796494|::1| [trace] [98e0390f09254689774e94a0acc9bc7d] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:28:46.802602|::1| [trace] [98e0390f09254689774e94a0acc9bc7d] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'edit', 'agency_id' => '282', )
+20/05/2023 22:28:46.813231|::1| [trace] [98e0390f09254689774e94a0acc9bc7d] database.class.inc (50) Database->query() : SELECT agl.agency_id,opl.operator_name,agl.agency_id,agl.agency_name,agl.flow,agl.added_on,agl.block_all_callbacks,agl.master_price_point, agl.block_callback_from,agl.block_callback_till,agl.description,agl.via_sub,agl.click_id,agl.click_id2,agl.publisher_id,agl.callback_url, agl.unsub_callback_url FROM agency_list agl JOIN operator_list opl ON opl.operator_id=agl.operator_id WHERE agency_id ='282'
+20/05/2023 22:29:19.557574|::1| [trace] [53b565ef82960f597add7007cb7543f7] database.class.inc (33) Database->connect() : Connecting to database. promotion_url_generator
+20/05/2023 22:29:19.568193|::1| [trace] [53b565ef82960f597add7007cb7543f7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'manual', 'agency_id' => '287', )
+20/05/2023 22:29:19.582328|::1| [trace] [53b565ef82960f597add7007cb7543f7] database.class.inc (50) Database->query() : SELECT ag.agency_name,ag.via_sub,opl.operator_name FROM agency_list ag JOIN operator_list opl ON ag.operator_id = opl.operator_id WHERE ag.agency_id = '287'

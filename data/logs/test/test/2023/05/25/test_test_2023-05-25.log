@@ -1,0 +1,138 @@
+#test/test/DESKTOP-JPEDOAG/::1/2023-05-25/10:20:35/
+25/05/2023 10:20:35.295563|::1| [trace] [041c9f3534da9185a7ad93cb81cf93b9] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 10:20:35.343117|::1| [trace] [041c9f3534da9185a7ad93cb81cf93b9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+25/05/2023 18:32:04.924614|::1| [trace] [ef8e0101f8b77799a1eae559bfdf7eca] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 18:32:04.938636|::1| [trace] [ef8e0101f8b77799a1eae559bfdf7eca] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+25/05/2023 18:49:28.309052|::1| [trace] [51e9ce743b2b50041409918b30842186] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 18:49:28.321978|::1| [trace] [51e9ce743b2b50041409918b30842186] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+25/05/2023 18:49:29.002238|::1| [trace] [56cbfa380eb894189044407a0daf8501] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 18:49:29.030488|::1| [trace] [56cbfa380eb894189044407a0daf8501] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+25/05/2023 18:49:52.839381|::1| [trace] [679201c2050dab75bcfd31659a7c3279] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 18:49:52.844217|::1| [trace] [679201c2050dab75bcfd31659a7c3279] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+25/05/2023 18:50:57.343866|::1| [trace] [bad4cbe0b9acb95cfc812443ed6ddcb8] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 18:50:57.367834|::1| [trace] [bad4cbe0b9acb95cfc812443ed6ddcb8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'barath', 'pass' => '123', 'login' => '', )
+25/05/2023 18:51:03.639358|::1| [trace] [56b71395b70f2128076deef1adb6f7a8] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 18:51:03.643416|::1| [trace] [56b71395b70f2128076deef1adb6f7a8] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'barath', 'pass' => '123', 'login' => '', )
+25/05/2023 18:51:11.899539|::1| [trace] [7f7b5db8c19a9b8c7d93400779e71609] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 18:51:11.901803|::1| [trace] [7f7b5db8c19a9b8c7d93400779e71609] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'barath', 'pass' => '123', 'login' => '', )
+25/05/2023 19:20:38.521363|::1| [trace] [048dfd6fd441b429406183e1b4dfe885] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 19:20:38.527695|::1| [trace] [048dfd6fd441b429406183e1b4dfe885] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'barath', 'pass' => '123', 'login' => '', )
+25/05/2023 19:20:43.527283|::1| [trace] [2d27dd04ca15be159aa05a888f048d7a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 19:20:43.530164|::1| [trace] [2d27dd04ca15be159aa05a888f048d7a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'barath', 'pass' => '123', 'login' => '', )
+25/05/2023 19:20:50.760880|::1| [trace] [054af6ae8c3ddaddfe0dc89a7600c0ad] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 19:20:50.779886|::1| [trace] [054af6ae8c3ddaddfe0dc89a7600c0ad] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'barath', 'pass' => '123', 'login' => '', )
+25/05/2023 19:24:41.144784|::1| [trace] [cf69ec6c3f1493a987b30f85becd4a1f] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 19:24:41.169694|::1| [trace] [cf69ec6c3f1493a987b30f85becd4a1f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 21:39:45.061984|::1| [trace] [8e561d532c69d5e07c5674581f890d62] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:39:45.110882|::1| [trace] [8e561d532c69d5e07c5674581f890d62] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+25/05/2023 21:39:53.517982|::1| [trace] [2cfa9f4697781b17d98d2c37418bafd0] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:39:53.523569|::1| [trace] [2cfa9f4697781b17d98d2c37418bafd0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 21:41:22.202753|::1| [trace] [db39259f3aa2e96cee48f5357692340e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:41:22.224466|::1| [trace] [db39259f3aa2e96cee48f5357692340e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', )
+25/05/2023 21:41:38.599483|::1| [trace] [ecaeaa3d5d4f536dea7591fd8618a0f0] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:41:38.605726|::1| [trace] [ecaeaa3d5d4f536dea7591fd8618a0f0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 21:42:50.674006|::1| [trace] [133c3603d153c54bf23a1b343288737a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:42:50.699193|::1| [trace] [133c3603d153c54bf23a1b343288737a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 21:46:03.930728|::1| [trace] [1cbe595217e0450ae5b3093727e8237e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:46:03.938270|::1| [trace] [1cbe595217e0450ae5b3093727e8237e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 21:46:12.619210|::1| [trace] [7ba10316c1dc44cee3ee9445771e0758] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:46:12.625771|::1| [trace] [7ba10316c1dc44cee3ee9445771e0758] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 21:54:20.512191|::1| [trace] [54a1b47169debe56191033cfc512a531] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:54:20.524543|::1| [trace] [54a1b47169debe56191033cfc512a531] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 21:54:26.862509|::1| [trace] [ceffaf676ea945ecc208ebf726abaa22] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:54:26.871629|::1| [trace] [ceffaf676ea945ecc208ebf726abaa22] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 21:54:40.461236|::1| [trace] [befa41cd130c5dfb03522205537baf65] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:54:40.478018|::1| [trace] [befa41cd130c5dfb03522205537baf65] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'barath', 'pass' => '123', 'login' => '', )
+25/05/2023 21:54:50.274863|::1| [trace] [3f7dfff0a0573aba1567d4bc5604d0c7] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:54:50.279339|::1| [trace] [3f7dfff0a0573aba1567d4bc5604d0c7] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 21:55:34.723140|::1| [trace] [4d6dbabe7c6986bfa3a2e84133beab17] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:55:34.727098|::1| [trace] [4d6dbabe7c6986bfa3a2e84133beab17] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 21:56:24.696234|::1| [trace] [ad422fbed5b1618721bb3c2ea4722e56] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:56:24.702625|::1| [trace] [ad422fbed5b1618721bb3c2ea4722e56] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 21:57:24.874141|::1| [trace] [42e5e642c5f2c3f4ad05401aadeafa1e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:57:24.880590|::1| [trace] [42e5e642c5f2c3f4ad05401aadeafa1e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 21:58:43.789818|::1| [trace] [d5c05aee8e07a0325b1a1c19df768066] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 21:58:43.797091|::1| [trace] [d5c05aee8e07a0325b1a1c19df768066] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:30:13.478816|::1| [trace] [b6e5fe3f6a0602c0fb191ba69814ff8f] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:30:13.487288|::1| [trace] [b6e5fe3f6a0602c0fb191ba69814ff8f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:31:51.400630|::1| [trace] [cf30d454f779f53c92c133e45b3143fe] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:31:51.410924|::1| [trace] [cf30d454f779f53c92c133e45b3143fe] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:32:54.899113|::1| [trace] [63cb83a37c45ed3a241f1f1f3a1683ea] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:32:54.907665|::1| [trace] [63cb83a37c45ed3a241f1f1f3a1683ea] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:35:21.573185|::1| [trace] [1fc87dbb27895da9cf2d8247132a87ee] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:35:21.583259|::1| [trace] [1fc87dbb27895da9cf2d8247132a87ee] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:37:30.430516|::1| [trace] [db16c8a3abbcc5896c245657391a4498] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:37:30.438360|::1| [trace] [db16c8a3abbcc5896c245657391a4498] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:38:39.027331|::1| [trace] [00b3d71a686f39e87a8caf90a9b63325] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:38:39.034703|::1| [trace] [00b3d71a686f39e87a8caf90a9b63325] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:38:50.779763|::1| [trace] [7a861e07684ab497f0893367d6139256] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:38:50.783246|::1| [trace] [7a861e07684ab497f0893367d6139256] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+25/05/2023 22:38:50.787117|::1| [trace] [7a861e07684ab497f0893367d6139256] crud.init.php (23) CrudController->router() : hi
+25/05/2023 22:38:50.789988|::1| [trace] [7a861e07684ab497f0893367d6139256] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='' AND password='123'
+25/05/2023 22:39:40.170264|::1| [trace] [bcdb809684b40a26d28c32245af76770] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:39:40.177627|::1| [trace] [bcdb809684b40a26d28c32245af76770] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:39:50.274343|::1| [trace] [6b276579aeb4c13181638c0fca59521f] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:39:50.278153|::1| [trace] [6b276579aeb4c13181638c0fca59521f] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+25/05/2023 22:39:50.284519|::1| [trace] [6b276579aeb4c13181638c0fca59521f] crud.init.php (23) CrudController->router() : hi
+25/05/2023 22:39:50.285476|::1| [trace] [6b276579aeb4c13181638c0fca59521f] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+25/05/2023 22:39:50.303675|::1| [trace] [25ec0ee5cfc8900e262fe2bf8c76ecf9] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:39:50.313225|::1| [trace] [25ec0ee5cfc8900e262fe2bf8c76ecf9] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'upload.php', )
+25/05/2023 22:41:10.861609|::1| [trace] [3b10ac40f0818b7e0eb17b46ee9713d2] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:41:10.867145|::1| [trace] [3b10ac40f0818b7e0eb17b46ee9713d2] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:41:19.616377|::1| [trace] [ac5d2399e42ee53b3eda52984b4b1ba0] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:41:19.621911|::1| [trace] [ac5d2399e42ee53b3eda52984b4b1ba0] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+25/05/2023 22:41:19.629043|::1| [trace] [ac5d2399e42ee53b3eda52984b4b1ba0] crud.init.php (23) CrudController->router() : hi
+25/05/2023 22:41:19.630788|::1| [trace] [ac5d2399e42ee53b3eda52984b4b1ba0] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+25/05/2023 22:41:23.722888|::1| [trace] [e3be4f0d07dcedf449d448afeb2e264e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:41:23.728373|::1| [trace] [e3be4f0d07dcedf449d448afeb2e264e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+25/05/2023 22:41:23.734328|::1| [trace] [e3be4f0d07dcedf449d448afeb2e264e] crud.init.php (23) CrudController->router() : hi
+25/05/2023 22:41:23.735167|::1| [trace] [e3be4f0d07dcedf449d448afeb2e264e] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+25/05/2023 22:42:19.977571|::1| [trace] [1eb6fe8d7432fcf5695ff77aaffad030] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:42:19.983813|::1| [trace] [1eb6fe8d7432fcf5695ff77aaffad030] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:42:30.159825|::1| [trace] [d772b4abd986c7f15614cc8e29da354b] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:42:30.187283|::1| [trace] [d772b4abd986c7f15614cc8e29da354b] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+25/05/2023 22:42:30.194812|::1| [trace] [d772b4abd986c7f15614cc8e29da354b] crud.init.php (23) CrudController->router() : hi
+25/05/2023 22:42:30.196130|::1| [trace] [d772b4abd986c7f15614cc8e29da354b] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+25/05/2023 22:42:30.198342|::1| [trace] [d772b4abd986c7f15614cc8e29da354b] crud.init.php (27) CrudController->router() : Array
+25/05/2023 22:43:58.304508|::1| [trace] [0033e5a9a79eccd3ce9e8d6cf9cf6b92] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:43:58.312928|::1| [trace] [0033e5a9a79eccd3ce9e8d6cf9cf6b92] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:44:09.452923|::1| [trace] [37b01ee137caad4f7296bb3185f41d67] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:44:09.458842|::1| [trace] [37b01ee137caad4f7296bb3185f41d67] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+25/05/2023 22:44:09.466650|::1| [trace] [37b01ee137caad4f7296bb3185f41d67] crud.init.php (23) CrudController->router() : hi
+25/05/2023 22:44:09.468538|::1| [trace] [37b01ee137caad4f7296bb3185f41d67] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+25/05/2023 22:45:01.951328|::1| [trace] [aa1ca55c283ccc6114738232a959e1ea] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:45:01.957557|::1| [trace] [aa1ca55c283ccc6114738232a959e1ea] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:45:10.394144|::1| [trace] [86d9576de02b73e31dbeb772970da7cc] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:45:10.403520|::1| [trace] [86d9576de02b73e31dbeb772970da7cc] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'barath', 'password' => '123', )
+25/05/2023 22:45:10.409135|::1| [trace] [86d9576de02b73e31dbeb772970da7cc] crud.init.php (23) CrudController->router() : hi
+25/05/2023 22:45:10.410088|::1| [trace] [86d9576de02b73e31dbeb772970da7cc] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='barath' AND password='123'
+25/05/2023 22:46:20.155677|::1| [trace] [4cc07775655a244557b5edcf72aa3d75] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:46:20.160212|::1| [trace] [4cc07775655a244557b5edcf72aa3d75] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:46:29.155021|::1| [trace] [5ae1c64c4f72f4ff563dc1c36bcbe3ac] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:46:29.160473|::1| [trace] [5ae1c64c4f72f4ff563dc1c36bcbe3ac] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+25/05/2023 22:46:29.169011|::1| [trace] [5ae1c64c4f72f4ff563dc1c36bcbe3ac] crud.init.php (23) CrudController->router() : hi
+25/05/2023 22:46:29.170057|::1| [trace] [5ae1c64c4f72f4ff563dc1c36bcbe3ac] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+25/05/2023 22:47:03.385797|::1| [trace] [f504191eb51043ce4830ca29ab2c6d31] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:47:03.391021|::1| [trace] [f504191eb51043ce4830ca29ab2c6d31] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:47:12.681582|::1| [trace] [bbb51222936e1765f4a6921a9867ff58] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:47:12.684932|::1| [trace] [bbb51222936e1765f4a6921a9867ff58] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+25/05/2023 22:47:12.688901|::1| [trace] [bbb51222936e1765f4a6921a9867ff58] crud.init.php (23) CrudController->router() : hi
+25/05/2023 22:47:12.689426|::1| [trace] [bbb51222936e1765f4a6921a9867ff58] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+25/05/2023 22:49:29.922054|::1| [trace] [8faaa0dc938bb1bb659843c42cb28835] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:49:29.932919|::1| [trace] [8faaa0dc938bb1bb659843c42cb28835] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:49:38.303855|::1| [trace] [f763d5c44b7c939d88cdad6fcb73178a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:49:38.307192|::1| [trace] [f763d5c44b7c939d88cdad6fcb73178a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+25/05/2023 22:49:38.312387|::1| [trace] [f763d5c44b7c939d88cdad6fcb73178a] crud.init.php (23) CrudController->router() : hi
+25/05/2023 22:49:38.314878|::1| [trace] [f763d5c44b7c939d88cdad6fcb73178a] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+25/05/2023 22:49:38.331830|::1| [trace] [6e883f86da0ab8b1aa6b4cc14243ca99] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:49:38.341792|::1| [trace] [6e883f86da0ab8b1aa6b4cc14243ca99] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'okay', )
+25/05/2023 22:49:41.865854|::1| [trace] [7f7b73b9337fe14916e7c5c73e7fe94c] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:49:41.870979|::1| [trace] [7f7b73b9337fe14916e7c5c73e7fe94c] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'loginsubmit', 'name' => 'nethaji', 'password' => '123', )
+25/05/2023 22:49:41.877427|::1| [trace] [7f7b73b9337fe14916e7c5c73e7fe94c] crud.init.php (23) CrudController->router() : hi
+25/05/2023 22:49:41.878401|::1| [trace] [7f7b73b9337fe14916e7c5c73e7fe94c] database.class.inc (50) Database->query() : SELECT user_id,user_name FROM `user_detail` WHERE user_name ='nethaji' AND password='123'
+25/05/2023 22:49:41.894540|::1| [trace] [7ede38ebede154f04f8f22d372e4872e] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:49:41.903218|::1| [trace] [7ede38ebede154f04f8f22d372e4872e] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'okay', )
+25/05/2023 22:54:22.829265|::1| [trace] [597715a855bbc3d708833af51d050ec1] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:54:22.849230|::1| [trace] [597715a855bbc3d708833af51d050ec1] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
+25/05/2023 22:55:05.167190|::1| [trace] [dde7fdb0b329b99ab1a2537c1553dc2a] database.class.inc (33) Database->connect() : Connecting to database. employee_attendence
+25/05/2023 22:55:05.173557|::1| [trace] [dde7fdb0b329b99ab1a2537c1553dc2a] action (115) include_once() : array ( 'application' => 'crud', 'action' => 'index', 'unam' => 'nethaji', 'pass' => '123', 'login' => '', )
